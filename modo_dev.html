@@ -3,33 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OVZ Creative Solutions</title>
+    <title>En Desarrollo - OVZ Creative Solutions</title>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400&family=IM+Fell+Double+Pica&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400;700&family=IM+Fell+Double+Pica&family=Inter:wght@400;600&display=swap" rel="stylesheet">
 
     <style>
         :root {
             --font-serif: "IM Fell Double Pica", serif;
             --font-mono: "Chivo Mono", monospace;
-            --title-shadow: 0px -3px 0px rgba(0, 0, 0, 0.6), 0px 5px 15px rgba(0,0,0,0.5);
-            --font-text: "chivo mono" , monospace 
+            --font-sans: "Inter", sans-serif;
+            --title-shadow: 0px -3px 0px rgba(243, 235, 235, 0.9), 0px 5px 15px rgba(0, 0, 0, 0.5);
+        }
 
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
 
         body, html {
-            margin: 0; padding: 0;
             min-height: 100vh;
             font-family: var(--font-serif);
             background: linear-gradient(180deg, #80A7FB 10%, #5870A4 40%, #041843 45%, #030E26 95%);
             color: #FFFFFF;
-            display: flex; flex-direction: column;
+            display: flex; 
+            flex-direction: column;
+            align-items: center;
             overflow-x: hidden;
         }
 
+        /* --- HEADER --- */
         .header {
-            position: relative;
             width: 100%; 
             padding: 20px 40px; 
             box-sizing: border-box;
@@ -38,10 +44,9 @@
             align-items: center;
         }
 
-        /* Logo Superior Izquierdo */
         .logo-container {
-            width: 120px; 
-            height: 120px;
+            width: 110px; 
+            height: 110px;
             display: flex; 
             justify-content: center; 
             align-items: center;
@@ -53,94 +58,174 @@
             object-fit: contain;
         }
 
-        /* Carpeta Centro Superior */
         .center-folder {
-            width: 140px; 
-            height: 140px;
+            width: 110px; 
+            height: 110px;
             background-color: #ffffff;
-            border-radius: 20px;
+            border-radius: 24px;
             display: flex; 
             justify-content: center; 
             align-items: center;
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
         }
 
         .center-folder img {
-            width: 80%; 
-            height: 80%;
+            width: 75%; 
+            height: 75%;
             object-fit: contain;
         }
 
-        /* Marca OVZ Derecha */
         .brand-text {
-            font-size: 50px; 
+            font-size: 42px; 
             letter-spacing: 2px;
             text-shadow: var(--title-shadow);
             margin: 0;
         }
 
-        /* Grid de los dos botones centrados */
+        /* --- CONTENIDO PRINCIPAL --- */
         .app-grid {
-            display: grid;
-            grid-template-columns: 1fr;
-            justify-content: center;
-            gap: 60px; 
-            margin: 80px auto;
-            max-width: 900px;
-        }
-
-        .app-item {
-            display: flex; 
-            flex-direction: column; 
+            display: flex;
+            flex-direction: column;
             align-items: center;
-            cursor: pointer;
-            text-decoration: none; 
-            transition: transform 0.2s ease, filter 0.2s ease;
+            text-align: center;
+            gap: 35px; 
+            margin: 40px auto 60px auto;
+            max-width: 850px;
+            width: 90%;
+            box-sizing: border-box;
         }
 
-        .app-item:hover { 
-            transform: scale(1.05) translateY(-5px); 
-            filter: brightness(1.1); 
+        .card-label {
+            color: #ffffff;
+            font-family: var(--font-mono); 
+            font-size: 64px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-shadow: 0 4px 20px rgba(0,0,0,0.6);
+            text-transform: lowercase;
+            line-height: 1.1;
         }
 
-        .app-item:active { 
-            transform: scale(0.95); 
+        /* CONTENEDOR DEL QR / APP ICON */
+        .qr-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            text-decoration: none;
         }
-        
+
         .app-icon {
-            width: 215px; 
-            height: 215px;
+            width: 210px; 
+            height: 210px;
             border-radius: 30px;
-            box-shadow: 0 15px 30px rgba(0,0,0,0.6), inset 0 2px 5px rgba(255,255,255,0.2);
-            display: grid; 
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.65), inset 0 2px 5px rgba(255, 255, 255, 0.2);
+            display: flex; 
             justify-content: center; 
             align-items: center;
-            margin: 0 auto 20px auto; /* Centra horizontalmente y mantiene el margin-bottom de 20px */
             overflow: hidden;
-            background: #ffffff; 
+            background: #0c0c0c;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
         }
 
-        .app-icon.bg-dark {
-            background: #0c0c0c; 
+        .app-icon:hover {
+            transform: scale(1.03);
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.85);
         }
 
         .app-icon img {
             width: 100%;
             height: 100%;
-            object-fit: cover;
-            border-radius: 30px;
+            object-fit: contain;
+            display: block;
         }
-        
-        .text{ font-size: 34px; letter-spacing: 2px; text-shadow: none; text-align:center;  } 
 
-        .card-label {
+        /* TEXTO DESCRIPTIVO */
+        .text { 
+            font-family: var(--font-mono);
+            font-size: 22px; 
+            line-height: 1.6;
+            color: #e0e0e0;
+            max-width: 650px;
+            text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+        }
+
+        /* BOTÓN DE ACCIÓN DIRECTO PARA WHATSAPP EN MÓVIL */
+        .whatsapp-cta {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background: #25D366;
             color: #ffffff;
-            font-family: var(--font-mono); 
-            font-size:92px;
-            letter-spacing: 1px;
-            text-align: center;
+            font-family: var(--font-sans);
+            font-size: 16px;
+            font-weight: 600;
+            padding: 14px 28px;
+            border-radius: 30px;
             text-decoration: none;
-            text-transform: lowercase;
+            box-shadow: 0 10px 25px rgba(37, 211, 102, 0.35);
+            transition: transform 0.2s ease, background-color 0.2s ease;
+        }
+
+        .whatsapp-cta:hover {
+            background: #20ba5a;
+            transform: translateY(-2px);
+        }
+
+        .whatsapp-cta:active {
+            transform: scale(0.97);
+        }
+
+        /* ====================================================
+           RESPONSIVE - DISPOSITIVOS MÓVILES (< 800px)
+        ==================================================== */
+        @media (max-width: 800px) {
+            .header {
+                padding: 15px 20px;
+            }
+
+            .logo-container { width: 70px; height: 70px; }
+            .center-folder { width: 70px; height: 70px; border-radius: 18px; }
+            .brand-text { font-size: 28px; }
+
+            .app-grid {
+                margin: 25px auto 40px auto;
+                gap: 25px;
+            }
+
+            .card-label {
+                font-size: 34px; /* Evita que desborde el ancho en teléfonos */
+                letter-spacing: 1px;
+            }
+
+            .app-icon {
+                width: 170px;
+                height: 170px;
+                border-radius: 22px;
+            }
+
+            .text {
+                font-size: 16px;
+                line-height: 1.5;
+                padding: 0 10px;
+            }
+
+            .whatsapp-cta {
+                width: 90%;
+                max-width: 320px;
+                font-size: 15px;
+                padding: 12px 20px;
+            }
+        }
+
+        @media (max-width: 400px) {
+            .logo-container { width: 55px; height: 55px; }
+            .center-folder { width: 55px; height: 55px; }
+            .brand-text { font-size: 24px; }
+            .card-label { font-size: 28px; }
+            .app-icon { width: 150px; height: 150px; }
         }
     </style>
 </head>
@@ -154,7 +239,6 @@
             </a>
         </div>
 
-
         <div class="center-folder">
             <img src="assets/Idea.png" alt="Idea" />
         </div>
@@ -162,13 +246,28 @@
         <h1 class="brand-text">OVZ</h1>
     </header>
 
+    <!-- Contenido Principal -->
     <main class="app-grid">
+        
         <div>
             <span class="card-label">en desarrollo...</span> 
         </div>
-        <div class="app-icon bg-dark">            
-            <img src="get land/assets/qr.png" alt="qr"/>
-        </div>
+
+        <!-- Acceso directo para WhatsApp -->
+        <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" class="qr-wrapper">
+            <div class="app-icon">            
+                <img src="get land/assets/qr.png" alt="Código QR WhatsApp"/>
+            </div>
+            <div class="whatsapp-cta">
+                Abrir WhatsApp Directo
+            </div>
+        </a>
+
         <p class="text">
-            tienes  alguna  idea  en particular  o  requieres un  desarrollo  en  particular  contáctame  en  whatsapp 
+            ¿Tienes alguna idea en particular o requieres un desarrollo a medida? Contáctame directamente.
         </p>
+
+    </main>
+
+</body>
+</html>

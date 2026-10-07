@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Gates - OVZ</title>
-<link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400;700&family=Inter:wght@400;600&family=IM+Fell+Double+Pica&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400;700&family=Inter:wght@400;600;700&family=IM+Fell+Double+Pica&display=swap" rel="stylesheet">
 <style>
 *{
     margin: 0;
@@ -20,8 +20,11 @@ body{
     flex-direction: column;
     align-items: center;
     font-family: "IM Fell Double Pica", serif;
+    color: #ffffff;
+    overflow-x: hidden;
 }
 
+/* === HEADER SUPERIOR === */
 .header{
     width: 100%;
     padding: 20px 40px;
@@ -30,49 +33,55 @@ body{
     align-items: center;
 }
 
-.logo-container{ width: 120px; height: 120px; }
+.logo-container{ width: 110px; height: 110px; }
 .logo-container img{ width: 100%; height: 100%; object-fit: contain; }
 
 .center-folder{
-    width: 90px;
-    height: 90px;
+    width: 85px;
+    height: 85px;
     background: #e6e6e6;
-    border-radius: 25px;
+    border-radius: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.4);
 }
 .center-folder img{ width: 70%; height: 70%; object-fit: contain; }
 
 .brand-text{
     font-size: 40px;
-    color: #fff;
-    text-shadow: 0px -3px 0px rgba(243, 235, 235, 0.911);
+    color: #ffffff;
+    text-shadow: 0px -3px 0px rgba(243, 235, 235, 0.9), 0px 4px 12px rgba(0,0,0,0.5);
 }
 
+/* === SELECTORES PRINCIPALES (Z | STAGES | GATES) === */
 .main-selectors{
     display: flex;
     width: 90%;
     max-width: 950px;
-    margin-top: 20px;
+    margin-top: 15px;
     background: #2b2b2b;
     border-radius: 30px;
     overflow: hidden;
     border: 2px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.5);
 }
 
 .nav-btn{
     flex: 1;
-    padding: 15px 0;
+    padding: 14px 0;
     text-align: center;
     font-family: "Chivo Mono", monospace;
-    font-size: 25px;
-    color: #cfcfcf;
+    font-size: 24px;
+    color: #cccccc;
     text-decoration: none;
-    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    border-right: 1px solid rgba(255, 255, 255, 0.12);
     cursor: pointer;
-    transition: background 0.2s;
+    transition: background 0.2s ease, color 0.2s ease;
 }
+
+.nav-btn:last-child { border-right: none; }
+.nav-btn:hover { background: #3a3a3a; color: #ffffff; }
 
 .nav-btn.active{
     background: #8b8f94;
@@ -80,24 +89,25 @@ body{
     color: #ffffff;
 }
 
-/* === CONTENEDOR MOCKUP (OSCURO SEGÚN TUS CAPTURAS) === */
+/* === CONTENEDOR PRINCIPAL MOCK-UP OSCURO === */
 .viewer-container{
     width: 90%;
     max-width: 1050px;
     background: #211c1d;
-    border-radius: 12px;
+    border-radius: 14px;
     display: flex;
     padding: 40px;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
-    margin-top: 20px;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.75);
+    margin-top: 25px;
+    margin-bottom: 40px;
     min-height: 500px;
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .left-controls{
     flex: 0.9;
     border-right: 1px solid rgba(255, 255, 255, 0.15);
-    padding-right: 30px;
+    padding-right: 35px;
     min-width: 0;
     display: flex;
     flex-direction: column;
@@ -106,7 +116,7 @@ body{
 
 .tab-buttons{
     display: flex;
-    gap: 10px;
+    gap: 12px;
     margin-bottom: 30px;
 }
 
@@ -114,36 +124,39 @@ body{
     flex: 1;
     text-align: center;
     border: 1px solid #444;
-    padding: 10px 0px;
+    padding: 12px 0;
     cursor: pointer;
     font-weight: bold;
     color: #ffffff;
     font-family: "Chivo Mono", monospace;
+    font-size: 16px;
     background: transparent;
     transition: all 0.2s ease;
 }
 
+.tab-label:hover { border-color: #888; }
+
 .tab-label.active{
     border-color: #ff3b3b;
-    background: rgba(255, 59, 59, 0.08);
+    background: rgba(255, 59, 59, 0.1);
 }
 
 .text-content { 
-    display: none; 
-    color: #a8a8a8; 
+    display: none !important; 
+    color: #cccccc; 
     line-height: 1.6; 
     font-size: 15px; 
     font-family: 'Inter', sans-serif; 
 }
 .text-content.active { 
-    display: block; 
+    display: block !important; 
     animation: fadeIn 0.25s ease-in-out forwards;
 }
 .text-content strong { 
     color: #ffffff; 
-    font-size: 17px; 
-    display: inline-block;
-    margin-bottom: 4px;
+    font-size: 18px; 
+    display: block;
+    margin-bottom: 6px;
 }
 
 .right-visualizer{
@@ -151,29 +164,28 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 30px;
+    padding-left: 35px;
     overflow: hidden;
     min-width: 0;
 }
 
-/* === SISTEMA DE VISTAS (G1, G2, G3) === */
+/* === SISTEMA DE VISTAS (G1, G2, G3) ESTRICTO === */
 .view-panel {
-    display: none; 
+    display: none !important; 
     width: 100%;
     height: 100%;
     min-height: 420px;
-}
-
-.view-panel.active {
-    display: flex; 
-    align-items: center;
-    justify-content: center;
-    animation: fadeIn 0.25s ease-in-out forwards;
     border-radius: 8px;
     overflow: hidden;
 }
 
-/* FIX CRÍTICO: Control estricto de dimensiones para imágenes */
+.view-panel.active {
+    display: flex !important; 
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 0.25s ease-in-out forwards;
+}
+
 .view-panel img {
     max-width: 100%;
     max-height: 420px;
@@ -181,34 +193,84 @@ body{
     display: block;
 }
 
-/* === VISTA G2: EL ESCENARIO (TELÓN) === */
-.stage-container {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    min-height: 420px;
-    border-radius: 8px;
-    overflow: hidden;
-    background: radial-gradient(circle at 50% 30%, #555555 0%, #111111 70%, #000000 100%);
-    box-shadow: inset 0 0 20px rgba(0,0,0,0.8);
-}
-
-.stage-curtains {
-    position: absolute;
-    top: 0; 
-    left: 0; 
-    width: 100%; 
-    height: 100%;
-    background-image: url('assets/bg.png'); 
-    background-size: 100% 100%; 
-    background-repeat: no-repeat;
-    pointer-events: none; 
-    z-index: 10;
-}
-
 @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(2px); }
-    to { opacity: 1; transform: translateY(0); }
+    from { opacity: 0; transform: scale(0.99); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+/* ====================================================
+   RESPONSIVE - DISPOSITIVOS MÓVILES (< 800px)
+==================================================== */
+@media (max-width: 800px) {
+    .header {
+        padding: 15px 20px;
+    }
+
+    .logo-container { width: 70px; height: 70px; }
+    .center-folder { width: 65px; height: 65px; border-radius: 18px; }
+    .brand-text { font-size: 28px; }
+
+    .main-selectors {
+        width: 95%;
+        margin-top: 15px;
+    }
+
+    .nav-btn {
+        font-size: 18px;
+        padding: 12px 0;
+    }
+
+    .viewer-container {
+        width: 95%;
+        flex-direction: column;
+        padding: 25px 20px;
+        min-height: auto;
+        margin-top: 20px;
+    }
+
+    .left-controls {
+        flex: none;
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+        padding-right: 0;
+        padding-bottom: 25px;
+    }
+
+    .tab-buttons {
+        margin-bottom: 20px;
+    }
+
+    .tab-label {
+        font-size: 15px;
+        padding: 10px 0;
+    }
+
+    .text-content {
+        font-size: 14px;
+        min-height: 60px;
+    }
+
+    .right-visualizer {
+        width: 100%;
+        padding-left: 0;
+        padding-top: 25px;
+    }
+
+    .view-panel {
+        min-height: 280px;
+    }
+
+    .view-panel img {
+        max-height: 280px;
+    }
+}
+
+@media (max-width: 400px) {
+    .logo-container { width: 55px; height: 55px; }
+    .center-folder { width: 55px; height: 55px; }
+    .brand-text { font-size: 24px; }
+    .nav-btn { font-size: 15px; }
 }
 </style>
 </head>
@@ -248,27 +310,28 @@ body{
         
         <!-- Textos Dinámicos -->
         <div id="text-1" class="text-content active">
-            <strong>Navegación:</strong><br>
+            <strong>Navegación:</strong>
             Organiza la estructura con precisión para una lectura limpia y sin fricción.
         </div>
         <div id="text-2" class="text-content">
-            <strong>Comercio:</strong><br>
+            <strong>Comercio:</strong>
             Guía al cliente directo hacia la oferta sin saturar la interfaz.
         </div>
         <div id="text-3" class="text-content">
-            <!-- G3 se mantiene limpio o con texto según tu mockup -->
+            <strong>Exclusividad:</strong>
+            Fusiona el concepto estético para elevar la percepción de marca.
         </div>
     </div>
     
     <div class="right-visualizer">
         
-        <!-- VISTA G1 -->
+        <!-- VISTA G1 (Única activa por defecto) -->
         <div id="view-1" class="view-panel active" style="background: #ffffff;">
             <img src="get land/gates/GATES W.png" alt="Diagrama G1">
         </div>
 
-        <!-- VISTA G2: EL ESCENARIO Y TELÓN -->
-        <div id="view-2" class="view-panel active" style="background: #ffffff;">
+        <!-- VISTA G2 (Corregido: sin clase active inicial) -->
+        <div id="view-2" class="view-panel" style="background: #ffffff;">
             <img src="get land/gates/theatre.png" alt="theatre">
         </div>
 
@@ -294,14 +357,12 @@ document.addEventListener('DOMContentLoaded', () => {
     tabsContainer.addEventListener('click', (event) => {
         const selectedTab = event.target.closest('.tab-label');
 
-        // Evitar clicks fuera de botones o en el botón ya activo
         if (!selectedTab || selectedTab.classList.contains('active')) return;
 
         const targetId = selectedTab.getAttribute('data-target');
         const targetView = document.getElementById('view-' + targetId);
         const targetText = document.getElementById('text-' + targetId);
 
-        // Cláusula de seguridad: Si no existen los elementos en el DOM, no hacer nada (evita romper JS)
         if (!targetView || !targetText) return;
 
         // 1. Limpiar todas las clases activas
@@ -309,7 +370,7 @@ document.addEventListener('DOMContentLoaded', () => {
         views.forEach(v => v.classList.remove('active'));
         texts.forEach(txt => txt.classList.remove('active'));
 
-        // 2. Activar síncronamente el nuevo conjunto
+        // 2. Activar síncronamente el elemento seleccionado
         selectedTab.classList.add('active');
         targetView.classList.add('active');
         targetText.classList.add('active');

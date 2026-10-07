@@ -10,28 +10,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400&family=IM+Fell+Double+Pica&display=swap" rel="stylesheet">
 
     <style>
-        body, html {
+         body, html {
             margin: 0; padding: 0;
-            background: linear-gradient(180deg, #41454c 9% #08090b 20% #030e26  100%);
-            color: #ffffff;
-            font-family: "IM Fell Double Pica", serif;
             min-height: 100vh;
+            font-family: var(--font-serif);
+            background: linear-gradient(180deg, #200151 01%, #5c036d 40%, #041843 45%, #030E26 95%);
+            color: #1a1919;
+            display: flex; flex-direction: column;
+            overflow-x: hidden;
         }
-
-        .container { max-width: 1300px; margin: 0 auto; padding: 30px 40px 100px 40px; }
+        .container { max-width: 1300px; margin: 0 auto; padding: 30px 40px 100px 40px; box-shadow: 0 10px 10px #fff(254, 255, 255,0.6);}
 
         /* --- BLOQUES 1, 2 y 3 --- */
-        .top-corners { display: flex; justify-content: space-between; align-items: flex-start; width: 100%; }
-        .logo-corner { width: 110px; height: auto; object-fit: contain; }
-        .text-corner { font-size: 70px; font-weight: 400; margin: 0; line-height: 1; }
+        .top-corners { display: flex; justify-content: space-between; align-items: flex-start; width: 100%;}
+        .logo-corner { width: 110px; height: auto; object-fit: contain;}
+        .text-corner { font-size: 70px; font-weight: 400; margin: 0; line-height: 1; color: azure;}
         
         .center-title { display: flex; justify-content: center; align-items: center; gap: 30px; margin-top: 60px; }
         .center-title h1 { font-size: 49px; font-weight: 400; margin: 0; color: #d1d1d1; letter-spacing: 1px; }
-        .center-title img { width: 100px; height: 100px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.6); }
+        .center-title img { width: 100px; height: 100px; background-color: #111; border-radius: 15px; box-shadow: 0 10px 10px rgba(254, 255, 255, 0.6); }
+
 
         .data-sheet-section { margin-top: 100px; padding: 0 50px; }
-        .sheet-title { text-align: center; font-size: 49px; font-weight: 400; margin-bottom: 60px; }
-        .info-list { font-size: 38px; line-height: 1.5; list-style-type: disc; padding-left: 40px; }
+        .sheet-title { text-align: center; font-size: 49px; font-weight: 400; margin-bottom: 60px; color: #ffffff;}
+        .info-list { font-size: 38px; line-height: 1.5; list-style-type: disc; padding-left: 40px; color: #fbf3f3;}
         .info-list > li { margin-bottom: 50px; }
         .sub-list { list-style-type: none; margin-top: 40px; padding-left: 80px; }
         .sub-list li { margin-bottom: 30px; }
@@ -98,7 +100,7 @@
         .code-content { display: none; }
         .code-content.active { display: block; animation: fadeIn 0.3s ease; }
 
-        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+        
 
         .code-box .keyword { color: #569cd6; } 
         .code-box .string { color: #ce9178; }  
@@ -113,11 +115,32 @@
         .code-box::-webkit-scrollbar-track { background: #111; }
         .code-box::-webkit-scrollbar-thumb { background: #444; border-radius: 4px; }
         .code-box::-webkit-scrollbar-thumb:hover { background: #666; }
+        
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+        @media (max-width: 800px) {
+        .viewer-container { flex-direction: column; min-height: auto; }
+        }
+        /* Asegura que las imágenes y elementos no se salgan del contenedor */
+        img, svg, video {
+        max-width: 100%;
+        height: auto;
+        }
+
+        /* Evita que el body desborde hacia los lados */
+        body {
+        overflow-x: hidden;
+        box-sizing: border-box;
+        }
+
+        *, *::before, *::after {
+        box-sizing: inherit;
+        }
+
 
     </style>
 </head>
-<body>
-
+<body>S
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <div class="container">
         
         <!-- BLOQUE 1: HEADER -->

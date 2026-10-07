@@ -3,31 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OVZ Creative Solutions</title>
+    <title>Portfolio - OVZ Creative Solutions</title>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400&family=IM+Fell+Double+Pica&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400;700&family=IM+Fell+Double+Pica&family=Inter:wght@400;600&display=swap" rel="stylesheet">
 
     <style>
         :root {
             --font-serif: "IM Fell Double Pica", serif;
             --font-mono: "Chivo Mono", monospace;
             --title-shadow: 0px -3px 0px rgba(0, 0, 0, 0.6), 0px 5px 15px rgba(0,0,0,0.5);
+            --text-shadow-contrast: 0 2px 8px rgba(0, 0, 0, 0.7);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
 
         body, html {
-            margin: 0; padding: 0;
             min-height: 100vh;
             font-family: var(--font-serif);
             background: linear-gradient(180deg, #80A7FB 10%, #5870A4 40%, #041843 45%, #030E26 95%);
             color: #FFFFFF;
-            display: flex; flex-direction: column;
+            display: flex; 
+            flex-direction: column;
+            align-items: center;
             overflow-x: hidden;
         }
 
+        /* --- HEADER --- */
         .header {
-            position: relative;
             width: 100%; 
             padding: 20px 40px; 
             box-sizing: border-box;
@@ -36,10 +44,9 @@
             align-items: center;
         }
 
-        /* Logo Superior Izquierdo */
         .logo-container {
-            width: 120px; 
-            height: 120px;
+            width: 110px; 
+            height: 110px;
             display: flex; 
             justify-content: center; 
             align-items: center;
@@ -51,70 +58,81 @@
             object-fit: contain;
         }
 
-        /* Carpeta Centro Superior */
         .center-folder {
-            width: 90px; 
-            height: 90px;
+            width: 85px; 
+            height: 85px;
             background-color: #ffffff;
-            border-radius: 20px;
+            border-radius: 22px;
             display: flex; 
             justify-content: center; 
             align-items: center;
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
         }
 
         .center-folder img {
-            width: 60%; 
-            height: 60%;
+            width: 65%; 
+            height: 65%;
             object-fit: contain;
         }
 
-        /* Marca OVZ Derecha */
         .brand-text {
-            font-size: 50px; 
+            font-size: 42px; 
             letter-spacing: 2px;
             text-shadow: var(--title-shadow);
             margin: 0;
         }
 
-        /* Grid de los dos botones centrados */
+        /* --- GRID PRINCIPAL --- */
         .app-grid {
-            display: flex;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
             justify-content: center;
-            gap: 150px; 
-            margin: 80px auto;
-            max-width: 900px;
+            gap: 70px 100px; 
+            margin: 50px auto 60px auto;
+            max-width: 650px;
+            width: 90%;
+            box-sizing: border-box;
+        }
+        
+        /* El tercer elemento se centra abajo ocupando las 2 columnas en desktop */
+        .app-grid > a:nth-child(3) {
+            grid-column: span 2;
+            justify-self: center;
         }
 
         .app-item {
             display: flex; 
             flex-direction: column; 
             align-items: center;
+            text-align: center;
             cursor: pointer;
             text-decoration: none; 
-            transition: transform 0.2s ease, filter 0.2s ease;
+            transition: transform 0.2s cubic-bezier(0.2, 0, 0, 1), filter 0.2s ease;
+            width: 100%;
+            max-width: 240px;
         }
 
         .app-item:hover { 
-            transform: scale(1.05) translateY(-5px); 
+            transform: translateY(-6px); 
             filter: brightness(1.1); 
         }
 
         .app-item:active { 
-            transform: scale(0.95); 
+            transform: scale(0.96); 
         }
         
         .app-icon {
             width: 130px; 
             height: 130px;
-            border-radius: 30px;
-            box-shadow: 0 15px 30px rgba(0,0,0,0.6), inset 0 2px 5px rgba(255,255,255,0.2);
+            border-radius: 28px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.65), inset 0 2px 5px rgba(255,255,255,0.2);
             display: flex; 
             justify-content: center; 
             align-items: center;
-            margin-bottom: 20px; 
+            margin-bottom: 16px; 
             overflow: hidden;
             background: #ffffff; 
+            border: 1px solid rgba(255, 255, 255, 0.08);
         }
 
         .app-icon.bg-dark {
@@ -125,16 +143,77 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
-            border-radius: 30px;
+            border-radius: 28px;
+            display: block;
         }
         
         .card-label {
             color: #ffffff;
             font-family: var(--font-mono); 
-            font-size: 24px;
+            font-size: 20px;
+            font-weight: 700;
             letter-spacing: 1px;
             text-decoration: none;
             text-transform: lowercase;
+            line-height: 1.3;
+            text-shadow: var(--text-shadow-contrast);
+        }
+
+        /* ====================================================
+           RESPONSIVE - DISPOSITIVOS MÓVILES (< 800px)
+        ==================================================== */
+        @media (max-width: 800px) {
+            .header {
+                padding: 15px 20px;
+            }
+
+            .logo-container { width: 70px; height: 70px; }
+            .center-folder { width: 65px; height: 65px; border-radius: 18px; }
+            .brand-text { font-size: 28px; }
+
+            .app-grid {
+                gap: 40px 25px;
+                margin: 30px auto 50px auto;
+                max-width: 480px;
+            }
+
+            .app-icon {
+                width: 110px;
+                height: 110px;
+                border-radius: 24px;
+                margin-bottom: 12px;
+            }
+
+            .card-label {
+                font-size: 16px;
+            }
+        }
+
+        /* Teléfonos verticales (< 520px) */
+        @media (max-width: 520px) {
+            .app-grid {
+                grid-template-columns: 1fr; /* Columna única para facilitar el tap */
+                gap: 35px;
+            }
+
+            .app-grid > a:nth-child(3) {
+                grid-column: span 1;
+            }
+
+            .app-icon {
+                width: 115px;
+                height: 115px;
+            }
+
+            .card-label {
+                font-size: 17px;
+            }
+        }
+
+        @media (max-width: 380px) {
+            .logo-container { width: 55px; height: 55px; }
+            .center-folder { width: 55px; height: 55px; }
+            .brand-text { font-size: 24px; }
         }
     </style>
 </head>
@@ -148,7 +227,6 @@
             </a>
         </div>
 
-
         <div class="center-folder">
             <img src="assets/Folder.png" alt="Portfolio Folder" />
         </div>
@@ -156,23 +234,31 @@
         <h1 class="brand-text">OVZ</h1>
     </header>
 
-    <!-- Área principal con los dos botones interactivos -->
+    <!-- Área principal interactiva -->
     <main class="app-grid">
         
-        <!-- Botón Documento (Apunta directamente al Google Drive especificado) -->
+        <!-- Botón 1: Documento PDF (Google Drive) -->
         <a href="https://drive.google.com/file/d/1zrcBG6jySbpUpylXpY5SiBH9_z5Tx8sS/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="app-item">
             <div class="app-icon bg-dark">
-                <img src="assets/doc.png" alt="doc" />
+                <img src="assets/doc.png" alt="Documento CV" />
             </div>
-            <span class="card-label">documento</span>
+            <span class="card-label">cv victor neri pdf</span>
         </a>
 
-        <!-- Botón Prototipo (Figma) -->
+        <!-- Botón 2: Prototipo Figma CV Dinámico -->
         <a href="https://www.figma.com/proto/Yfr94nFK7CPStXapyfNP6W/ovz--creative--sol?node-id=252-4154&viewport=364%2C75%2C0.02&t=q5K0zLKFtCU0j4q5-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=252%3A4154&page-id=252%3A1415" target="_blank" rel="noopener noreferrer" class="app-item">
             <div class="app-icon bg-dark">
-                <img src="assets/figma.png" alt="Prototipo Figma" />
+                <img src="assets/figma.png" alt="Prototipo Figma CV" />
             </div>
-            <span class="card-label">prototipo</span>
+            <span class="card-label">cv dinámico</span>
+        </a>
+
+        <!-- Botón 3: Estructura de arrastre -->
+        <a href="https://www.figma.com/proto/Yfr94nFK7CPStXapyfNP6W/ovz--creative--sol?team_id=1613388693575934041&node-id=215-1482&page-id=25%3A121&scaling=contain&content-scaling=fixed&t=eHlLPKGoDXNEXQV6-1" target="_blank" rel="noopener noreferrer" class="app-item">
+            <div class="app-icon bg-dark">
+                <img src="assets/arrastre.png" alt="Estructura de arrastre">
+            </div>
+            <span class="card-label">estructura de arrastre</span>
         </a>
 
     </main>
