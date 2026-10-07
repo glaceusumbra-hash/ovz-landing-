@@ -1,0 +1,33 @@
+/* AUTO-GENERATED FIGMA TOKENS */
+:root {
+}
+
+/* SMART ANIMATE KEYFRAMES + TRANSITIONS */
+/* Frame 3_anim::512:2260 - INSTANT */
+.frame-3-anim-0 { transition: all 300ms ease-out; }
+/* Frame 3_anim::512:2260 - INSTANT */
+.frame-3-anim-1 { transition: all 300ms linear; }
+/* Union_anim::512:2885 - INSTANT */
+.union-anim-0 { transition: all 300ms ease-out; }
+/* Union_anim::512:2885 - INSTANT */
+.union-anim-1 { transition: all 300ms linear; }
+/* Union_anim::512:2931 - INSTANT */
+.union-anim-0 { transition: all 300ms ease-out; }
+/* Union_anim::512:2931 - INSTANT */
+.union-anim-1 { transition: all 300ms linear; }
+/* Union_anim::512:2976 - INSTANT */
+.union-anim-0 { transition: all 300ms ease-out; }
+/* Union_anim::512:2976 - INSTANT */
+.union-anim-1 { transition: all 300ms linear; }
+/* Union_anim::512:3021 - INSTANT */
+.union-anim-0 { transition: all 300ms ease-out; }
+/* Union_anim::512:3021 - INSTANT */
+.union-anim-1 { transition: all 300ms linear; }
+/* Union_anim::512:3066 - INSTANT */
+.union-anim-0 { transition: all 300ms ease-out; }
+/* Union_anim::512:3066 - INSTANT */
+.union-anim-1 { transition: all 300ms linear; }
+/* Union_anim::512:3111 - INSTANT */
+.union-anim-0 { transition: all 300ms ease-out; }
+/* Union_anim::512:3111 - INSTANT */
+.union-anim-1 { transition: all 300ms linear; }

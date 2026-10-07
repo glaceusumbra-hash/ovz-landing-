@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OVZ Creative Solutions</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400&family=IM+Fell+Double+Pica&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --font-serif: "IM Fell Double Pica", serif;
+            --font-mono: "Chivo Mono", monospace;
+            --title-shadow: 0px -3px 0px rgba(0, 0, 0, 0.6), 0px 5px 15px rgba(0,0,0,0.5);
+            --font-text: "chivo mono" , monospace 
+
+        }
+
+        body, html {
+            margin: 0; padding: 0;
+            min-height: 100vh;
+            font-family: var(--font-serif);
+            background: linear-gradient(180deg, #80A7FB 10%, #5870A4 40%, #041843 45%, #030E26 95%);
+            color: #FFFFFF;
+            display: flex; flex-direction: column;
+            overflow-x: hidden;
+        }
+
+        .header {
+            position: relative;
+            width: 100%; 
+            padding: 20px 40px; 
+            box-sizing: border-box;
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center;
+        }
+
+        /* Logo Superior Izquierdo */
+        .logo-container {
+            width: 120px; 
+            height: 120px;
+            display: flex; 
+            justify-content: center; 
+            align-items: center;
+        }
+        
+        .logo-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        /* Carpeta Centro Superior */
+        .center-folder {
+            width: 140px; 
+            height: 140px;
+            background-color: #ffffff;
+            border-radius: 20px;
+            display: flex; 
+            justify-content: center; 
+            align-items: center;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .center-folder img {
+            width: 80%; 
+            height: 80%;
+            object-fit: contain;
+        }
+
+        /* Marca OVZ Derecha */
+        .brand-text {
+            font-size: 50px; 
+            letter-spacing: 2px;
+            text-shadow: var(--title-shadow);
+            margin: 0;
+        }
+
+        /* Grid de los dos botones centrados */
+        .app-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-content: center;
+            gap: 60px; 
+            margin: 80px auto;
+            max-width: 900px;
+        }
+
+        .app-item {
+            display: flex; 
+            flex-direction: column; 
+            align-items: center;
+            cursor: pointer;
+            text-decoration: none; 
+            transition: transform 0.2s ease, filter 0.2s ease;
+        }
+
+        .app-item:hover { 
+            transform: scale(1.05) translateY(-5px); 
+            filter: brightness(1.1); 
+        }
+
+        .app-item:active { 
+            transform: scale(0.95); 
+        }
+        
+        .app-icon {
+            width: 215px; 
+            height: 215px;
+            border-radius: 30px;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.6), inset 0 2px 5px rgba(255,255,255,0.2);
+            display: grid; 
+            justify-content: center; 
+            align-items: center;
+            margin: 0 auto 20px auto; /* Centra horizontalmente y mantiene el margin-bottom de 20px */
+            overflow: hidden;
+            background: #ffffff; 
+        }
+
+        .app-icon.bg-dark {
+            background: #0c0c0c; 
+        }
+
+        .app-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 30px;
+        }
+        
+        .text{ font-size: 34px; letter-spacing: 2px; text-shadow: none; text-align:center;  } 
+
+        .card-label {
+            color: #ffffff;
+            font-family: var(--font-mono); 
+            font-size:92px;
+            letter-spacing: 1px;
+            text-align: center;
+            text-decoration: none;
+            text-transform: lowercase;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabecera Superior -->
+    <header class="header">
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="assets/OVZ.png" alt="OVZ" />
+            </a>
+        </div>
+
+
+        <div class="center-folder">
+            <img src="assets/Idea.png" alt="Idea" />
+        </div>
+
+        <h1 class="brand-text">OVZ</h1>
+    </header>
+
+    <main class="app-grid">
+        <div>
+            <span class="card-label">en desarrollo...</span> 
+        </div>
+        <div class="app-icon bg-dark">            
+            <img src="get land/assets/qr.png" alt="qr"/>
+        </div>
+        <p class="text">
+            tienes  alguna  idea  en particular  o  requieres un  desarrollo  en  particular  contáctame  en  whatsapp 
+        </p>

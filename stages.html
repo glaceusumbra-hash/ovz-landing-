@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stages - OVZ Creative Solutions</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400;700&family=IM+Fell+Double+Pica&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <style>
+            *{ margin: 0; padding: 0; box-sizing: border-box; }
+            /* ESTO MATA LOS 6 PUNTOS FANTASMA */
+            input[type="radio"] {
+                display: none !important;
+                position: absolute !important;
+                opacity: 0 !important;
+                width: 0 !important;
+                height: 0 !important;
+                pointer-events: none !important;
+            } 
+            :root{    
+                --font-serif: "IM Fell Double Pica", serif;
+                --font-mono: "Chivo Mono", monospace;
+                --font-sans: "Roboto", sans-serif;
+                --title-shadow: 0px -3px 0px rgba(243, 235, 235, 0.911), 0px 5px 15px rgba(243, 237, 237, 0.5);
+            }
+
+            body, html {
+                margin: 0; padding: 0;
+                min-height: 100vh;
+                font-family: var(--font-serif);
+                background: linear-gradient(180deg, #80A7FB 10%, #5870A4 40%, #041843 45%, #030E26 95%);
+                color: #FFFFFF;
+                display: flex; flex-direction: column;
+                align-items: center;
+                overflow-x: hidden;
+            }
+
+            /* --- HEADER --- */
+            .header {
+                width: 100%; 
+                padding: 20px 40px; 
+                box-sizing: border-box;
+                display: flex; 
+                justify-content: space-between; 
+                align-items: center;
+            }
+            .logo-container { width: 120px; height: 120px; display: flex; justify-content: center; align-items: center; }
+            .logo-container img { width: 100%; height: 100%; object-fit: contain; }
+
+            .center-folder {
+                width: 90px; height: 90px;
+                background-color: #e6e6e6;
+                border-radius: 25px;
+                display: flex; justify-content: center; align-items: center;
+                box-shadow: 0 8px 20px rgba(245, 243, 243, 0.938);
+            }
+            .center-folder img { width: 70%; height: 70%; object-fit: contain; }
+            
+            .brand-text { font-size: 40px; letter-spacing: 2px; text-shadow: var(--title-shadow); margin: 0; }
+
+            .main-selectors {
+                display: flex;
+                width: 90%;
+                max-width: 950px;
+                margin-top: 20px; /* Separación del header */
+                background-color: #e0e0e0;
+                border-radius: 30px;
+                overflow: hidden;
+                box-shadow: 0 30px 60px rgba(70, 73, 245, 0.5);
+                /* Borde similar al que vemos en tu diseño */
+                border: 2px solid #f8f7f7;
+            }
+
+            .selector-btn {
+                flex: 1;
+                padding: 15px 0;
+                text-align: center;
+                font-family: var(--font-sans);
+                font-size: 25px;
+                color: #f1efef;
+                text-decoration: none; /* Como serán enlaces, quitamos subrayado */
+                border-right: 2px solid #f8f3f3;
+                background-color: Solid;
+                transition: background 0.2s ease;
+            }
+            /* CONTENEDOR PRINCIPAL */
+            .nav-btn {
+                flex: 1; padding: 15px 0; text-align: center; font-family: var(--font-mono);
+                font-size: 30px; color: #f5f1f1; text-decoration: none; border-right: 2px solid #f1eded; transition: background 0.2s ease;
+            }
+            .nav-btn:last-child { border-right: none; }
+            .nav-btn:hover { background-color: #c0c0c0; }
+            .nav-btn.active { background-color: var(--tab-active); font-weight: bold; }
+
+        /* --- VISUALIZADOR INTERACTIVO (STAGES) --- */
+            .viewer-container {
+                width: 90%; max-width: 1050px; background-color: #fff4f4; border-radius: 12px;
+                display: flex; padding: 40px; box-sizing: border-box; box-shadow: 0 20px 50px rgba(0,0,0,0.6);
+                margin-top: 20px; min-height: 450px;
+            }
+
+
+            /* LADO IZQUIERDO */
+            .left-controls {
+            flex: 0.9;
+            border-right: 2px solid var(--border-gray);
+            padding-right: 30px;
+            min-width: 0;
+            }
+            .tab-buttons { display: flex; gap: 10px; margin-bottom: 30px; }
+            .tab-label {
+            border: 1px solid #f5ebeb;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-weight: bold;
+            min-width: 50px;
+            text-align: center;
+            }
+            .tab-label:hover { border-color: #fff; }
+
+            #tab-t1:checked ~ .left-controls label[for="tab-t1"],
+            #tab-t2:checked ~ .left-controls label[for="tab-t2"],
+            #tab-t3:checked ~ .left-controls label[for="tab-t3"] {
+            border-color: #ff3b3b;
+            color: #fff;
+            }
+
+            .dynamic-text { display: none; color: var(--text-gray); line-height: 1.6; font-size: 15px; }
+            #tab-t1:checked ~ .left-controls .text-t1,
+            #tab-t2:checked ~ .left-controls .text-t2,
+            #tab-t3:checked ~ .left-controls .text-t3 { display: block; animation: fadeIn 0.3s; }
+
+            /* LADO DERECHO - FIX VIEWPORT */
+            .right-visualizer {
+            flex: 1.2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-left: 30px;
+            min-width: 0;
+            }
+            .carousel-box {
+            width: 100%;
+            aspect-ratio: 16 / 10;
+            background-color: #fff;
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+            }
+
+            /* IMAGENES - 9 en total */
+            .view-image {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            display: none;
+            padding: 10px;
+            box-sizing: border-box;
+            }
+
+            /* FLECHAS */
+            .arrows-group { display: none; position: absolute; width: 100%; height: 100%; top: 0; left: 0; pointer-events: none; }
+            .arrow {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            pointer-events: all;
+            z-index: 10;
+            background: rgba(0,0,0,0.1);
+            border-radius: 50%;
+            width: 45px;
+            height: 45px;
+            display: none;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            color: #000;
+            }
+            .arrow-left { left: 10px; }
+            .arrow-right { right: 10px; }
+            .arrow img { width: 42px; height: 42px; object-fit: contain; }
+            .arrows-t2 .arrow, .arrows-t3 .arrow { background: transparent; }
+
+            /* LÓGICA COMBINADA T + SLIDE - IMAGENES */
+            #tab-t1:checked ~ #slide-1:checked ~ .right-visualizer .view-image.t1.s1,
+            #tab-t1:checked ~ #slide-2:checked ~ .right-visualizer .view-image.t1.s2,
+            #tab-t1:checked ~ #slide-3:checked ~ .right-visualizer .view-image.t1.s3,
+            #tab-t2:checked ~ #slide-1:checked ~ .right-visualizer .view-image.t2.s1,
+            #tab-t2:checked ~ #slide-2:checked ~ .right-visualizer .view-image.t2.s2,
+            #tab-t2:checked ~ #slide-3:checked ~ .right-visualizer .view-image.t2.s3,
+            #tab-t3:checked ~ #slide-1:checked ~ .right-visualizer .view-image.t3.s1,
+            #tab-t3:checked ~ #slide-2:checked ~ .right-visualizer .view-image.t3.s2,
+            #tab-t3:checked ~ #slide-3:checked ~ .right-visualizer .view-image.t3.s3 { display: block; animation: fadeIn 0.3s; }
+
+            /* LÓGICA - GRUPO DE FLECHAS */
+            #tab-t1:checked ~ .right-visualizer .arrows-t1,
+            #tab-t2:checked ~ .right-visualizer .arrows-t2,
+            #tab-t3:checked ~ .right-visualizer .arrows-t3 { display: block; }
+
+            /* LÓGICA - FLECHA CORRECTA DENTRO DEL GRUPO */
+            #slide-1:checked ~ .right-visualizer .for-s1,
+            #slide-2:checked ~ .right-visualizer .for-s2,
+            #slide-3:checked ~ .right-visualizer .for-s3 { display: flex !important; }
+
+            @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+            /* RESPONSIVE - FIX VIEWPORT MOVIL */
+            @media (max-width: 800px) {
+            .viewer-container { flex-direction: column; min-height: auto; }
+            .left-controls { border-right: none; border-bottom: 2px solid var(--border-gray); padding-right: 0; padding-bottom: 25px; flex: auto; }
+            .right-visualizer { padding-left: 0; padding-top: 25px; }
+}
+
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="assets/OVZ.png" alt="OVZ" />
+            </a>
+        </div>
+
+        <div class="center-folder">
+            <img src="assets/Chrome.png" alt="idea" />
+        </div>
+
+        <div class="brand-text">
+            OVZ
+        </div>
+    </header>
+    
+        <!-- SELECTORES GLOBALES (Navegación) -->
+    <nav class="main-selectors">
+        <a href="get_your_landing.html" class="nav-btn">Z</a>
+        <a href="stages.html" class="nav-btn">Stages</a>
+        <a href="gates.html" class="nav-btn active">gates</a>
+    </nav>
+
+        <!-- VISUALIZADOR INTERACTIVO (PANTALLA STAGES) -->
+        <div class="viewer-container">
+            
+            <!-- GRUPO 1: Controles invisibles del TEXTO IZQUIERDO -->
+            <input type="radio" name="text-tabs" id="tab-t1" checked>
+            <input type="radio" name="text-tabs" id="tab-t2">
+            <input type="radio" name="text-tabs" id="tab-t3">
+
+            <!-- GRUPO 2: Controles invisibles del CARRUSEL DERECHO -->
+            <input type="radio" name="carousel-tabs" id="slide-1" checked>
+            <input type="radio" name="carousel-tabs" id="slide-2">
+            <input type="radio" name="carousel-tabs" id="slide-3">
+
+            <!-- LADO IZQUIERDO (Controla el GRUPO 1) -->
+            <div class="left-controls">
+                
+                <div class="tab-buttons">
+                    <label for="tab-t1" class="tab-label">T1</label>
+                    <label for="tab-t2" class="tab-label">T2</label>
+                    <label for="tab-t3" class="tab-label">T3</label>
+                </div>
+
+                <!-- Textos -->
+                <p class="dynamic-text text-t1">
+                    <strong>Control de la atención:</strong><br>
+                    Dirige el foco exactamente a lo que el usuario debe procesar en un momento dado, guiando la observación visual sin distracciones.
+                </p>
+                <p class="dynamic-text text-t2">
+                    <strong>Optimización del espacio:</strong><br>
+                    Es ideal para interfaces con espacio limitado (como galerías, diapositivas o demostraciones de productos), permitiendo alternar entre múltiples elementos sin saturar la pantalla.
+                </p>
+                <p class="dynamic-text text-t3">
+                    <strong>Interactividad con propósito:</strong><br>
+                    Convierte al usuario en un agente activo que controla su propio ritmo de descubrimiento, lo que mejora la retención del mensaje.
+                </p>
+                
+            </div>
+
+            <!-- LADO DERECHO (Controla el GRUPO 2) -->
+            <div class="right-visualizer">
+            <div class="carousel-box">
+                
+                <!-- === T1 - WIRE === -->
+                <img src="get land/stages/wire1.png" class="view-image t1 s1">
+                <img src="get land/stages/wire2.png" class="view-image t1 s2">
+                <img src="get land/stages/wire3.png" class="view-image t1 s3">
+
+                <!-- === T2 - TRAVEL === -->
+                <img src="get land/stages/travel1.png" class="view-image t2 s1">
+                <img src="get land/stages/travel2.png" class="view-image t2 s2">
+                <img src="get land/stages/travel3.png" class="view-image t2 s3">
+
+                <!-- === T3 - GARAGE === -->
+                <img src="get land/stages/garage1.png" class="view-image t3 s1">
+                <img src="get land/stages/garage2.png" class="view-image t3 s2">
+                <img src="get land/stages/garage3.png" class="view-image t3 s3">
+
+                <!-- FLECHAS T1 - Negras simples -->
+                <div class="arrows-group arrows-t1">
+                <label for="slide-3" class="arrow arrow-left for-s1">&#9664;</label>
+                <label for="slide-2" class="arrow arrow-right for-s1">&#9654;</label>
+                <label for="slide-1" class="arrow arrow-left for-s2">&#9664;</label>
+                <label for="slide-3" class="arrow arrow-right for-s2">&#9654;</label>
+                <label for="slide-2" class="arrow arrow-left for-s3">&#9664;</label>
+                <label for="slide-1" class="arrow arrow-right for-s3">&#9654;</label>
+                </div>
+
+                <!-- FLECHAS T2 - Azules -->
+                <div class="arrows-group arrows-t2">
+                <label for="slide-3" class="arrow arrow-left for-s1"><img src="get land/stages/prev.png"></label>
+                <label for="slide-2" class="arrow arrow-right for-s1"><img src="get land/stages/next.png"></label>
+                <label for="slide-1" class="arrow arrow-left for-s2"><img src="get land/stages/prev.png"></label>
+                <label for="slide-3" class="arrow arrow-right for-s2"><img src="get land/stages/next.png"></label>
+                <label for="slide-2" class="arrow arrow-left for-s3"><img src="get land/stages/prev.png"></label>
+                <label for="slide-1" class="arrow arrow-right for-s3"><img src="get land/stages/next.png"></label>
+                </div>
+
+                <!-- FLECHAS T3 - Blancas -->
+                <div class="arrows-group arrows-t3">
+                <label for="slide-3" class="arrow arrow-left for-s1"><img src="get land/stages/navprv.png"></label>
+                <label for="slide-2" class="arrow arrow-right for-s1"><img src="get land/stages/navnext.png"></label>
+                <label for="slide-1" class="arrow arrow-left for-s2"><img src="get land/stages/navprv.png"></label>
+                <label for="slide-3" class="arrow arrow-right for-s2"><img src="get land/stages/navnext.png"></label>
+                <label for="slide-2" class="arrow arrow-left for-s3"><img src="get land/stages/navprv.png"></label>
+                <label for="slide-1" class="arrow arrow-right for-s3"><img src="get land/stages/navnext.png"></label>
+                </div>
+
+            </div>
+            </div>

@@ -1,0 +1,291 @@
+{
+  "colors": {},
+  "typography": {
+    "Navegación:  Organiza la estructura con precisión para una lectura limpia y sin fricción._typo": {
+      "fontFamily": "Roboto",
+      "fontWeight": 500,
+      "fontSize": 55.27000045776367,
+      "letterSpacing": 4.46951961517334,
+      "lineHeightPx": 79.0
+    },
+    "G1_typo": {
+      "fontFamily": "Roboto",
+      "fontWeight": 500,
+      "fontSize": 107.26847076416016,
+      "letterSpacing": 4.46951961517334,
+      "lineHeightPx": 143.02462768554688
+    },
+    "G2_typo": {
+      "fontFamily": "Roboto",
+      "fontWeight": 500,
+      "fontSize": 107.26847076416016,
+      "letterSpacing": 4.46951961517334,
+      "lineHeightPx": 143.02462768554688
+    },
+    "G3_typo": {
+      "fontFamily": "Roboto",
+      "fontWeight": 500,
+      "fontSize": 107.26847076416016,
+      "letterSpacing": 4.46951961517334,
+      "lineHeightPx": 143.02462768554688
+    }
+  },
+  "spacing": {},
+  "effects": {},
+  "structural_metadata": {
+    "MacBook Pro 16\" - 1::522:1368": {
+      "type": "COMPONENT",
+      "width": 1728.0,
+      "height": 1117.0,
+      "x": -1966.0,
+      "y": 1175.0
+    },
+    "Navegación:  Organiza la estructura con precisión para una lectura limpia y sin fricción.::522:713": {
+      "type": "INSTANCE",
+      "width": 630.0,
+      "height": 509.0,
+      "x": -1979.0,
+      "y": 1576.0
+    },
+    "Component 2::522:1339": {
+      "type": "INSTANCE",
+      "width": 1029.0,
+      "height": 731.7333374023438,
+      "x": -1349.0,
+      "y": 1440.0
+    }
+  },
+  "tree": {
+    "id": "root",
+    "name": "root",
+    "type": "ROOT",
+    "children": [
+      {
+        "id": "522:1368",
+        "name": "MacBook Pro 16\" - 1",
+        "type": "COMPONENT",
+        "children": [
+          {
+            "id": "522:713",
+            "name": "Navegación:  Organiza la estructura con precisión para una lectura limpia y sin fricción.",
+            "type": "INSTANCE",
+            "children": [
+              {
+                "id": "I522:713;522:699",
+                "name": "Navegación:  Organiza la estructura con precisión para una lectura limpia y sin fricción.",
+                "type": "TEXT",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "522:1339",
+            "name": "Component 2",
+            "type": "INSTANCE",
+            "children": [
+              {
+                "id": "I522:1339;507:429",
+                "name": "Rectangle 5",
+                "type": "RECTANGLE",
+                "children": []
+              },
+              {
+                "id": "I522:1339;507:431",
+                "name": "Rectangle 7",
+                "type": "RECTANGLE",
+                "children": []
+              },
+              {
+                "id": "I522:1339;507:433",
+                "name": "Rectangle 9",
+                "type": "RECTANGLE",
+                "children": []
+              },
+              {
+                "id": "I522:1339;507:430",
+                "name": "Rectangle 6",
+                "type": "RECTANGLE",
+                "children": []
+              },
+              {
+                "id": "I522:1339;507:432",
+                "name": "Rectangle 8",
+                "type": "RECTANGLE",
+                "children": []
+              },
+              {
+                "id": "I522:1339;507:434",
+                "name": "Rectangle 10",
+                "type": "RECTANGLE",
+                "children": []
+              },
+              {
+                "id": "I522:1339;507:422",
+                "name": "Ellipse 7",
+                "type": "VECTOR",
+                "children": []
+              },
+              {
+                "id": "I522:1339;507:425",
+                "name": "Ellipse 9",
+                "type": "VECTOR",
+                "children": []
+              },
+              {
+                "id": "I522:1339;507:427",
+                "name": "Ellipse 11",
+                "type": "VECTOR",
+                "children": []
+              },
+              {
+                "id": "I522:1339;507:424",
+                "name": "Ellipse 8",
+                "type": "VECTOR",
+                "children": []
+              },
+              {
+                "id": "I522:1339;507:426",
+                "name": "Ellipse 10",
+                "type": "VECTOR",
+                "children": []
+              },
+              {
+                "id": "I522:1339;507:428",
+                "name": "Ellipse 12",
+                "type": "VECTOR",
+                "children": []
+              },
+              {
+                "id": "I522:1339;507:423",
+                "name": "Rectangle 4",
+                "type": "VECTOR",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "522:658",
+            "name": "Rectangle 14",
+            "type": "VECTOR",
+            "children": []
+          },
+          {
+            "id": "522:694",
+            "name": "G1",
+            "type": "TEXT",
+            "children": []
+          },
+          {
+            "id": "522:695",
+            "name": "G2",
+            "type": "TEXT",
+            "children": []
+          },
+          {
+            "id": "522:696",
+            "name": "G3",
+            "type": "TEXT",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "interactions": {
+    "G1_anim::522:694": [
+      {
+        "trigger": "ON_CLICK",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 0,
+        "easing": "LINEAR",
+        "easingCurve": {},
+        "destinationId": null,
+        "sourceId": "522:694",
+        "sourcePath": "MacBook Pro 16\" - 1/G1"
+      }
+    ],
+    "G2_anim::522:695": [
+      {
+        "trigger": "ON_CLICK",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 0,
+        "easing": "LINEAR",
+        "easingCurve": {},
+        "destinationId": null,
+        "sourceId": "522:695",
+        "sourcePath": "MacBook Pro 16\" - 1/G2"
+      }
+    ],
+    "G3_anim::522:696": [
+      {
+        "trigger": "ON_CLICK",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 0,
+        "easing": "LINEAR",
+        "easingCurve": {},
+        "destinationId": null,
+        "sourceId": "522:696",
+        "sourcePath": "MacBook Pro 16\" - 1/G3"
+      }
+    ]
+  },
+  "tree_animations": [
+    {
+      "nodeId": "522:694",
+      "nodeName": "G1",
+      "path": "MacBook Pro 16\" - 1/G1",
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 0,
+          "easing": "LINEAR",
+          "easingCurve": {},
+          "destinationId": null,
+          "sourceId": "522:694",
+          "sourcePath": "MacBook Pro 16\" - 1/G1"
+        }
+      ]
+    },
+    {
+      "nodeId": "522:695",
+      "nodeName": "G2",
+      "path": "MacBook Pro 16\" - 1/G2",
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 0,
+          "easing": "LINEAR",
+          "easingCurve": {},
+          "destinationId": null,
+          "sourceId": "522:695",
+          "sourcePath": "MacBook Pro 16\" - 1/G2"
+        }
+      ]
+    },
+    {
+      "nodeId": "522:696",
+      "nodeName": "G3",
+      "path": "MacBook Pro 16\" - 1/G3",
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 0,
+          "easing": "LINEAR",
+          "easingCurve": {},
+          "destinationId": null,
+          "sourceId": "522:696",
+          "sourcePath": "MacBook Pro 16\" - 1/G3"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,581 @@
+{
+  "colors": {},
+  "typography": {
+    "OVZ Creative solutions_typo": {
+      "fontFamily": "IM FELL Double Pica",
+      "fontWeight": 400,
+      "fontSize": 58.0,
+      "letterSpacing": 0.0,
+      "lineHeightPx": 72.6982421875
+    },
+    "figma X tractor pro_typo": {
+      "fontFamily": "IM FELL Double Pica",
+      "fontWeight": 400,
+      "fontSize": 24.622394561767578,
+      "letterSpacing": 0.0,
+      "lineHeightPx": 30.862152099609375
+    },
+    "any special idea?_typo": {
+      "fontFamily": "Chivo Mono",
+      "fontWeight": 400,
+      "fontSize": 34.0,
+      "letterSpacing": 0.0,
+      "lineHeightPx": 40.46000289916992
+    },
+    "get your landing page_typo": {
+      "fontFamily": "Chivo Mono",
+      "fontWeight": 400,
+      "fontSize": 34.0,
+      "letterSpacing": 0.0,
+      "lineHeightPx": 40.46000289916992
+    },
+    "portfolio_typo": {
+      "fontFamily": "Chivo Mono",
+      "fontWeight": 400,
+      "fontSize": 34.0,
+      "letterSpacing": 0.0,
+      "lineHeightPx": 40.46000289916992
+    }
+  },
+  "spacing": {},
+  "effects": {
+    "OVZ Creative solutions_effect": {
+      "type": "DROP_SHADOW",
+      "color": "#000000",
+      "offsetX": 0.0,
+      "offsetY": -3.0,
+      "radius": 0.0
+    }
+  },
+  "structural_metadata": {
+    "Desktop - 2::265:4935": {
+      "type": "FRAME",
+      "width": 1440.0,
+      "height": 1024.0,
+      "x": 1480.0,
+      "y": -12.0
+    },
+    "Frame 10::265:4938": {
+      "type": "FRAME",
+      "width": 169.0,
+      "height": 167.0,
+      "x": 1693.0,
+      "y": 271.0
+    },
+    "Frame 3::265:4939": {
+      "type": "FRAME",
+      "width": 169.0,
+      "height": 175.417724609375,
+      "x": 1693.0,
+      "y": 271.0
+    },
+    "terminal::265:4941": {
+      "type": "INSTANCE",
+      "width": 75.84112548828125,
+      "height": 51.51472854614258,
+      "x": 1757.632080078125,
+      "y": 364.2511901855469
+    },
+    "Frame 11::265:4951": {
+      "type": "FRAME",
+      "width": 169.0,
+      "height": 183.74496459960938,
+      "x": 2318.0,
+      "y": 602.0
+    },
+    "LightbulbFilament::265:4954": {
+      "type": "INSTANCE",
+      "width": 168.38182067871094,
+      "height": 175.43446350097656,
+      "x": 2319.13427734375,
+      "y": 602.0
+    },
+    "chrome::265:4955": {
+      "type": "INSTANCE",
+      "width": 99.0,
+      "height": 98.0,
+      "x": 1913.0,
+      "y": 654.0
+    },
+    "Group::I265:4955;1334:609": {
+      "type": "GROUP",
+      "width": 86.625,
+      "height": 85.75,
+      "x": 1919.2994384765625,
+      "y": 660.1292114257812
+    },
+    "FolderOpen::265:4959": {
+      "type": "INSTANCE",
+      "width": 136.0,
+      "height": 88.0,
+      "x": 2545.0,
+      "y": 305.0
+    }
+  },
+  "tree": {
+    "id": "root",
+    "name": "root",
+    "type": "ROOT",
+    "children": [
+      {
+        "id": "265:4935",
+        "name": "Desktop - 2",
+        "type": "FRAME",
+        "children": [
+          {
+            "id": "265:4936",
+            "name": "logo OVZ  1",
+            "type": "RECTANGLE",
+            "children": []
+          },
+          {
+            "id": "265:4937",
+            "name": "OVZ Creative solutions",
+            "type": "TEXT",
+            "children": []
+          },
+          {
+            "id": "265:4938",
+            "name": "Frame 10",
+            "type": "FRAME",
+            "children": [
+              {
+                "id": "265:4939",
+                "name": "Frame 3",
+                "type": "FRAME",
+                "children": [
+                  {
+                    "id": "265:4940",
+                    "name": "Rectangle 10",
+                    "type": "VECTOR",
+                    "children": []
+                  },
+                  {
+                    "id": "265:4941",
+                    "name": "terminal",
+                    "type": "INSTANCE",
+                    "children": [
+                      {
+                        "id": "I265:4941;1037:34008",
+                        "name": "Icon",
+                        "type": "VECTOR",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "265:4942",
+                    "name": "Vector 1",
+                    "type": "VECTOR",
+                    "children": []
+                  },
+                  {
+                    "id": "265:4943",
+                    "name": "Rectangle 12",
+                    "type": "RECTANGLE",
+                    "children": []
+                  },
+                  {
+                    "id": "265:4944",
+                    "name": "Rectangle 13",
+                    "type": "RECTANGLE",
+                    "children": []
+                  },
+                  {
+                    "id": "265:4945",
+                    "name": "Rectangle 14",
+                    "type": "RECTANGLE",
+                    "children": []
+                  },
+                  {
+                    "id": "265:4946",
+                    "name": "Rectangle 15",
+                    "type": "RECTANGLE",
+                    "children": []
+                  },
+                  {
+                    "id": "265:4947",
+                    "name": "Rectangle 16",
+                    "type": "RECTANGLE",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "265:4948",
+            "name": "Rectangle 17",
+            "type": "RECTANGLE",
+            "children": []
+          },
+          {
+            "id": "265:4949",
+            "name": "figma X tractor pro",
+            "type": "TEXT",
+            "children": []
+          },
+          {
+            "id": "265:4950",
+            "name": "any special idea?",
+            "type": "TEXT",
+            "children": []
+          },
+          {
+            "id": "265:4951",
+            "name": "Frame 11",
+            "type": "FRAME",
+            "children": [
+              {
+                "id": "265:4952",
+                "name": "Rectangle 4",
+                "type": "RECTANGLE",
+                "children": []
+              },
+              {
+                "id": "265:4953",
+                "name": "Ellipse 1",
+                "type": "ELLIPSE",
+                "children": []
+              },
+              {
+                "id": "265:4954",
+                "name": "LightbulbFilament",
+                "type": "INSTANCE",
+                "children": [
+                  {
+                    "id": "I265:4954;8899:46487",
+                    "name": "Vector",
+                    "type": "VECTOR",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "265:4955",
+            "name": "chrome",
+            "type": "INSTANCE",
+            "children": [
+              {
+                "id": "I265:4955;1334:609",
+                "name": "Group",
+                "type": "GROUP",
+                "children": [
+                  {
+                    "id": "I265:4955;1334:610",
+                    "name": "vector",
+                    "type": "VECTOR",
+                    "children": []
+                  },
+                  {
+                    "id": "I265:4955;1334:611",
+                    "name": "vector",
+                    "type": "VECTOR",
+                    "children": []
+                  },
+                  {
+                    "id": "I265:4955;1334:612",
+                    "name": "vector",
+                    "type": "VECTOR",
+                    "children": []
+                  },
+                  {
+                    "id": "I265:4955;1334:613",
+                    "name": "vector",
+                    "type": "VECTOR",
+                    "children": []
+                  },
+                  {
+                    "id": "I265:4955;1334:614",
+                    "name": "vector",
+                    "type": "VECTOR",
+                    "children": []
+                  },
+                  {
+                    "id": "I265:4955;1334:615",
+                    "name": "vector",
+                    "type": "VECTOR",
+                    "children": []
+                  },
+                  {
+                    "id": "I265:4955;1334:616",
+                    "name": "vector",
+                    "type": "VECTOR",
+                    "children": []
+                  },
+                  {
+                    "id": "I265:4955;1334:617",
+                    "name": "vector",
+                    "type": "VECTOR",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "265:4956",
+            "name": "get your landing page",
+            "type": "TEXT",
+            "children": []
+          },
+          {
+            "id": "265:4957",
+            "name": "portfolio",
+            "type": "TEXT",
+            "children": []
+          },
+          {
+            "id": "265:4958",
+            "name": "Rectangle 18",
+            "type": "RECTANGLE",
+            "children": []
+          },
+          {
+            "id": "265:4959",
+            "name": "FolderOpen",
+            "type": "INSTANCE",
+            "children": [
+              {
+                "id": "I265:4959;8899:58454",
+                "name": "Vector",
+                "type": "VECTOR",
+                "children": []
+              },
+              {
+                "id": "I265:4959;8899:58455",
+                "name": "Vector",
+                "type": "VECTOR",
+                "children": []
+              },
+              {
+                "id": "I265:4959;8899:58456",
+                "name": "Vector",
+                "type": "VECTOR",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "interactions": {
+    "Frame 10_anim::265:4938": [
+      {
+        "trigger": "ON_CLICK",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 300,
+        "easing": "EASE_OUT",
+        "easingCurve": {},
+        "destinationId": "265:4974",
+        "sourceId": "265:4938",
+        "sourcePath": "Desktop - 2/Frame 10"
+      },
+      {
+        "trigger": "ON_CLICK",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 300,
+        "easing": "LINEAR",
+        "easingCurve": {},
+        "destinationId": null,
+        "sourceId": "265:4938",
+        "sourcePath": "Desktop - 2/Frame 10"
+      }
+    ],
+    "Rectangle 17_anim::265:4948": [
+      {
+        "trigger": "ON_CLICK",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 300,
+        "easing": "EASE_OUT",
+        "easingCurve": {},
+        "destinationId": "297:5463",
+        "sourceId": "265:4948",
+        "sourcePath": "Desktop - 2/Rectangle 17"
+      },
+      {
+        "trigger": "ON_CLICK",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 300,
+        "easing": "LINEAR",
+        "easingCurve": {},
+        "destinationId": null,
+        "sourceId": "265:4948",
+        "sourcePath": "Desktop - 2/Rectangle 17"
+      }
+    ],
+    "Frame 11_anim::265:4951": [
+      {
+        "trigger": "ON_CLICK",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 300,
+        "easing": "EASE_OUT",
+        "easingCurve": {},
+        "destinationId": "297:5959",
+        "sourceId": "265:4951",
+        "sourcePath": "Desktop - 2/Frame 11"
+      },
+      {
+        "trigger": "ON_CLICK",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 300,
+        "easing": "LINEAR",
+        "easingCurve": {},
+        "destinationId": null,
+        "sourceId": "265:4951",
+        "sourcePath": "Desktop - 2/Frame 11"
+      }
+    ],
+    "Rectangle 18_anim::265:4958": [
+      {
+        "trigger": "ON_CLICK",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 300,
+        "easing": "EASE_OUT",
+        "easingCurve": {},
+        "destinationId": "331:1005",
+        "sourceId": "265:4958",
+        "sourcePath": "Desktop - 2/Rectangle 18"
+      },
+      {
+        "trigger": "ON_CLICK",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 300,
+        "easing": "LINEAR",
+        "easingCurve": {},
+        "destinationId": null,
+        "sourceId": "265:4958",
+        "sourcePath": "Desktop - 2/Rectangle 18"
+      }
+    ]
+  },
+  "tree_animations": [
+    {
+      "nodeId": "265:4938",
+      "nodeName": "Frame 10",
+      "path": "Desktop - 2/Frame 10",
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 300,
+          "easing": "EASE_OUT",
+          "easingCurve": {},
+          "destinationId": "265:4974",
+          "sourceId": "265:4938",
+          "sourcePath": "Desktop - 2/Frame 10"
+        },
+        {
+          "trigger": "ON_CLICK",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 300,
+          "easing": "LINEAR",
+          "easingCurve": {},
+          "destinationId": null,
+          "sourceId": "265:4938",
+          "sourcePath": "Desktop - 2/Frame 10"
+        }
+      ]
+    },
+    {
+      "nodeId": "265:4948",
+      "nodeName": "Rectangle 17",
+      "path": "Desktop - 2/Rectangle 17",
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 300,
+          "easing": "EASE_OUT",
+          "easingCurve": {},
+          "destinationId": "297:5463",
+          "sourceId": "265:4948",
+          "sourcePath": "Desktop - 2/Rectangle 17"
+        },
+        {
+          "trigger": "ON_CLICK",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 300,
+          "easing": "LINEAR",
+          "easingCurve": {},
+          "destinationId": null,
+          "sourceId": "265:4948",
+          "sourcePath": "Desktop - 2/Rectangle 17"
+        }
+      ]
+    },
+    {
+      "nodeId": "265:4951",
+      "nodeName": "Frame 11",
+      "path": "Desktop - 2/Frame 11",
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 300,
+          "easing": "EASE_OUT",
+          "easingCurve": {},
+          "destinationId": "297:5959",
+          "sourceId": "265:4951",
+          "sourcePath": "Desktop - 2/Frame 11"
+        },
+        {
+          "trigger": "ON_CLICK",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 300,
+          "easing": "LINEAR",
+          "easingCurve": {},
+          "destinationId": null,
+          "sourceId": "265:4951",
+          "sourcePath": "Desktop - 2/Frame 11"
+        }
+      ]
+    },
+    {
+      "nodeId": "265:4958",
+      "nodeName": "Rectangle 18",
+      "path": "Desktop - 2/Rectangle 18",
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 300,
+          "easing": "EASE_OUT",
+          "easingCurve": {},
+          "destinationId": "331:1005",
+          "sourceId": "265:4958",
+          "sourcePath": "Desktop - 2/Rectangle 18"
+        },
+        {
+          "trigger": "ON_CLICK",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 300,
+          "easing": "LINEAR",
+          "easingCurve": {},
+          "destinationId": null,
+          "sourceId": "265:4958",
+          "sourcePath": "Desktop - 2/Rectangle 18"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gates - OVZ</title>
+<link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400;700&family=IM+Fell+Double+Pica&display=swap" rel="stylesheet">
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #80A7FB 10%, #5870A4 40%, #041843 45%, #030E26 95%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "IM Fell Double Pica", serif;
+}
+
+.header{
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container{ width: 120px; height: 120px; }
+.logo-container img{ width: 100%; height: 100%; object-fit: contain; }
+
+.center-folder{
+    width: 90px;
+    height: 90px;
+    background: #e6e6e6;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center-folder img{ width: 70%; height: 70%; object-fit: contain; }
+
+.brand-text{
+    font-size: 40px;
+    color: #fff;
+    text-shadow: 0px -3px 0px rgba(243, 235, 235, 0.911);
+}
+
+.main-selectors{
+    display: flex;
+    width: 90%;
+    max-width: 950px;
+    margin-top: 20px;
+    background: #e0e0e0;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 2px solid #f8f7f7;
+}
+
+.nav-btn{
+    flex: 1;
+    padding: 15px 0;
+    text-align: center;
+    font-family: "Chivo Mono", monospace;
+    font-size: 25px;
+    color: #333;
+    text-decoration: none;
+    border-right: 2px solid #f1eded;
+    cursor: pointer;
+}
+
+.nav-btn.active{
+    background: #a0a0a0;
+    font-weight: bold;
+    color: #000;
+}
+
+.viewer-container{
+    width: 90%;
+    max-width: 1050px;
+    background: #fff4f4;
+    border-radius: 12px;
+    display: flex;
+    padding: 40px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+    margin-top: 20px;
+    min-height: 500px;
+}
+
+.left-controls{
+    flex: 0.9;
+    border-right: 2px solid #ccc;
+    padding-right: 30px;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tab-buttons{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.tab-label{
+    flex: 1;
+    text-align: center;
+    border: 1px solid #aaa;
+    padding: 10px 0px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #222;
+    font-family: "Chivo Mono", monospace;
+    transition: all 0.2s;
+}
+
+.tab-label.active{
+    border-color: #ff3b3b;
+    background: #ffe0e0;
+}
+
+.text-content { 
+    display: none; 
+    color: #666; 
+    line-height: 1.6; 
+    font-size: 16px; 
+    font-family: sans-serif; 
+    animation: fadeIn 0.3s; 
+}
+.text-content.active { display: block; }
+.text-content strong { color: #000; font-size: 18px; }
+
+.right-visualizer{
+    flex: 1.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    overflow: hidden;
+    min-width: 0;
+}
+
+/* === SISTEMA DE VISTAS (G1, G2, G3) === */
+.view-panel {
+    display: none; 
+    width: 100%;
+    height: 100%;
+}
+.view-panel.active {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 0.3s ease;
+    border-radius: 8px;
+}
+
+/* === VISTA G2: EL TELÓN DE TEATRO (STAGE CONTAINER) === */
+.stage-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 420px;
+    border-radius: 8px;
+    overflow: hidden;
+    /* Fondo que simula el fondo profundo del escenario */
+    background: radial-gradient(circle at 50% 30%, #555555 0%, #111111 70%, #000000 100%);
+    box-shadow: inset 0 0 20px rgba(0,0,0,0.8);
+}
+
+.stage-curtains {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    /* AQUÍ VA EL NOMBRE EXACTO DE LA IMAGEN DE TU TELÓN ROJO */
+    background-image: url('assets/bg.png'); 
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    pointer-events: none; 
+    z-index: 10;
+}
+
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+</style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="assets/OVZ.png" alt="OVZ" />
+            </a>
+        </div>
+
+        <div class="center-folder">
+            <img src="assets/Chrome.png" alt="idea" />
+        </div>
+
+        <div class="brand-text">
+            OVZ
+        </div>
+    </header>
+
+<nav class="main-selectors">
+    <a href="get_your_landing.html" class="nav-btn">Z</a>
+    <a href="stages.html" class="nav-btn">Stages</a>
+    <a href="gates.html" class="nav-btn active">Gates</a> 
+</nav>
+
+<div class="viewer-container">
+
+    <div class="left-controls">
+        <!-- BOTONES G1, G2, G3 -->
+        <div class="tab-buttons">
+            <div class="tab-label active" data-target="1">G 1</div>
+            <div class="tab-label" data-target="2">G 2</div>
+            <div class="tab-label" data-target="3">G 3</div>
+        </div>
+        
+        <!-- Textos Dinámicos -->
+        <div id="text-1" class="text-content active">
+            <strong>Navegación:</strong><br>
+            Organiza la estructura con precisión para una lectura limpia y sin fricción.
+        </div>
+        <div id="text-2" class="text-content">
+            <strong>Comercio:</strong><br>
+            Guía al cliente directo hacia la oferta sin saturar la interfaz.
+        </div>
+        <div id="text-3" class="text-content">
+            <strong>Exclusividad:</strong><br>
+            Fusiona el concepto estético para elevar la percepción de marca.
+        </div>
+    </div>
+    
+    <div class="right-visualizer">
+        
+        <!-- VISTA G1 -->
+        <div id="view-1" class="view-panel active" style="background: #e0e0e0;">
+            <img src="get land/gates/GATES W.png" alt="GATES W.png">
+        </div>
+
+        <!-- VISTA G2: EL ESCENARIO Y TELÓN -->
+        <div id="view-2" class="view-panel">
+            <div class="stage-container">
+                <!-- Telon rojo desde carpeta assets -->
+                <div class="stage-curtains"></div>
+            </div>
+        </div>
+
+        <!-- VISTA G3 -->
+        <div id="view-3" class="view-panel" style="background: #e0e0e0;">
+            <img src="get land/gates/sigma.png" alt="sigma.png">
+        </div>
+
+    </div>
+
+</div>
+
+<!-- SCRIPT SIMPLE DE TABS -->
+<script>
+const tabs = document.querySelectorAll('.tab-label');
+const views = document.querySelectorAll('.view-panel');
+const texts = document.querySelectorAll('.text-content');
+
+tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+        // Limpiar activos
+        tabs.forEach(t => t.classList.remove('active'));
+        views.forEach(v => v.classList.remove('active'));
+        texts.forEach(txt => txt.classList.remove('active'));
+        
+        // Asignar nuevo activo
+        tab.classList.add('active');
+        let targetId = tab.getAttribute('data-target');
+        
+        document.getElementById('view-' + targetId).classList.add('active');
+        document.getElementById('text-' + targetId).classList.add('active');
+    });
+});
+</script>
+</body>
+</html>

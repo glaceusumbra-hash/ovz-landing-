@@ -1,0 +1,2464 @@
+export const designTokens = {
+  "colors": {},
+  "typography": {
+    "TEATRO DE LA CIIUDAD_typo": {
+      "fontFamily": "Codystar",
+      "fontWeight": 400,
+      "fontSize": 57.742576599121094,
+      "letterSpacing": 0.0,
+      "lineHeightPx": 68.11819458007812
+    },
+    "CABARET_typo": {
+      "fontFamily": "Climate Crisis",
+      "fontWeight": 400,
+      "fontSize": 35.10050582885742,
+      "letterSpacing": 0.0,
+      "lineHeightPx": 46.68367385864258
+    },
+    "MAGIA_typo": {
+      "fontFamily": "Bungee Shade",
+      "fontWeight": 400,
+      "fontSize": 51.62553787231445,
+      "letterSpacing": 0.0,
+      "lineHeightPx": 61.95064926147461
+    },
+    "Orquesta_typo": {
+      "fontFamily": "Buenard",
+      "fontWeight": 400,
+      "fontSize": 51.62553787231445,
+      "letterSpacing": 0.0,
+      "lineHeightPx": 67.16482543945312
+    },
+    "ballet_typo": {
+      "fontFamily": "Calligraffitti",
+      "fontWeight": 400,
+      "fontSize": 72.45689392089844,
+      "letterSpacing": 0.0,
+      "lineHeightPx": 113.7092056274414
+    },
+    "underground_typo": {
+      "fontFamily": "Bayon",
+      "fontWeight": 400,
+      "fontSize": 47.56711959838867,
+      "letterSpacing": 0.0,
+      "lineHeightPx": 85.93669128417969
+    }
+  },
+  "spacing": {},
+  "effects": {},
+  "structural_metadata": {
+    "num=2::522:688": {
+      "type": "COMPONENT",
+      "width": 1440.0,
+      "height": 1024.0,
+      "x": 1480.0,
+      "y": 1222.0
+    },
+    "Frame 1::507:803": {
+      "type": "FRAME",
+      "width": 1006.0,
+      "height": 829.70361328125,
+      "x": 1707.0,
+      "y": 1256.0
+    },
+    "Frame 3::512:2260": {
+      "type": "INSTANCE",
+      "width": 724.0,
+      "height": 201.0,
+      "x": 1848.0,
+      "y": 1238.0
+    },
+    "Frame 5::540:462": {
+      "type": "FRAME",
+      "width": 988.0,
+      "height": 484.0,
+      "x": 1716.0,
+      "y": 1587.0
+    },
+    "Union::512:2885": {
+      "type": "INSTANCE",
+      "width": 432.0,
+      "height": 124.0,
+      "x": 1716.0,
+      "y": 1587.0
+    },
+    "Union::512:2931": {
+      "type": "INSTANCE",
+      "width": 432.0,
+      "height": 124.0,
+      "x": 1716.0,
+      "y": 1767.0
+    },
+    "Union::512:2976": {
+      "type": "INSTANCE",
+      "width": 432.0,
+      "height": 124.0,
+      "x": 1716.0,
+      "y": 1947.0
+    },
+    "Union::512:3021": {
+      "type": "INSTANCE",
+      "width": 432.0,
+      "height": 124.0,
+      "x": 2268.0,
+      "y": 1947.0
+    },
+    "Union::512:3066": {
+      "type": "INSTANCE",
+      "width": 432.0,
+      "height": 124.0,
+      "x": 2270.0,
+      "y": 1767.0
+    },
+    "Union::512:3111": {
+      "type": "INSTANCE",
+      "width": 432.0,
+      "height": 124.0,
+      "x": 2272.0,
+      "y": 1587.0
+    }
+  },
+  "tree": {
+    "id": "root",
+    "name": "root",
+    "type": "ROOT",
+    "children": [
+      {
+        "id": "522:688",
+        "name": "num=2",
+        "type": "COMPONENT",
+        "children": [
+          {
+            "id": "507:483",
+            "name": "Ellipse 56",
+            "type": "VECTOR",
+            "children": []
+          },
+          {
+            "id": "507:805",
+            "name": "Ellipse 58",
+            "type": "VECTOR",
+            "children": []
+          },
+          {
+            "id": "507:486",
+            "name": "Ellipse 57",
+            "type": "VECTOR",
+            "children": []
+          },
+          {
+            "id": "507:806",
+            "name": "Ellipse 59",
+            "type": "VECTOR",
+            "children": []
+          },
+          {
+            "id": "507:803",
+            "name": "Frame 1",
+            "type": "FRAME",
+            "children": [
+              {
+                "id": "507:391",
+                "name": "Rectangle 4",
+                "type": "VECTOR",
+                "children": []
+              },
+              {
+                "id": "507:533",
+                "name": "Rectangle 5",
+                "type": "VECTOR",
+                "children": []
+              },
+              {
+                "id": "507:534",
+                "name": "Rectangle 6",
+                "type": "VECTOR",
+                "children": []
+              },
+              {
+                "id": "507:624",
+                "name": "Rectangle 8",
+                "type": "VECTOR",
+                "children": []
+              },
+              {
+                "id": "507:626",
+                "name": "Rectangle 10",
+                "type": "VECTOR",
+                "children": []
+              },
+              {
+                "id": "507:625",
+                "name": "Rectangle 9",
+                "type": "VECTOR",
+                "children": []
+              },
+              {
+                "id": "507:579",
+                "name": "Rectangle 7",
+                "type": "VECTOR",
+                "children": []
+              },
+              {
+                "id": "507:482",
+                "name": "TEATRO DE LA CIIUDAD",
+                "type": "TEXT",
+                "children": []
+              },
+              {
+                "id": "507:808",
+                "name": "CABARET",
+                "type": "TEXT",
+                "children": []
+              },
+              {
+                "id": "507:1031",
+                "name": "MAGIA",
+                "type": "TEXT",
+                "children": []
+              },
+              {
+                "id": "507:1033",
+                "name": "image 1",
+                "type": "RECTANGLE",
+                "children": []
+              },
+              {
+                "id": "507:1043",
+                "name": "image 2",
+                "type": "RECTANGLE",
+                "children": []
+              },
+              {
+                "id": "507:1046",
+                "name": "image 3",
+                "type": "RECTANGLE",
+                "children": []
+              },
+              {
+                "id": "507:1048",
+                "name": "image 4",
+                "type": "RECTANGLE",
+                "children": []
+              },
+              {
+                "id": "507:1050",
+                "name": "image 5",
+                "type": "RECTANGLE",
+                "children": []
+              },
+              {
+                "id": "510:1052",
+                "name": "Orquesta",
+                "type": "TEXT",
+                "children": []
+              },
+              {
+                "id": "510:1054",
+                "name": "image 6",
+                "type": "RECTANGLE",
+                "children": []
+              },
+              {
+                "id": "510:1060",
+                "name": "ballet",
+                "type": "TEXT",
+                "children": []
+              },
+              {
+                "id": "510:1061",
+                "name": "underground",
+                "type": "TEXT",
+                "children": []
+              },
+              {
+                "id": "512:2260",
+                "name": "Frame 3",
+                "type": "INSTANCE",
+                "children": [
+                  {
+                    "id": "I512:2260;512:1165",
+                    "name": "Union",
+                    "type": "BOOLEAN_OPERATION",
+                    "children": [
+                      {
+                        "id": "I512:2260;512:1142",
+                        "name": "B",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2260;512:1143",
+                        "name": "B",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2260;512:1144",
+                        "name": "B",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2260;512:1145",
+                        "name": "B",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2260;512:1146",
+                        "name": "B",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2260;512:1147",
+                        "name": "B",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2260;512:1148",
+                        "name": "B",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2260;512:1149",
+                        "name": "B",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2260;512:1150",
+                        "name": "B",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2260;512:1151",
+                        "name": "B",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2260;512:1152",
+                        "name": "B",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2260;512:1153",
+                        "name": "B",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2260;512:1154",
+                        "name": "B",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2260;512:1155",
+                        "name": "B",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2260;512:1156",
+                        "name": "B",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2260;512:1157",
+                        "name": "B",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2260;512:1158",
+                        "name": "B",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2260;512:1159",
+                        "name": "B",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2260;512:1160",
+                        "name": "B",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2260;512:1161",
+                        "name": "B",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2260;512:1162",
+                        "name": "B",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2260;512:1163",
+                        "name": "B",
+                        "type": "ELLIPSE",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "I512:2260;512:1166",
+                    "name": "STR",
+                    "type": "ELLIPSE",
+                    "children": []
+                  },
+                  {
+                    "id": "I512:2260;512:1167",
+                    "name": "STR A",
+                    "type": "ELLIPSE",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "510:1057",
+            "name": "image 7",
+            "type": "RECTANGLE",
+            "children": []
+          },
+          {
+            "id": "511:1063",
+            "name": "image 8",
+            "type": "RECTANGLE",
+            "children": []
+          },
+          {
+            "id": "540:462",
+            "name": "Frame 5",
+            "type": "FRAME",
+            "children": [
+              {
+                "id": "512:2885",
+                "name": "Union",
+                "type": "INSTANCE",
+                "children": [
+                  {
+                    "id": "I512:2885;512:2432",
+                    "name": "Union",
+                    "type": "BOOLEAN_OPERATION",
+                    "children": [
+                      {
+                        "id": "I512:2885;512:2433",
+                        "name": "Ellipse 13",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2885;512:2434",
+                        "name": "Ellipse 14",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2885;512:2435",
+                        "name": "Ellipse 15",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2885;512:2436",
+                        "name": "Ellipse 16",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2885;512:2437",
+                        "name": "Ellipse 17",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2885;512:2438",
+                        "name": "Ellipse 18",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2885;512:2439",
+                        "name": "Ellipse 19",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2885;512:2440",
+                        "name": "Ellipse 20",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2885;512:2441",
+                        "name": "Ellipse 21",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2885;512:2442",
+                        "name": "Ellipse 22",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2885;512:2443",
+                        "name": "Ellipse 23",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2885;512:2444",
+                        "name": "Ellipse 24",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2885;512:2445",
+                        "name": "Ellipse 25",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2885;512:2446",
+                        "name": "Ellipse 26",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2885;512:2447",
+                        "name": "Ellipse 27",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2885;512:2448",
+                        "name": "Ellipse 28",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2885;512:2449",
+                        "name": "Ellipse 29",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2885;512:2450",
+                        "name": "Ellipse 30",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2885;512:2451",
+                        "name": "Ellipse 52",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2885;512:2452",
+                        "name": "Ellipse 31",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2885;512:2453",
+                        "name": "Ellipse 53",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2885;512:2454",
+                        "name": "Ellipse 32",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2885;512:2455",
+                        "name": "Ellipse 54",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2885;512:2456",
+                        "name": "Ellipse 33",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2885;512:2457",
+                        "name": "Ellipse 55",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2885;512:2458",
+                        "name": "Ellipse 34",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2885;512:2459",
+                        "name": "Ellipse 35",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2885;512:2460",
+                        "name": "Ellipse 36",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2885;512:2461",
+                        "name": "Ellipse 37",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2885;512:2462",
+                        "name": "Ellipse 38",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2885;512:2463",
+                        "name": "Ellipse 39",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2885;512:2464",
+                        "name": "Ellipse 40",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2885;512:2465",
+                        "name": "Ellipse 41",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2885;512:2466",
+                        "name": "Ellipse 42",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2885;512:2467",
+                        "name": "Ellipse 43",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2885;512:2468",
+                        "name": "Ellipse 44",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2885;512:2469",
+                        "name": "Ellipse 45",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2885;512:2470",
+                        "name": "Ellipse 46",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2885;512:2471",
+                        "name": "Ellipse 47",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2885;512:2472",
+                        "name": "Ellipse 48",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2885;512:2473",
+                        "name": "Ellipse 49",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2885;512:2474",
+                        "name": "Ellipse 50",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2885;512:2475",
+                        "name": "Ellipse 51",
+                        "type": "ELLIPSE",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "512:2931",
+                "name": "Union",
+                "type": "INSTANCE",
+                "children": [
+                  {
+                    "id": "I512:2931;512:2432",
+                    "name": "Union",
+                    "type": "BOOLEAN_OPERATION",
+                    "children": [
+                      {
+                        "id": "I512:2931;512:2433",
+                        "name": "Ellipse 13",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2931;512:2434",
+                        "name": "Ellipse 14",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2931;512:2435",
+                        "name": "Ellipse 15",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2931;512:2436",
+                        "name": "Ellipse 16",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2931;512:2437",
+                        "name": "Ellipse 17",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2931;512:2438",
+                        "name": "Ellipse 18",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2931;512:2439",
+                        "name": "Ellipse 19",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2931;512:2440",
+                        "name": "Ellipse 20",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2931;512:2441",
+                        "name": "Ellipse 21",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2931;512:2442",
+                        "name": "Ellipse 22",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2931;512:2443",
+                        "name": "Ellipse 23",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2931;512:2444",
+                        "name": "Ellipse 24",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2931;512:2445",
+                        "name": "Ellipse 25",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2931;512:2446",
+                        "name": "Ellipse 26",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2931;512:2447",
+                        "name": "Ellipse 27",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2931;512:2448",
+                        "name": "Ellipse 28",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2931;512:2449",
+                        "name": "Ellipse 29",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2931;512:2450",
+                        "name": "Ellipse 30",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2931;512:2451",
+                        "name": "Ellipse 52",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2931;512:2452",
+                        "name": "Ellipse 31",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2931;512:2453",
+                        "name": "Ellipse 53",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2931;512:2454",
+                        "name": "Ellipse 32",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2931;512:2455",
+                        "name": "Ellipse 54",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2931;512:2456",
+                        "name": "Ellipse 33",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2931;512:2457",
+                        "name": "Ellipse 55",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2931;512:2458",
+                        "name": "Ellipse 34",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2931;512:2459",
+                        "name": "Ellipse 35",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2931;512:2460",
+                        "name": "Ellipse 36",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2931;512:2461",
+                        "name": "Ellipse 37",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2931;512:2462",
+                        "name": "Ellipse 38",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2931;512:2463",
+                        "name": "Ellipse 39",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2931;512:2464",
+                        "name": "Ellipse 40",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2931;512:2465",
+                        "name": "Ellipse 41",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2931;512:2466",
+                        "name": "Ellipse 42",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2931;512:2467",
+                        "name": "Ellipse 43",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2931;512:2468",
+                        "name": "Ellipse 44",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2931;512:2469",
+                        "name": "Ellipse 45",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2931;512:2470",
+                        "name": "Ellipse 46",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2931;512:2471",
+                        "name": "Ellipse 47",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2931;512:2472",
+                        "name": "Ellipse 48",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2931;512:2473",
+                        "name": "Ellipse 49",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2931;512:2474",
+                        "name": "Ellipse 50",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2931;512:2475",
+                        "name": "Ellipse 51",
+                        "type": "ELLIPSE",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "512:2976",
+                "name": "Union",
+                "type": "INSTANCE",
+                "children": [
+                  {
+                    "id": "I512:2976;512:2432",
+                    "name": "Union",
+                    "type": "BOOLEAN_OPERATION",
+                    "children": [
+                      {
+                        "id": "I512:2976;512:2433",
+                        "name": "Ellipse 13",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2976;512:2434",
+                        "name": "Ellipse 14",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2976;512:2435",
+                        "name": "Ellipse 15",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2976;512:2436",
+                        "name": "Ellipse 16",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2976;512:2437",
+                        "name": "Ellipse 17",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2976;512:2438",
+                        "name": "Ellipse 18",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2976;512:2439",
+                        "name": "Ellipse 19",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2976;512:2440",
+                        "name": "Ellipse 20",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2976;512:2441",
+                        "name": "Ellipse 21",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2976;512:2442",
+                        "name": "Ellipse 22",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2976;512:2443",
+                        "name": "Ellipse 23",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2976;512:2444",
+                        "name": "Ellipse 24",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2976;512:2445",
+                        "name": "Ellipse 25",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2976;512:2446",
+                        "name": "Ellipse 26",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2976;512:2447",
+                        "name": "Ellipse 27",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2976;512:2448",
+                        "name": "Ellipse 28",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2976;512:2449",
+                        "name": "Ellipse 29",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2976;512:2450",
+                        "name": "Ellipse 30",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2976;512:2451",
+                        "name": "Ellipse 52",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2976;512:2452",
+                        "name": "Ellipse 31",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2976;512:2453",
+                        "name": "Ellipse 53",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2976;512:2454",
+                        "name": "Ellipse 32",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2976;512:2455",
+                        "name": "Ellipse 54",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2976;512:2456",
+                        "name": "Ellipse 33",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2976;512:2457",
+                        "name": "Ellipse 55",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2976;512:2458",
+                        "name": "Ellipse 34",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2976;512:2459",
+                        "name": "Ellipse 35",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2976;512:2460",
+                        "name": "Ellipse 36",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2976;512:2461",
+                        "name": "Ellipse 37",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2976;512:2462",
+                        "name": "Ellipse 38",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2976;512:2463",
+                        "name": "Ellipse 39",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2976;512:2464",
+                        "name": "Ellipse 40",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2976;512:2465",
+                        "name": "Ellipse 41",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2976;512:2466",
+                        "name": "Ellipse 42",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2976;512:2467",
+                        "name": "Ellipse 43",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2976;512:2468",
+                        "name": "Ellipse 44",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2976;512:2469",
+                        "name": "Ellipse 45",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2976;512:2470",
+                        "name": "Ellipse 46",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2976;512:2471",
+                        "name": "Ellipse 47",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2976;512:2472",
+                        "name": "Ellipse 48",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2976;512:2473",
+                        "name": "Ellipse 49",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2976;512:2474",
+                        "name": "Ellipse 50",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:2976;512:2475",
+                        "name": "Ellipse 51",
+                        "type": "ELLIPSE",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "512:3021",
+                "name": "Union",
+                "type": "INSTANCE",
+                "children": [
+                  {
+                    "id": "I512:3021;512:2432",
+                    "name": "Union",
+                    "type": "BOOLEAN_OPERATION",
+                    "children": [
+                      {
+                        "id": "I512:3021;512:2433",
+                        "name": "Ellipse 13",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3021;512:2434",
+                        "name": "Ellipse 14",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3021;512:2435",
+                        "name": "Ellipse 15",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3021;512:2436",
+                        "name": "Ellipse 16",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3021;512:2437",
+                        "name": "Ellipse 17",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3021;512:2438",
+                        "name": "Ellipse 18",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3021;512:2439",
+                        "name": "Ellipse 19",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3021;512:2440",
+                        "name": "Ellipse 20",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3021;512:2441",
+                        "name": "Ellipse 21",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3021;512:2442",
+                        "name": "Ellipse 22",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3021;512:2443",
+                        "name": "Ellipse 23",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3021;512:2444",
+                        "name": "Ellipse 24",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3021;512:2445",
+                        "name": "Ellipse 25",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3021;512:2446",
+                        "name": "Ellipse 26",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3021;512:2447",
+                        "name": "Ellipse 27",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3021;512:2448",
+                        "name": "Ellipse 28",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3021;512:2449",
+                        "name": "Ellipse 29",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3021;512:2450",
+                        "name": "Ellipse 30",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3021;512:2451",
+                        "name": "Ellipse 52",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3021;512:2452",
+                        "name": "Ellipse 31",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3021;512:2453",
+                        "name": "Ellipse 53",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3021;512:2454",
+                        "name": "Ellipse 32",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3021;512:2455",
+                        "name": "Ellipse 54",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3021;512:2456",
+                        "name": "Ellipse 33",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3021;512:2457",
+                        "name": "Ellipse 55",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3021;512:2458",
+                        "name": "Ellipse 34",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3021;512:2459",
+                        "name": "Ellipse 35",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3021;512:2460",
+                        "name": "Ellipse 36",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3021;512:2461",
+                        "name": "Ellipse 37",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3021;512:2462",
+                        "name": "Ellipse 38",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3021;512:2463",
+                        "name": "Ellipse 39",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3021;512:2464",
+                        "name": "Ellipse 40",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3021;512:2465",
+                        "name": "Ellipse 41",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3021;512:2466",
+                        "name": "Ellipse 42",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3021;512:2467",
+                        "name": "Ellipse 43",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3021;512:2468",
+                        "name": "Ellipse 44",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3021;512:2469",
+                        "name": "Ellipse 45",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3021;512:2470",
+                        "name": "Ellipse 46",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3021;512:2471",
+                        "name": "Ellipse 47",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3021;512:2472",
+                        "name": "Ellipse 48",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3021;512:2473",
+                        "name": "Ellipse 49",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3021;512:2474",
+                        "name": "Ellipse 50",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3021;512:2475",
+                        "name": "Ellipse 51",
+                        "type": "ELLIPSE",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "512:3066",
+                "name": "Union",
+                "type": "INSTANCE",
+                "children": [
+                  {
+                    "id": "I512:3066;512:2432",
+                    "name": "Union",
+                    "type": "BOOLEAN_OPERATION",
+                    "children": [
+                      {
+                        "id": "I512:3066;512:2433",
+                        "name": "Ellipse 13",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3066;512:2434",
+                        "name": "Ellipse 14",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3066;512:2435",
+                        "name": "Ellipse 15",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3066;512:2436",
+                        "name": "Ellipse 16",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3066;512:2437",
+                        "name": "Ellipse 17",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3066;512:2438",
+                        "name": "Ellipse 18",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3066;512:2439",
+                        "name": "Ellipse 19",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3066;512:2440",
+                        "name": "Ellipse 20",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3066;512:2441",
+                        "name": "Ellipse 21",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3066;512:2442",
+                        "name": "Ellipse 22",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3066;512:2443",
+                        "name": "Ellipse 23",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3066;512:2444",
+                        "name": "Ellipse 24",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3066;512:2445",
+                        "name": "Ellipse 25",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3066;512:2446",
+                        "name": "Ellipse 26",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3066;512:2447",
+                        "name": "Ellipse 27",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3066;512:2448",
+                        "name": "Ellipse 28",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3066;512:2449",
+                        "name": "Ellipse 29",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3066;512:2450",
+                        "name": "Ellipse 30",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3066;512:2451",
+                        "name": "Ellipse 52",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3066;512:2452",
+                        "name": "Ellipse 31",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3066;512:2453",
+                        "name": "Ellipse 53",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3066;512:2454",
+                        "name": "Ellipse 32",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3066;512:2455",
+                        "name": "Ellipse 54",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3066;512:2456",
+                        "name": "Ellipse 33",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3066;512:2457",
+                        "name": "Ellipse 55",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3066;512:2458",
+                        "name": "Ellipse 34",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3066;512:2459",
+                        "name": "Ellipse 35",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3066;512:2460",
+                        "name": "Ellipse 36",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3066;512:2461",
+                        "name": "Ellipse 37",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3066;512:2462",
+                        "name": "Ellipse 38",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3066;512:2463",
+                        "name": "Ellipse 39",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3066;512:2464",
+                        "name": "Ellipse 40",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3066;512:2465",
+                        "name": "Ellipse 41",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3066;512:2466",
+                        "name": "Ellipse 42",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3066;512:2467",
+                        "name": "Ellipse 43",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3066;512:2468",
+                        "name": "Ellipse 44",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3066;512:2469",
+                        "name": "Ellipse 45",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3066;512:2470",
+                        "name": "Ellipse 46",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3066;512:2471",
+                        "name": "Ellipse 47",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3066;512:2472",
+                        "name": "Ellipse 48",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3066;512:2473",
+                        "name": "Ellipse 49",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3066;512:2474",
+                        "name": "Ellipse 50",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3066;512:2475",
+                        "name": "Ellipse 51",
+                        "type": "ELLIPSE",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "512:3111",
+                "name": "Union",
+                "type": "INSTANCE",
+                "children": [
+                  {
+                    "id": "I512:3111;512:2432",
+                    "name": "Union",
+                    "type": "BOOLEAN_OPERATION",
+                    "children": [
+                      {
+                        "id": "I512:3111;512:2433",
+                        "name": "Ellipse 13",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3111;512:2434",
+                        "name": "Ellipse 14",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3111;512:2435",
+                        "name": "Ellipse 15",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3111;512:2436",
+                        "name": "Ellipse 16",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3111;512:2437",
+                        "name": "Ellipse 17",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3111;512:2438",
+                        "name": "Ellipse 18",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3111;512:2439",
+                        "name": "Ellipse 19",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3111;512:2440",
+                        "name": "Ellipse 20",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3111;512:2441",
+                        "name": "Ellipse 21",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3111;512:2442",
+                        "name": "Ellipse 22",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3111;512:2443",
+                        "name": "Ellipse 23",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3111;512:2444",
+                        "name": "Ellipse 24",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3111;512:2445",
+                        "name": "Ellipse 25",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3111;512:2446",
+                        "name": "Ellipse 26",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3111;512:2447",
+                        "name": "Ellipse 27",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3111;512:2448",
+                        "name": "Ellipse 28",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3111;512:2449",
+                        "name": "Ellipse 29",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3111;512:2450",
+                        "name": "Ellipse 30",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3111;512:2451",
+                        "name": "Ellipse 52",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3111;512:2452",
+                        "name": "Ellipse 31",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3111;512:2453",
+                        "name": "Ellipse 53",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3111;512:2454",
+                        "name": "Ellipse 32",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3111;512:2455",
+                        "name": "Ellipse 54",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3111;512:2456",
+                        "name": "Ellipse 33",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3111;512:2457",
+                        "name": "Ellipse 55",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3111;512:2458",
+                        "name": "Ellipse 34",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3111;512:2459",
+                        "name": "Ellipse 35",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3111;512:2460",
+                        "name": "Ellipse 36",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3111;512:2461",
+                        "name": "Ellipse 37",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3111;512:2462",
+                        "name": "Ellipse 38",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3111;512:2463",
+                        "name": "Ellipse 39",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3111;512:2464",
+                        "name": "Ellipse 40",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3111;512:2465",
+                        "name": "Ellipse 41",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3111;512:2466",
+                        "name": "Ellipse 42",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3111;512:2467",
+                        "name": "Ellipse 43",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3111;512:2468",
+                        "name": "Ellipse 44",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3111;512:2469",
+                        "name": "Ellipse 45",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3111;512:2470",
+                        "name": "Ellipse 46",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3111;512:2471",
+                        "name": "Ellipse 47",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3111;512:2472",
+                        "name": "Ellipse 48",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3111;512:2473",
+                        "name": "Ellipse 49",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3111;512:2474",
+                        "name": "Ellipse 50",
+                        "type": "ELLIPSE",
+                        "children": []
+                      },
+                      {
+                        "id": "I512:3111;512:2475",
+                        "name": "Ellipse 51",
+                        "type": "ELLIPSE",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "interactions": {
+    "Frame 3_anim::512:2260": [
+      {
+        "trigger": "ON_CLICK",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 300,
+        "easing": "EASE_OUT",
+        "easingCurve": {},
+        "destinationId": "512:1171",
+        "sourceId": "512:2260",
+        "sourcePath": "num=2/Frame 1/Frame 3"
+      },
+      {
+        "trigger": "AFTER_TIMEOUT",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 300,
+        "easing": "LINEAR",
+        "easingCurve": {},
+        "destinationId": null,
+        "sourceId": "512:2260",
+        "sourcePath": "num=2/Frame 1/Frame 3"
+      }
+    ],
+    "Union_anim::512:2885": [
+      {
+        "trigger": "ON_CLICK",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 300,
+        "easing": "EASE_OUT",
+        "easingCurve": {},
+        "destinationId": "512:2479",
+        "sourceId": "512:2885",
+        "sourcePath": "num=2/Frame 5/Union"
+      },
+      {
+        "trigger": "ON_HOVER",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 300,
+        "easing": "LINEAR",
+        "easingCurve": {},
+        "destinationId": null,
+        "sourceId": "512:2885",
+        "sourcePath": "num=2/Frame 5/Union"
+      }
+    ],
+    "Union_anim::512:2931": [
+      {
+        "trigger": "ON_CLICK",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 300,
+        "easing": "EASE_OUT",
+        "easingCurve": {},
+        "destinationId": "512:2479",
+        "sourceId": "512:2931",
+        "sourcePath": "num=2/Frame 5/Union"
+      },
+      {
+        "trigger": "ON_HOVER",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 300,
+        "easing": "LINEAR",
+        "easingCurve": {},
+        "destinationId": null,
+        "sourceId": "512:2931",
+        "sourcePath": "num=2/Frame 5/Union"
+      }
+    ],
+    "Union_anim::512:2976": [
+      {
+        "trigger": "ON_CLICK",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 300,
+        "easing": "EASE_OUT",
+        "easingCurve": {},
+        "destinationId": "512:2479",
+        "sourceId": "512:2976",
+        "sourcePath": "num=2/Frame 5/Union"
+      },
+      {
+        "trigger": "ON_HOVER",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 300,
+        "easing": "LINEAR",
+        "easingCurve": {},
+        "destinationId": null,
+        "sourceId": "512:2976",
+        "sourcePath": "num=2/Frame 5/Union"
+      }
+    ],
+    "Union_anim::512:3021": [
+      {
+        "trigger": "ON_CLICK",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 300,
+        "easing": "EASE_OUT",
+        "easingCurve": {},
+        "destinationId": "512:2479",
+        "sourceId": "512:3021",
+        "sourcePath": "num=2/Frame 5/Union"
+      },
+      {
+        "trigger": "ON_HOVER",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 300,
+        "easing": "LINEAR",
+        "easingCurve": {},
+        "destinationId": null,
+        "sourceId": "512:3021",
+        "sourcePath": "num=2/Frame 5/Union"
+      }
+    ],
+    "Union_anim::512:3066": [
+      {
+        "trigger": "ON_CLICK",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 300,
+        "easing": "EASE_OUT",
+        "easingCurve": {},
+        "destinationId": "512:2479",
+        "sourceId": "512:3066",
+        "sourcePath": "num=2/Frame 5/Union"
+      },
+      {
+        "trigger": "ON_HOVER",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 300,
+        "easing": "LINEAR",
+        "easingCurve": {},
+        "destinationId": null,
+        "sourceId": "512:3066",
+        "sourcePath": "num=2/Frame 5/Union"
+      }
+    ],
+    "Union_anim::512:3111": [
+      {
+        "trigger": "ON_CLICK",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 300,
+        "easing": "EASE_OUT",
+        "easingCurve": {},
+        "destinationId": "512:2479",
+        "sourceId": "512:3111",
+        "sourcePath": "num=2/Frame 5/Union"
+      },
+      {
+        "trigger": "ON_HOVER",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 300,
+        "easing": "LINEAR",
+        "easingCurve": {},
+        "destinationId": null,
+        "sourceId": "512:3111",
+        "sourcePath": "num=2/Frame 5/Union"
+      }
+    ]
+  },
+  "tree_animations": [
+    {
+      "nodeId": "512:2260",
+      "nodeName": "Frame 3",
+      "path": "num=2/Frame 1/Frame 3",
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 300,
+          "easing": "EASE_OUT",
+          "easingCurve": {},
+          "destinationId": "512:1171",
+          "sourceId": "512:2260",
+          "sourcePath": "num=2/Frame 1/Frame 3"
+        },
+        {
+          "trigger": "AFTER_TIMEOUT",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 300,
+          "easing": "LINEAR",
+          "easingCurve": {},
+          "destinationId": null,
+          "sourceId": "512:2260",
+          "sourcePath": "num=2/Frame 1/Frame 3"
+        }
+      ]
+    },
+    {
+      "nodeId": "512:2885",
+      "nodeName": "Union",
+      "path": "num=2/Frame 5/Union",
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 300,
+          "easing": "EASE_OUT",
+          "easingCurve": {},
+          "destinationId": "512:2479",
+          "sourceId": "512:2885",
+          "sourcePath": "num=2/Frame 5/Union"
+        },
+        {
+          "trigger": "ON_HOVER",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 300,
+          "easing": "LINEAR",
+          "easingCurve": {},
+          "destinationId": null,
+          "sourceId": "512:2885",
+          "sourcePath": "num=2/Frame 5/Union"
+        }
+      ]
+    },
+    {
+      "nodeId": "512:2931",
+      "nodeName": "Union",
+      "path": "num=2/Frame 5/Union",
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 300,
+          "easing": "EASE_OUT",
+          "easingCurve": {},
+          "destinationId": "512:2479",
+          "sourceId": "512:2931",
+          "sourcePath": "num=2/Frame 5/Union"
+        },
+        {
+          "trigger": "ON_HOVER",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 300,
+          "easing": "LINEAR",
+          "easingCurve": {},
+          "destinationId": null,
+          "sourceId": "512:2931",
+          "sourcePath": "num=2/Frame 5/Union"
+        }
+      ]
+    },
+    {
+      "nodeId": "512:2976",
+      "nodeName": "Union",
+      "path": "num=2/Frame 5/Union",
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 300,
+          "easing": "EASE_OUT",
+          "easingCurve": {},
+          "destinationId": "512:2479",
+          "sourceId": "512:2976",
+          "sourcePath": "num=2/Frame 5/Union"
+        },
+        {
+          "trigger": "ON_HOVER",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 300,
+          "easing": "LINEAR",
+          "easingCurve": {},
+          "destinationId": null,
+          "sourceId": "512:2976",
+          "sourcePath": "num=2/Frame 5/Union"
+        }
+      ]
+    },
+    {
+      "nodeId": "512:3021",
+      "nodeName": "Union",
+      "path": "num=2/Frame 5/Union",
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 300,
+          "easing": "EASE_OUT",
+          "easingCurve": {},
+          "destinationId": "512:2479",
+          "sourceId": "512:3021",
+          "sourcePath": "num=2/Frame 5/Union"
+        },
+        {
+          "trigger": "ON_HOVER",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 300,
+          "easing": "LINEAR",
+          "easingCurve": {},
+          "destinationId": null,
+          "sourceId": "512:3021",
+          "sourcePath": "num=2/Frame 5/Union"
+        }
+      ]
+    },
+    {
+      "nodeId": "512:3066",
+      "nodeName": "Union",
+      "path": "num=2/Frame 5/Union",
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 300,
+          "easing": "EASE_OUT",
+          "easingCurve": {},
+          "destinationId": "512:2479",
+          "sourceId": "512:3066",
+          "sourcePath": "num=2/Frame 5/Union"
+        },
+        {
+          "trigger": "ON_HOVER",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 300,
+          "easing": "LINEAR",
+          "easingCurve": {},
+          "destinationId": null,
+          "sourceId": "512:3066",
+          "sourcePath": "num=2/Frame 5/Union"
+        }
+      ]
+    },
+    {
+      "nodeId": "512:3111",
+      "nodeName": "Union",
+      "path": "num=2/Frame 5/Union",
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 300,
+          "easing": "EASE_OUT",
+          "easingCurve": {},
+          "destinationId": "512:2479",
+          "sourceId": "512:3111",
+          "sourcePath": "num=2/Frame 5/Union"
+        },
+        {
+          "trigger": "ON_HOVER",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 300,
+          "easing": "LINEAR",
+          "easingCurve": {},
+          "destinationId": null,
+          "sourceId": "512:3111",
+          "sourcePath": "num=2/Frame 5/Union"
+        }
+      ]
+    }
+  ]
+};

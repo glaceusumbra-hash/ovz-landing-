@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Sheet - Bloque 4 Interactivo</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400&family=IM+Fell+Double+Pica&display=swap" rel="stylesheet">
+
+    <style>
+        body, html {
+            margin: 0; padding: 0;
+            background: linear-gradient(180deg, #41454c 9% #08090b 20% #030e26  100%);
+            color: #ffffff;
+            font-family: "IM Fell Double Pica", serif;
+            min-height: 100vh;
+        }
+
+        .container { max-width: 1300px; margin: 0 auto; padding: 30px 40px 100px 40px; }
+
+        /* --- BLOQUES 1, 2 y 3 --- */
+        .top-corners { display: flex; justify-content: space-between; align-items: flex-start; width: 100%; }
+        .logo-corner { width: 110px; height: auto; object-fit: contain; }
+        .text-corner { font-size: 70px; font-weight: 400; margin: 0; line-height: 1; }
+        
+        .center-title { display: flex; justify-content: center; align-items: center; gap: 30px; margin-top: 60px; }
+        .center-title h1 { font-size: 49px; font-weight: 400; margin: 0; color: #d1d1d1; letter-spacing: 1px; }
+        .center-title img { width: 100px; height: 100px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.6); }
+
+        .data-sheet-section { margin-top: 100px; padding: 0 50px; }
+        .sheet-title { text-align: center; font-size: 49px; font-weight: 400; margin-bottom: 60px; }
+        .info-list { font-size: 38px; line-height: 1.5; list-style-type: disc; padding-left: 40px; }
+        .info-list > li { margin-bottom: 50px; }
+        .sub-list { list-style-type: none; margin-top: 40px; padding-left: 80px; }
+        .sub-list li { margin-bottom: 30px; }
+
+        .gif-section { margin-top: 100px; display: flex; justify-content: center; width: 100%; }
+        .demo-gif { width: 100%; max-width: 1100px; border-radius: 10px; box-shadow: 0 20px 50px rgba(0,0,0,0.8); object-fit: cover; }
+
+        /* --- BLOQUE 4: CÓDIGO INTERACTIVO Y DEV MODE --- */
+        .split-section {
+            margin-top: 120px;
+            display: flex;
+            justify-content: space-between;
+            align-items: stretch;
+            gap: 40px;
+            width: 100%;
+        }
+
+        .code-panel {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            max-width: 550px;
+        }
+
+        .tabs {
+            display: flex;
+            gap: 15px;
+            margin-bottom: -2px;
+        }
+
+        .tab {
+            font-family: "IM Fell Double Pica", serif;
+            font-size: 45px;
+            border: 2px solid #fff;
+            padding: 5px 25px;
+            background: #000;
+            color: #555; 
+            cursor: pointer;
+            z-index: 10;
+            transition: all 0.3s ease;
+        }
+
+        .tab.active {
+            color: #fff;
+            border-bottom: 2px solid #000; 
+        }
+
+        .tab:hover { color: #fff; }
+
+        .code-box {
+            background: #000;
+            border: 2px solid #fff;
+            padding: 30px;
+            font-family: "Chivo Mono", monospace;
+            font-size: 16px;
+            color: #e2e2e2;
+            line-height: 1.6;
+            height: 450px; /* Altura fija para poder scrollear tu código enorme */
+            overflow-y: auto; /* Habilita el scroll interno */
+            white-space: pre-wrap;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        .code-content { display: none; }
+        .code-content.active { display: block; animation: fadeIn 0.3s ease; }
+
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+        .code-box .keyword { color: #569cd6; } 
+        .code-box .string { color: #ce9178; }  
+        .code-box .number { color: #b5cea8; }  
+        .code-box .comment { color: #6a9955; font-style: italic; } 
+
+        .dev-image-container { flex: 1; display: flex; justify-content: flex-end; align-items: flex-start; }
+        .dev-image { width: 100%; max-width: 600px; object-fit: contain; border-radius: 10px; box-shadow: 0 20px 40px rgba(0,0,0,0.6); }
+
+        /* Barra de scroll bonita para el bloque de código */
+        .code-box::-webkit-scrollbar { width: 8px; }
+        .code-box::-webkit-scrollbar-track { background: #111; }
+        .code-box::-webkit-scrollbar-thumb { background: #444; border-radius: 4px; }
+        .code-box::-webkit-scrollbar-thumb:hover { background: #666; }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <!-- BLOQUE 1: HEADER -->
+        <header class="header">
+            <div class="logo-container">
+                <a href="index.html">
+                    <img src="assets/OVZ.png" alt="OVZ" />
+                </a>
+            </div>
+
+
+            <div class="center-title">
+                <h1>FIGMA X TRACTOR PRO</h1>
+                <img src="figma_extractor/assets/Figma XT.png" alt="App Icon">
+            </div>
+        </header>
+
+        <!-- BLOQUE 2: DATA SHEET -->
+        <section class="data-sheet-section">
+            <h2 class="sheet-title">Figma Extractor Pro — Data Sheet</h2>
+
+            <ul class="info-list">
+                <li>Propósito: Automatizar la extracción de diseño y tokens directamente desde Figma para acelerar el flujo de desarrollo de interfaces.</li>
+                <li>Formatos de Exportación: Compatible con múltiples lenguajes y frameworks de desarrollo (JSON, CSS, SCSS, Tailwind, TypeScript, JavaScript, Python) y manifiestos personalizados .mmm.</li>
+                <li>Flujo de Trabajo:
+                    <ul class="sub-list">
+                        <li>Conexión segura mediante token personal (PAT) y clave de archivo.</li>
+                        <li>Extracción selectiva por ID de nodo o análisis global del archivo.</li>
+                        <li>Visualización en tiempo real del progreso de capas y componentes extraídos.</li>
+                    </ul>
+                </li>
+                <li>Seguridad y Privacidad: Procesamiento local con limpieza automática de credenciales en memoria al finalizar cada sesión.</li>
+            </ul>
+        </section>
+
+        <!-- BLOQUE 3: GIF -->
+        <section class="gif-section">
+            <img src="figma_extractor/assets/figma-x-func.gif" alt="Demostración de Figma Extractor Pro" class="demo-gif">
+        </section>
+
+        <!-- BLOQUE 4: CÓDIGO INTERACTIVO Y DEV MODE -->
+        <section class="split-section">
+            <div class="code-panel">
+                
+                <div class="tabs">
+                    <div class="tab active" onclick="switchTab('js')">js</div>
+                    <div class="tab" onclick="switchTab('py')">py</div>
+                    <div class="tab" onclick="switchTab('tw')">tw</div>
+                </div>
+
+                <div class="code-box">
+                    
+                    <!-- CÓDIGO REAL JAVASCRIPT INYECTADO AQUÍ -->
+                    <div id="code-js" class="code-content active">
+<span class="keyword">export const</span> designTokens = {
+  <span class="string">"colors"</span>: {},
+  <span class="string">"typography"</span>: {
+    <span class="string">"OVZ_typo"</span>: {
+      <span class="string">"fontFamily"</span>: <span class="string">"IM FELL Double Pica"</span>,
+      <span class="string">"fontWeight"</span>: <span class="number">400</span>,
+      <span class="string">"fontSize"</span>: <span class="number">30.666</span>,
+      <span class="string">"letterSpacing"</span>: <span class="number">0.0</span>,
+      <span class="string">"lineHeightPx"</span>: <span class="number">48.127</span>
+    },
+    <span class="string">"js_typo"</span>: {
+      <span class="string">"fontFamily"</span>: <span class="string">"IM FELL Double Pica"</span>,
+      <span class="string">"fontWeight"</span>: <span class="number">400</span>,
+      <span class="string">"fontSize"</span>: <span class="number">90.559</span>,
+      <span class="string">"letterSpacing"</span>: <span class="number">0.0</span>,
+      <span class="string">"lineHeightPx"</span>: <span class="number">142.125</span>
+    },
+    <span class="string">"py_typo"</span>: {
+      <span class="string">"fontFamily"</span>: <span class="string">"IM FELL Double Pica"</span>,
+      <span class="string">"fontWeight"</span>: <span class="number">400</span>,
+      <span class="string">"fontSize"</span>: <span class="number">90.559</span>,
+      <span class="string">"letterSpacing"</span>: <span class="number">0.0</span>,
+      <span class="string">"lineHeightPx"</span>: <span class="number">142.125</span>
+    },
+    <span class="string">"tw_typo"</span>: {
+      <span class="string">"fontFamily"</span>: <span class="string">"IM FELL Double Pica"</span>,
+      <span class="string">"fontWeight"</span>: <span class="number">400</span>,
+      <span class="string">"fontSize"</span>: <span class="number">90.559</span>,
+      <span class="string">"letterSpacing"</span>: <span class="number">0.0</span>,
+      <span class="string">"lineHeightPx"</span>: <span class="number">142.125</span>
+    }
+  },
+  <span class="string">"spacing"</span>: {},
+  <span class="string">"effects"</span>: {},
+  <span class="string">"structural_metadata"</span>: {
+    <span class="string">"Frame 17::416:279"</span>: {
+      <span class="string">"type"</span>: <span class="string">"FRAME"</span>,
+      <span class="string">"width"</span>: <span class="number">606.0</span>,
+      <span class="string">"height"</span>: <span class="number">955.59</span>,
+      <span class="string">"x"</span>: <span class="number">1538.0</span>,
+      <span class="string">"y"</span>: <span class="number">4201.0</span>
+    },
+    <span class="string">"Component 2::279:5071"</span>: {
+      <span class="string">"type"</span>: <span class="string">"INSTANCE"</span>,
+      <span class="string">"width"</span>: <span class="number">606.0</span>,
+      <span class="string">"height"</span>: <span class="number">823.59</span>,
+      <span class="string">"x"</span>: <span class="number">1538.0</span>,
+      <span class="string">"y"</span>: <span class="number">4333.0</span>
+    }
+  },
+  <span class="string">"interactions"</span>: {
+    <span class="string">"Rectangle 23_anim::279:5083"</span>: [
+      {
+        <span class="string">"trigger"</span>: <span class="string">"ON_CLICK"</span>,
+        <span class="string">"actionType"</span>: <span class="string">"NAVIGATE"</span>,
+        <span class="string">"transitionType"</span>: <span class="string">"INSTANT"</span>,
+        <span class="string">"duration"</span>: <span class="number">0</span>,
+        <span class="string">"easing"</span>: <span class="string">"LINEAR"</span>,
+        <span class="string">"destinationId"</span>: <span class="keyword">null</span>
+      }
+    ]
+  }
+};
+                    </div>
+
+                    <!-- CÓDIGO: Python (PY) -->
+                    <div id="code-py" class="code-content">
+<span class="comment"># Auto-generated Figma Tokens</span>
+
+DESIGN_TOKENS = {
+    <span class="string">'colors'</span>: {},
+    <span class="string">'typography'</span>: {
+        <span class="string">'OVZ_typo'</span>: {
+            <span class="string">'fontFamily'</span>: <span class="string">'IM FELL Double Pica'</span>,
+            <span class="string">'fontWeight'</span>: <span class="number">400</span>,
+            <span class="string">'fontSize'</span>: <span class="number">30.66</span>
+        }
+    },
+    <span class="string">'structural_metadata'</span>: {
+        <span class="string">'Frame 17::416:279'</span>: {
+            <span class="string">'type'</span>: <span class="string">'FRAME'</span>,
+            <span class="string">'width'</span>: <span class="number">606.0</span>,
+            <span class="string">'height'</span>: <span class="number">955.59</span>
+        }
+    }
+}
+                    </div>
+
+                    <!-- CÓDIGO: Tailwind Config (TW) -->
+                    <div id="code-tw" class="code-content">
+<span class="comment">/** @type {import('tailwindcss').Config} */</span>
+module.<span class="keyword">exports</span> = {
+  theme: {
+    extend: {
+      <span class="string">"fontFamily"</span>: {
+        <span class="string">"ovz-typo"</span>: [<span class="string">"IM FELL Double Pica"</span>],
+        <span class="string">"js-typo"</span>: [<span class="string">"IM FELL Double Pica"</span>]
+      },
+      <span class="string">"fontSize"</span>: {
+        <span class="string">"ovz-typo"</span>: <span class="string">"30.66px"</span>,
+        <span class="string">"js-typo"</span>: <span class="string">"90.55px"</span>
+      }
+    }
+  }
+};
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Imagen Dev Mode -->
+            <div class="dev-image-container">
+                <img src="figma_extractor/assets/dev.png" alt="Figma Dev Mode" class="dev-image">
+            </div>
+        </section>
+
+    </div>
+
+    <!-- SCRIPT DE INTERACTIVIDAD PARA LAS PESTAÑAS -->
+    <script>
+        function switchTab(tabId) {
+            document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active'));
+            document.querySelectorAll('.code-content').forEach(content => content.classList.remove('active'));
+            event.target.classList.add('active');
+            document.getElementById('code-' + tabId).classList.add('active');
+        }
+    </script>
+    <!-- ... [AQUÍ TERMINABA EL BLOQUE 4 DEL CÓDIGO Y DEV MODE] ... -->
+
+        <!-- BLOQUE 5: LINKS Y MONETIZACIÓN -->
+        <section class="links-section" style="margin-top: 120px; display: flex; flex-direction: column; align-items: center; gap: 80px;">
+            
+            <!-- Botón de GitHub -->
+            <a href="https://github.com/glaceusumbra-hash" target="_blank" style="display: flex; align-items: center; background: #e0e0e0; border-radius: 50px; padding: 15px 40px; gap: 20px; text-decoration: none; color: #000; transition: transform 0.2s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                <img src="figma_extractor/assets/git.png" alt="GitHub" style="width: 50px; height: 50px; border-radius: 50%;">
+                <span style="font-family: 'Roboto', sans-serif; font-weight: 500; font-size: 32px;">https://github.com/glaceusumbra-hash</span>
+            </a>
+
+            <!-- Iconos de Tiendas -->
+            <div style="display: flex; gap: 60px; justify-content: center;">
+                
+                <!-- Lemon Squeezy -->
+                <!-- REEMPLAZA EL '#' CON TU ENLACE REAL A LA TIENDA -->
+                <a href="#" target="_blank" style="transition: transform 0.2s ease;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
+                    <img src="figma_extractor/assets/lemon.png" alt="Lemon Squeezy" style="width: 160px; height: 160px; border-radius: 20px; box-shadow: 0 10px 20px rgba(0,0,0,0.4);">
+                </a>
+
+                <!-- Gumroad -->
+                <!-- REEMPLAZA EL '#' CON TU ENLACE REAL A LA TIENDA -->
+                <a href="#" target="_blank" style="transition: transform 0.2s ease;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
+                    <img src="figma_extractor/assets/gumroad.png" alt="Gumroad" style="width: 160px; height: 160px; border-radius: 20px; box-shadow: 0 10px 20px rgba(0,0,0,0.4);">
+                </a>
+
+                <!-- Buy Me a Coffee -->
+                <!-- REEMPLAZA EL '#' CON TU ENLACE REAL A LA TIENDA -->
+                <a href="#" target="_blank" style="transition: transform 0.2s ease;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
+                    <img src="figma_extractor/assets/bmc.png" alt="Buy Me A Coffee" style="width: 160px; height: 160px; border-radius: 20px; box-shadow: 0 10px 20px rgba(0,0,0,0.4);">
+                </a>
+
+            </div>
+        </section>
+
+        <!-- BLOQUE 6: FOOTER -->
+        <footer style="margin-top: 120px; text-align: center;">
+            <h2 style="font-family: 'Roboto', sans-serif; font-weight: 500; font-size: 52px; letter-spacing: 2px; color: #ffffff; margin: 0; line-height: 1.4;">
+                Gracias por tu compra y<br>disfruta tu software
+            </h2>
+        </footer>
+
+    </div>
+
+    <!-- SCRIPT DE INTERACTIVIDAD PARA LAS PESTAÑAS (Asegúrate de que este siga al final del body) -->
+    <script>
+        function switchTab(tabId) {
+            document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active'));
+            document.querySelectorAll('.code-content').forEach(content => content.classList.remove('active'));
+            event.target.classList.add('active');
+            document.getElementById('code-' + tabId).classList.add('active');
+        }
+    </script>
+
+</body>
+</html>

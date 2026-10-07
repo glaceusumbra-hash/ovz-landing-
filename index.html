@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OVZ Creative Solutions</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400&family=IM+Fell+Double+Pica&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --font-serif: "IM Fell Double Pica", serif;
+            --font-mono: "Chivo Mono", monospace;
+            --title-shadow: 0px -3px 0px rgba(0, 0, 0, 0.6), 0px 5px 15px rgba(0,0,0,0.5);
+        }
+
+        body, html {
+            margin: 0; padding: 0;
+            min-height: 100vh;
+            font-family: var(--font-serif);
+            background: linear-gradient(180deg, #80A7FB 10%, #5870A4 40%, #041843 45%, #030E26 95%);
+            color: #FFFFFF;
+            display: flex; flex-direction: column;
+            overflow-x: hidden;
+        }
+
+        .header {
+            position: relative;
+            width: 100%; padding: 20px 40px; box-sizing: border-box;
+            display: flex; justify-content: center; align-items: flex-start;
+            margin-top: 20px;
+        }
+
+        /* Contenedor del Logo Superior Izquierdo */
+        .logo-container {
+            position: absolute;
+            left: 40px; top: 20px;
+            width: 120px; height: 120px;
+            display: flex; justify-content: center; align-items: center;
+        }
+        
+        .logo-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .title-group { text-align: center; margin-top: 10px; }
+        .title-group h1 { font-size: 58px; margin: 0; font-weight: 400; letter-spacing: 2px; text-shadow: var(--title-shadow); }
+        .title-group h2 { font-size: 32px; margin: -5px 0 0 0; font-weight: 400; color: #d1d1d1; text-shadow: var(--title-shadow); }
+
+        .app-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 120px 250px;
+            margin: auto; padding: 40px 20px;
+            align-items: end; justify-items: center;
+            max-width: 900px;
+        }
+
+        .app-item {
+            display: flex; flex-direction: column; align-items: center;
+            cursor: pointer;
+            transition: transform 0.2s ease, filter 0.2s ease;
+        }
+        .app-item:hover { transform: scale(1.05) translateY(-5px); filter: brightness(1.1); }
+        .app-item:active { transform: scale(0.95); }
+
+        .app-icon {
+            width: 140px; height: 140px;
+            border-radius: 30px;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.6), inset 0 2px 5px rgba(255,255,255,0.2);
+            display: flex; justify-content: center; align-items: center;
+            margin-bottom: 20px; overflow: hidden;
+            background: transparent;
+        }
+        
+        .bg-black { background: #0c0c0c; }
+
+        .app-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 30px;
+        }
+
+        .label-mono { font-family: var(--font-mono); font-size: 22px; text-align: center; white-space: pre-line; color: #e0e0e0; }
+        .label-serif { font-family: var(--font-serif); font-size: 17px; text-align: center; color: #6b7a99; letter-spacing: 1px; text-transform: uppercase; }
+
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo-container">
+            <!-- LOGO SUPERIOR IZQUIERDO CORREGIDO -->
+            <img src="assets/OVZ.png" alt="OVZ Logo">
+        </div>
+        <div class="title-group">
+            <h1>OVZ</h1>
+            <h2>Creative solutions</h2>
+        </div>
+    </header>
+
+    <main class="app-grid">
+        
+        <!-- App 1: Figma Extractor -->
+        <div class="app-item">
+            <div class="app-icon bg-black">
+                <a href="figma_xtractorpro.html">                        
+                    <img src="assets/Figma XT.png" alt="Figma Xtractor Pro">
+                </a>
+            </div>
+            <div class="label-serif">FIGMA X TRACTOR PRO</div>
+        </div>
+
+        <!-- App 2: Portfolio -->
+        <div class="app-item">
+            <div class="app-icon">
+                <a href="portfolio.html">
+                    <img src="assets/Folder.png" alt="Portfolio">
+                </a>
+            </div>
+            <div class="label-mono">portfolio</div>
+        </div>
+
+        <!-- App 3: Landing Page -->
+        <div class="app-item">
+            <div class="app-icon">
+                <a href="get_your_landing.html">
+                    <img src="assets/Chrome.png" alt="Get your landing page">
+                </a>
+                </div>
+            <div class="label-mono">get your<br>landing page</div>
+        </div>
+
+        <!-- App 4: Special Idea -->
+        <div class="app-item">
+            <div class="app-icon">
+                <!-- TARJETA SPECIAL IDEA CORREGIDA -->
+                <img src="assets/Idea.png" alt="Any special idea?">
+            </div>
+            <div class="label-mono">any special<br>idea?</div>
+        </div>
+
+    </main>
+
+</body>
+</html>

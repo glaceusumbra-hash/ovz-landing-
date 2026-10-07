@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OVZ Creative Solutions</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400&family=IM+Fell+Double+Pica&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --font-serif: "IM Fell Double Pica", serif;
+            --font-mono: "Chivo Mono", monospace;
+            --title-shadow: 0px -3px 0px rgba(0, 0, 0, 0.6), 0px 5px 15px rgba(0,0,0,0.5);
+        }
+
+        body, html {
+            margin: 0; padding: 0;
+            min-height: 100vh;
+            font-family: var(--font-serif);
+            background: linear-gradient(180deg, #80A7FB 10%, #5870A4 40%, #041843 45%, #030E26 95%);
+            color: #FFFFFF;
+            display: flex; flex-direction: column;
+            overflow-x: hidden;
+        }
+
+        .header {
+            position: relative;
+            width: 100%; 
+            padding: 20px 40px; 
+            box-sizing: border-box;
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center;
+        }
+
+        /* Logo Superior Izquierdo */
+        .logo-container {
+            width: 120px; 
+            height: 120px;
+            display: flex; 
+            justify-content: center; 
+            align-items: center;
+        }
+        
+        .logo-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        /* Carpeta Centro Superior */
+        .center-folder {
+            width: 90px; 
+            height: 90px;
+            background-color: #ffffff;
+            border-radius: 20px;
+            display: flex; 
+            justify-content: center; 
+            align-items: center;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .center-folder img {
+            width: 60%; 
+            height: 60%;
+            object-fit: contain;
+        }
+
+        /* Marca OVZ Derecha */
+        .brand-text {
+            font-size: 50px; 
+            letter-spacing: 2px;
+            text-shadow: var(--title-shadow);
+            margin: 0;
+        }
+
+        /* Grid de los dos botones centrados */
+        .app-grid {
+            display: flex;
+            justify-content: center;
+            gap: 150px; 
+            margin: 80px auto;
+            max-width: 900px;
+        }
+
+        .app-item {
+            display: flex; 
+            flex-direction: column; 
+            align-items: center;
+            cursor: pointer;
+            text-decoration: none; 
+            transition: transform 0.2s ease, filter 0.2s ease;
+        }
+
+        .app-item:hover { 
+            transform: scale(1.05) translateY(-5px); 
+            filter: brightness(1.1); 
+        }
+
+        .app-item:active { 
+            transform: scale(0.95); 
+        }
+        
+        .app-icon {
+            width: 130px; 
+            height: 130px;
+            border-radius: 30px;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.6), inset 0 2px 5px rgba(255,255,255,0.2);
+            display: flex; 
+            justify-content: center; 
+            align-items: center;
+            margin-bottom: 20px; 
+            overflow: hidden;
+            background: #ffffff; 
+        }
+
+        .app-icon.bg-dark {
+            background: #0c0c0c; 
+        }
+
+        .app-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 30px;
+        }
+        
+        .card-label {
+            color: #ffffff;
+            font-family: var(--font-mono); 
+            font-size: 24px;
+            letter-spacing: 1px;
+            text-decoration: none;
+            text-transform: lowercase;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabecera Superior -->
+    <header class="header">
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="assets/OVZ.png" alt="OVZ" />
+            </a>
+        </div>
+
+
+        <div class="center-folder">
+            <img src="assets/Folder.png" alt="Portfolio Folder" />
+        </div>
+
+        <h1 class="brand-text">OVZ</h1>
+    </header>
+
+    <!-- Área principal con los dos botones interactivos -->
+    <main class="app-grid">
+        
+        <!-- Botón Documento (Apunta directamente al Google Drive especificado) -->
+        <a href="https://drive.google.com/file/d/1zrcBG6jySbpUpylXpY5SiBH9_z5Tx8sS/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="app-item">
+            <div class="app-icon bg-dark">
+                <img src="assets/doc.png" alt="doc" />
+            </div>
+            <span class="card-label">documento</span>
+        </a>
+
+        <!-- Botón Prototipo (Figma) -->
+        <a href="https://www.figma.com/proto/Yfr94nFK7CPStXapyfNP6W/ovz--creative--sol?node-id=252-4154&viewport=364%2C75%2C0.02&t=q5K0zLKFtCU0j4q5-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=252%3A4154&page-id=252%3A1415" target="_blank" rel="noopener noreferrer" class="app-item">
+            <div class="app-icon bg-dark">
+                <img src="assets/figma.png" alt="Prototipo Figma" />
+            </div>
+            <span class="card-label">prototipo</span>
+        </a>
+
+    </main>
+
+</body>
+</html>

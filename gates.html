@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gates - OVZ</title>
+<link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400;700&family=Inter:wght@400;600&family=IM+Fell+Double+Pica&display=swap" rel="stylesheet">
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #80A7FB 10%, #5870A4 40%, #041843 45%, #030E26 95%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "IM Fell Double Pica", serif;
+}
+
+.header{
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container{ width: 120px; height: 120px; }
+.logo-container img{ width: 100%; height: 100%; object-fit: contain; }
+
+.center-folder{
+    width: 90px;
+    height: 90px;
+    background: #e6e6e6;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center-folder img{ width: 70%; height: 70%; object-fit: contain; }
+
+.brand-text{
+    font-size: 40px;
+    color: #fff;
+    text-shadow: 0px -3px 0px rgba(243, 235, 235, 0.911);
+}
+
+.main-selectors{
+    display: flex;
+    width: 90%;
+    max-width: 950px;
+    margin-top: 20px;
+    background: #2b2b2b;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 2px solid rgba(255, 255, 255, 0.15);
+}
+
+.nav-btn{
+    flex: 1;
+    padding: 15px 0;
+    text-align: center;
+    font-family: "Chivo Mono", monospace;
+    font-size: 25px;
+    color: #cfcfcf;
+    text-decoration: none;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.nav-btn.active{
+    background: #8b8f94;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* === CONTENEDOR MOCKUP (OSCURO SEGÚN TUS CAPTURAS) === */
+.viewer-container{
+    width: 90%;
+    max-width: 1050px;
+    background: #211c1d;
+    border-radius: 12px;
+    display: flex;
+    padding: 40px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+    margin-top: 20px;
+    min-height: 500px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.left-controls{
+    flex: 0.9;
+    border-right: 1px solid rgba(255, 255, 255, 0.15);
+    padding-right: 30px;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tab-buttons{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.tab-label{
+    flex: 1;
+    text-align: center;
+    border: 1px solid #444;
+    padding: 10px 0px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: "Chivo Mono", monospace;
+    background: transparent;
+    transition: all 0.2s ease;
+}
+
+.tab-label.active{
+    border-color: #ff3b3b;
+    background: rgba(255, 59, 59, 0.08);
+}
+
+.text-content { 
+    display: none; 
+    color: #a8a8a8; 
+    line-height: 1.6; 
+    font-size: 15px; 
+    font-family: 'Inter', sans-serif; 
+}
+.text-content.active { 
+    display: block; 
+    animation: fadeIn 0.25s ease-in-out forwards;
+}
+.text-content strong { 
+    color: #ffffff; 
+    font-size: 17px; 
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.right-visualizer{
+    flex: 1.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    overflow: hidden;
+    min-width: 0;
+}
+
+/* === SISTEMA DE VISTAS (G1, G2, G3) === */
+.view-panel {
+    display: none; 
+    width: 100%;
+    height: 100%;
+    min-height: 420px;
+}
+
+.view-panel.active {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 0.25s ease-in-out forwards;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* FIX CRÍTICO: Control estricto de dimensiones para imágenes */
+.view-panel img {
+    max-width: 100%;
+    max-height: 420px;
+    object-fit: contain;
+    display: block;
+}
+
+/* === VISTA G2: EL ESCENARIO (TELÓN) === */
+.stage-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 420px;
+    border-radius: 8px;
+    overflow: hidden;
+    background: radial-gradient(circle at 50% 30%, #555555 0%, #111111 70%, #000000 100%);
+    box-shadow: inset 0 0 20px rgba(0,0,0,0.8);
+}
+
+.stage-curtains {
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%;
+    background-image: url('assets/bg.png'); 
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    pointer-events: none; 
+    z-index: 10;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(2px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+</style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="assets/OVZ.png" alt="OVZ" />
+            </a>
+        </div>
+
+        <div class="center-folder">
+            <img src="assets/Chrome.png" alt="idea" />
+        </div>
+
+        <div class="brand-text">
+            OVZ
+        </div>
+    </header>
+
+<nav class="main-selectors">
+    <a href="get_your_landing.html" class="nav-btn">Z</a>
+    <a href="stages.html" class="nav-btn">Stages</a>
+    <a href="gates.html" class="nav-btn active">Gates</a> 
+</nav>
+
+<div class="viewer-container">
+
+    <div class="left-controls">
+        <!-- BOTONES G1, G2, G3 -->
+        <div class="tab-buttons" id="tabButtons">
+            <div class="tab-label active" data-target="1">G 1</div>
+            <div class="tab-label" data-target="2">G 2</div>
+            <div class="tab-label" data-target="3">G 3</div>
+        </div>
+        
+        <!-- Textos Dinámicos -->
+        <div id="text-1" class="text-content active">
+            <strong>Navegación:</strong><br>
+            Organiza la estructura con precisión para una lectura limpia y sin fricción.
+        </div>
+        <div id="text-2" class="text-content">
+            <strong>Comercio:</strong><br>
+            Guía al cliente directo hacia la oferta sin saturar la interfaz.
+        </div>
+        <div id="text-3" class="text-content">
+            <!-- G3 se mantiene limpio o con texto según tu mockup -->
+        </div>
+    </div>
+    
+    <div class="right-visualizer">
+        
+        <!-- VISTA G1 -->
+        <div id="view-1" class="view-panel active" style="background: #ffffff;">
+            <img src="get land/gates/GATES W.png" alt="Diagrama G1">
+        </div>
+
+        <!-- VISTA G2: EL ESCENARIO Y TELÓN -->
+        <div id="view-2" class="view-panel active" style="background: #ffffff;">
+            <img src="get land/gates/theatre.png" alt="theatre">
+        </div>
+
+        <!-- VISTA G3 -->
+        <div id="view-3" class="view-panel" style="background: #0d1b2a;">
+            <img src="get land/gates/sigma.png" alt="Sigma G3">
+        </div>
+
+    </div>
+
+</div>
+
+<!-- SCRIPT OPTIMIZADO Y BLINDADO -->
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const tabsContainer = document.getElementById('tabButtons');
+    const tabs = document.querySelectorAll('.tab-label');
+    const views = document.querySelectorAll('.view-panel');
+    const texts = document.querySelectorAll('.text-content');
+
+    if (!tabsContainer) return;
+
+    tabsContainer.addEventListener('click', (event) => {
+        const selectedTab = event.target.closest('.tab-label');
+
+        // Evitar clicks fuera de botones o en el botón ya activo
+        if (!selectedTab || selectedTab.classList.contains('active')) return;
+
+        const targetId = selectedTab.getAttribute('data-target');
+        const targetView = document.getElementById('view-' + targetId);
+        const targetText = document.getElementById('text-' + targetId);
+
+        // Cláusula de seguridad: Si no existen los elementos en el DOM, no hacer nada (evita romper JS)
+        if (!targetView || !targetText) return;
+
+        // 1. Limpiar todas las clases activas
+        tabs.forEach(t => t.classList.remove('active'));
+        views.forEach(v => v.classList.remove('active'));
+        texts.forEach(txt => txt.classList.remove('active'));
+
+        // 2. Activar síncronamente el nuevo conjunto
+        selectedTab.classList.add('active');
+        targetView.classList.add('active');
+        targetText.classList.add('active');
+    });
+});
+</script>
+</body>
+</html>

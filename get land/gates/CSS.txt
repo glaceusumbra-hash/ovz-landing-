@@ -1,0 +1,41 @@
+/* AUTO-GENERATED FIGMA TOKENS */
+:root {
+}
+
+/* SMART ANIMATE KEYFRAMES + TRANSITIONS */
+/* Ellipse 14_anim::215:2045 - INSTANT */
+.ellipse-14-anim-0 { transition: all 300ms ease-out; }
+/* Ellipse 14_anim::215:2045 - INSTANT */
+.ellipse-14-anim-1 { transition: all 300ms linear; }
+/* Ellipse 15_anim::215:2046 - INSTANT */
+.ellipse-15-anim-0 { transition: all 300ms ease-out; }
+/* Ellipse 15_anim::215:2046 - INSTANT */
+.ellipse-15-anim-1 { transition: all 300ms linear; }
+/* Ellipse 16_anim::215:2047 - INSTANT */
+.ellipse-16-anim-0 { transition: all 300ms ease-out; }
+/* Ellipse 16_anim::215:2047 - INSTANT */
+.ellipse-16-anim-1 { transition: all 300ms linear; }
+/* Ellipse 17_anim::215:2048 - INSTANT */
+.ellipse-17-anim-0 { transition: all 300ms ease-out; }
+/* Ellipse 17_anim::215:2048 - INSTANT */
+.ellipse-17-anim-1 { transition: all 300ms linear; }
+/* Propiedad 1=MacBook Pro 16" - 4_anim::215:2090 - INSTANT */
+.propiedad-1-macbook-pro-16-4-anim-0 { transition: all 300ms ease-out; }
+/* Propiedad 1=MacBook Pro 16" - 4_anim::215:2090 - INSTANT */
+.propiedad-1-macbook-pro-16-4-anim-1 { transition: all 300ms linear; }
+/* Propiedad 1=MacBook Pro 16" - 5_anim::215:2092 - INSTANT */
+.propiedad-1-macbook-pro-16-5-anim-0 { transition: all 300ms ease-out; }
+/* Propiedad 1=MacBook Pro 16" - 5_anim::215:2092 - INSTANT */
+.propiedad-1-macbook-pro-16-5-anim-1 { transition: all 300ms linear; }
+/* Ellipse 16_anim::215:2067 - INSTANT */
+.ellipse-16-anim-0 { transition: all 300ms ease-out; }
+/* Ellipse 16_anim::215:2067 - INSTANT */
+.ellipse-16-anim-1 { transition: all 300ms linear; }
+/* Propiedad 1=MacBook Pro 16" - 6_anim::215:2091 - INSTANT */
+.propiedad-1-macbook-pro-16-6-anim-0 { transition: all 300ms ease-out; }
+/* Propiedad 1=MacBook Pro 16" - 6_anim::215:2091 - INSTANT */
+.propiedad-1-macbook-pro-16-6-anim-1 { transition: all 300ms linear; }
+/* Propiedad 1=MacBook Pro 16" - 7_anim::215:2093 - INSTANT */
+.propiedad-1-macbook-pro-16-7-anim-0 { transition: all 300ms ease-out; }
+/* Propiedad 1=MacBook Pro 16" - 7_anim::215:2093 - INSTANT */
+.propiedad-1-macbook-pro-16-7-anim-1 { transition: all 300ms linear; }

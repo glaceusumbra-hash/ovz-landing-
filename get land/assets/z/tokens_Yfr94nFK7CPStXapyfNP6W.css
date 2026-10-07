@@ -1,0 +1,1201 @@
+/* AUTO-GENERATED FIGMA TOKENS */
+:root {
+}
+
+/* SMART ANIMATE KEYFRAMES + TRANSITIONS */
+/* W_anim::4:3007 - INSTANT */
+.w-anim-0 { transition: all 0ms linear; }
+/* M_anim::4:3008 - INSTANT */
+.m-anim-0 { transition: all 0ms linear; }
+/* Wi_anim::4:3009 - INSTANT */
+.wi-anim-0 { transition: all 0ms linear; }
+/* Rectangle 15_anim::51:240 - INSTANT */
+.rectangle-15-anim-0 { transition: all 300ms ease-out; }
+/* Rectangle 15_anim::51:240 - INSTANT */
+.rectangle-15-anim-1 { transition: all 300ms linear; }
+/* Nav item 01_anim::I3:1363;58016:37261 - INSTANT */
+.nav-item-01-anim-0 { transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1); }
+/* Nav item 01_anim::I3:1363;58016:37261 - INSTANT */
+.nav-item-01-anim-1 { transition: all 200ms linear; }
+/* Nav item 01_anim::I3:1363;58016:37261 - INSTANT */
+.nav-item-01-anim-2 { transition: all 200ms linear; }
+/* Nav item 02_anim::I3:1363;58016:37262 - INSTANT */
+.nav-item-02-anim-0 { transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1); }
+/* Nav item 02_anim::I3:1363;58016:37262 - INSTANT */
+.nav-item-02-anim-1 { transition: all 200ms linear; }
+/* Nav item 02_anim::I3:1363;58016:37262 - INSTANT */
+.nav-item-02-anim-2 { transition: all 200ms linear; }
+/* Nav item 03_anim::I3:1363;58016:37263 - INSTANT */
+.nav-item-03-anim-0 { transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1); }
+/* Nav item 03_anim::I3:1363;58016:37263 - INSTANT */
+.nav-item-03-anim-1 { transition: all 200ms linear; }
+/* Nav item 03_anim::I3:1363;58016:37263 - INSTANT */
+.nav-item-03-anim-2 { transition: all 200ms linear; }
+/* Secondary button_anim::3:2664 - INSTANT */
+.secondary-button-anim-0 { transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1); }
+/* Secondary button_anim::3:2664 - INSTANT */
+.secondary-button-anim-1 { transition: all 200ms linear; }
+/* Primary button_anim::3:2665 - INSTANT */
+.primary-button-anim-0 { transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1); }
+/* Primary button_anim::3:2665 - INSTANT */
+.primary-button-anim-1 { transition: all 200ms linear; }
+/* Secondary button_anim::3:2684 - INSTANT */
+.secondary-button-anim-0 { transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1); }
+/* Secondary button_anim::3:2684 - INSTANT */
+.secondary-button-anim-1 { transition: all 200ms linear; }
+/* Primary button_anim::3:2685 - INSTANT */
+.primary-button-anim-0 { transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1); }
+/* Primary button_anim::3:2685 - INSTANT */
+.primary-button-anim-1 { transition: all 200ms linear; }
+/* Secondary button_anim::3:2612 - INSTANT */
+.secondary-button-anim-0 { transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1); }
+/* Secondary button_anim::3:2612 - INSTANT */
+.secondary-button-anim-1 { transition: all 200ms linear; }
+/* Primary button_anim::3:2613 - INSTANT */
+.primary-button-anim-0 { transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1); }
+/* Primary button_anim::3:2613 - INSTANT */
+.primary-button-anim-1 { transition: all 200ms linear; }
+/* Secondary button_anim::3:2694 - INSTANT */
+.secondary-button-anim-0 { transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1); }
+/* Secondary button_anim::3:2694 - INSTANT */
+.secondary-button-anim-1 { transition: all 200ms linear; }
+/* Primary button_anim::3:2695 - INSTANT */
+.primary-button-anim-0 { transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1); }
+/* Primary button_anim::3:2695 - INSTANT */
+.primary-button-anim-1 { transition: all 200ms linear; }
+/* Leading-icon_anim::I3:2213;52977:33950 - INSTANT */
+.leading-icon-anim-0 { transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1); }
+/* Leading-icon_anim::I3:2213;52977:33950 - INSTANT */
+.leading-icon-anim-1 { transition: all 200ms linear; }
+/* Content_anim::I3:2213;52977:33951 - INSTANT */
+.content-anim-0 { transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1); }
+/* Content_anim::I3:2213;52977:33951 - INSTANT */
+.content-anim-1 { transition: all 200ms linear; }
+/* Content_anim::I3:2213;52977:33951 - INSTANT */
+.content-anim-2 { transition: all 200ms linear; }
+/* 1st trailing-icon_anim::I3:2213;52977:33954 - INSTANT */
+.1st-trailing-icon-anim-0 { transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1); }
+/* 1st trailing-icon_anim::I3:2213;52977:33954 - INSTANT */
+.1st-trailing-icon-anim-1 { transition: all 200ms linear; }
+/* 2nd trailing-icon_anim::I3:2213;52977:33955 - INSTANT */
+.2nd-trailing-icon-anim-0 { transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1); }
+/* 2nd trailing-icon_anim::I3:2213;52977:33955 - INSTANT */
+.2nd-trailing-icon-anim-1 { transition: all 200ms linear; }
+/* ArrowFatLinesRight_anim::51:72 - INSTANT */
+.arrowfatlinesright-anim-0 { transition: all 0ms linear; }
+/* ArrowFatLinesRight_anim::53:287 - INSTANT */
+.arrowfatlinesright-anim-0 { transition: all 0ms linear; }
+/* jira_core_anim::70:811 - INSTANT */
+.jira-core-anim-0 { transition: all 0ms linear; }
+/* jira_core_anim::70:820 - INSTANT */
+.jira-core-anim-0 { transition: all 0ms linear; }
+/* arrow-right-circle_anim::64:787 - INSTANT */
+.arrow-right-circle-anim-0 { transition: all 0ms linear; }
+/* Icon_anim::I64:795;1037:34002 - INSTANT */
+.icon-anim-0 { transition: all 0ms linear; }
+/* MacBook Pro 16" - 7_anim::72:880 - INSTANT */
+.macbook-pro-16-7-anim-0 { transition: all 0ms linear; }
+/* ArrowFatLinesRight_anim::I72:880;51:72 - INSTANT */
+.arrowfatlinesright-anim-0 { transition: all 0ms linear; }
+/* ArrowFatLinesRight_anim::I72:880;53:287 - INSTANT */
+.arrowfatlinesright-anim-0 { transition: all 0ms linear; }
+/* T2_anim::72:1104 - INSTANT */
+.t2-anim-0 { transition: all 300ms ease-out; }
+/* T2_anim::72:1104 - INSTANT */
+.t2-anim-1 { transition: all 300ms linear; }
+/* T3_anim::72:1105 - INSTANT */
+.t3-anim-0 { transition: all 300ms ease-out; }
+/* T3_anim::72:1105 - INSTANT */
+.t3-anim-1 { transition: all 300ms linear; }
+/* T1_anim::72:1090 - INSTANT */
+.t1-anim-0 { transition: all 300ms ease-out; }
+/* T1_anim::72:1090 - INSTANT */
+.t1-anim-1 { transition: all 300ms linear; }
+/* T2_anim::72:1093 - INSTANT */
+.t2-anim-0 { transition: all 300ms ease-out; }
+/* T2_anim::72:1093 - INSTANT */
+.t2-anim-1 { transition: all 300ms linear; }
+/* T3_anim::72:1094 - INSTANT */
+.t3-anim-0 { transition: all 300ms ease-out; }
+/* T3_anim::72:1094 - INSTANT */
+.t3-anim-1 { transition: all 300ms linear; }
+/* jira_core_anim::I72:1106;70:811 - INSTANT */
+.jira-core-anim-0 { transition: all 0ms linear; }
+/* jira_core_anim::I72:1106;70:820 - INSTANT */
+.jira-core-anim-0 { transition: all 0ms linear; }
+/* T1_anim::72:1320 - INSTANT */
+.t1-anim-0 { transition: all 300ms ease-out; }
+/* T1_anim::72:1320 - INSTANT */
+.t1-anim-1 { transition: all 300ms linear; }
+/* T2_anim::72:1321 - INSTANT */
+.t2-anim-0 { transition: all 300ms ease-out; }
+/* T2_anim::72:1321 - INSTANT */
+.t2-anim-1 { transition: all 300ms linear; }
+/* T3_anim::72:1322 - INSTANT */
+.t3-anim-0 { transition: all 300ms ease-out; }
+/* T3_anim::72:1322 - INSTANT */
+.t3-anim-1 { transition: all 300ms linear; }
+/* arrow-right-circle_anim::I72:1068;64:787 - INSTANT */
+.arrow-right-circle-anim-0 { transition: all 0ms linear; }
+/* Icon_anim::I72:1068;64:795;1037:34002 - INSTANT */
+.icon-anim-0 { transition: all 0ms linear; }
+/* MacBook Pro 16" - 7_anim::I177:454;72:880 - INSTANT */
+.macbook-pro-16-7-anim-0 { transition: all 0ms linear; }
+/* ArrowFatLinesRight_anim::I177:454;72:880;51:72 - INSTANT */
+.arrowfatlinesright-anim-0 { transition: all 0ms linear; }
+/* ArrowFatLinesRight_anim::I177:454;72:880;53:287 - INSTANT */
+.arrowfatlinesright-anim-0 { transition: all 0ms linear; }
+/* T2_anim::I177:454;72:1104 - INSTANT */
+.t2-anim-0 { transition: all 300ms ease-out; }
+/* T2_anim::I177:454;72:1104 - INSTANT */
+.t2-anim-1 { transition: all 300ms linear; }
+/* T3_anim::I177:454;72:1105 - INSTANT */
+.t3-anim-0 { transition: all 300ms ease-out; }
+/* T3_anim::I177:454;72:1105 - INSTANT */
+.t3-anim-1 { transition: all 300ms linear; }
+/* num=1_anim::114:746 - INSTANT */
+.num-1-anim-0 { transition: all 800ms linear; }
+/* num=1_anim::114:746 - INSTANT */
+.num-1-anim-1 { transition: all 800ms linear; }
+/* 1_anim::114:819 - INSTANT */
+.1-anim-0 { transition: all 800ms linear; }
+/* 1_anim::114:819 - INSTANT */
+.1-anim-1 { transition: all 800ms linear; }
+/* Propiedad 1=Predeterminado_anim::114:868 - INSTANT */
+.propiedad-1-predeterminado-anim-0 { transition: all 900ms linear; }
+/* Propiedad 1=Predeterminado_anim::114:868 - INSTANT */
+.propiedad-1-predeterminado-anim-1 { transition: all 900ms linear; }
+/* Propiedad 1=Variante 2_anim::114:870 - INSTANT */
+.propiedad-1-variante-2-anim-0 { transition: all 600ms linear; }
+/* Propiedad 1=Variante 2_anim::114:870 - INSTANT */
+.propiedad-1-variante-2-anim-1 { transition: all 600ms linear; }
+/* tori 1_anim::186:629 - INSTANT */
+.tori-1-anim-0 { transition: all 300ms ease-out; }
+/* tori 1_anim::186:629 - INSTANT */
+.tori-1-anim-1 { transition: all 300ms linear; }
+/* tori 3_anim::186:631 - INSTANT */
+.tori-3-anim-0 { transition: all 300ms ease-out; }
+/* tori 3_anim::186:631 - INSTANT */
+.tori-3-anim-1 { transition: all 300ms linear; }
+/* Component 3_anim::186:543 - INSTANT */
+.component-3-anim-0 { transition: all 0ms linear; }
+/* Rectangle 4_anim::I186:543;114:956 - INSTANT */
+.rectangle-4-anim-0 { transition: all 900ms linear; }
+/* Rectangle 4_anim::I186:543;114:956 - INSTANT */
+.rectangle-4-anim-1 { transition: all 900ms linear; }
+/* Rectangle 4_anim::I186:543;114:956 - INSTANT */
+.rectangle-4-anim-2 { transition: all 900ms linear; }
+/* Rectangle 9_anim::I186:543;114:960 - INSTANT */
+.rectangle-9-anim-0 { transition: all 900ms linear; }
+/* Rectangle 9_anim::I186:543;114:960 - INSTANT */
+.rectangle-9-anim-1 { transition: all 900ms linear; }
+/* Rectangle 9_anim::I186:543;114:960 - INSTANT */
+.rectangle-9-anim-2 { transition: all 900ms linear; }
+/* Rectangle 11_anim::I186:543;114:964 - INSTANT */
+.rectangle-11-anim-0 { transition: all 900ms linear; }
+/* Rectangle 11_anim::I186:543;114:964 - INSTANT */
+.rectangle-11-anim-1 { transition: all 900ms linear; }
+/* Rectangle 11_anim::I186:543;114:964 - INSTANT */
+.rectangle-11-anim-2 { transition: all 900ms linear; }
+/* Rectangle 10_anim::I186:543;114:962 - INSTANT */
+.rectangle-10-anim-0 { transition: all 900ms linear; }
+/* Rectangle 10_anim::I186:543;114:962 - INSTANT */
+.rectangle-10-anim-1 { transition: all 900ms linear; }
+/* Rectangle 10_anim::I186:543;114:962 - INSTANT */
+.rectangle-10-anim-2 { transition: all 900ms linear; }
+/* tori 1_anim::196:818 - INSTANT */
+.tori-1-anim-0 { transition: all 300ms ease-out; }
+/* tori 1_anim::196:818 - INSTANT */
+.tori-1-anim-1 { transition: all 300ms linear; }
+/* tori 2_anim::196:819 - INSTANT */
+.tori-2-anim-0 { transition: all 300ms ease-out; }
+/* tori 2_anim::196:819 - INSTANT */
+.tori-2-anim-1 { transition: all 300ms linear; }
+/* Rectangle 15_anim::I227:641;194:715 - INSTANT */
+.rectangle-15-anim-0 { transition: all 300ms ease-out; }
+/* Rectangle 15_anim::I227:641;194:715 - INSTANT */
+.rectangle-15-anim-1 { transition: all 300ms linear; }
+/* Rectangle 17_anim::I227:641;195:744 - INSTANT */
+.rectangle-17-anim-0 { transition: all 300ms ease-out; }
+/* Rectangle 17_anim::I227:641;195:744 - INSTANT */
+.rectangle-17-anim-1 { transition: all 300ms linear; }
+/* Rectangle 14_anim::I227:641;193:683 - INSTANT */
+.rectangle-14-anim-0 { transition: all 300ms ease-out; }
+/* Rectangle 14_anim::I227:641;193:683 - INSTANT */
+.rectangle-14-anim-1 { transition: all 300ms linear; }
+/* Vector_anim::I227:641;196:801 - INSTANT */
+.vector-anim-0 { transition: all 300ms ease-out; }
+/* Vector_anim::I227:641;196:801 - INSTANT */
+.vector-anim-1 { transition: all 300ms linear; }
+/* tori 2_anim::227:237 - INSTANT */
+.tori-2-anim-0 { transition: all 300ms ease-out; }
+/* tori 2_anim::227:237 - INSTANT */
+.tori-2-anim-1 { transition: all 300ms linear; }
+/* tori 3_anim::227:238 - INSTANT */
+.tori-3-anim-0 { transition: all 300ms ease-out; }
+/* tori 3_anim::227:238 - INSTANT */
+.tori-3-anim-1 { transition: all 300ms linear; }
+/* Ellipse 14_anim::I227:223;215:2045 - INSTANT */
+.ellipse-14-anim-0 { transition: all 300ms ease-out; }
+/* Ellipse 14_anim::I227:223;215:2045 - INSTANT */
+.ellipse-14-anim-1 { transition: all 300ms linear; }
+/* Ellipse 15_anim::I227:223;215:2046 - INSTANT */
+.ellipse-15-anim-0 { transition: all 300ms ease-out; }
+/* Ellipse 15_anim::I227:223;215:2046 - INSTANT */
+.ellipse-15-anim-1 { transition: all 300ms linear; }
+/* Ellipse 16_anim::I227:223;215:2047 - INSTANT */
+.ellipse-16-anim-0 { transition: all 300ms ease-out; }
+/* Ellipse 16_anim::I227:223;215:2047 - INSTANT */
+.ellipse-16-anim-1 { transition: all 300ms linear; }
+/* Ellipse 17_anim::I227:223;215:2048 - INSTANT */
+.ellipse-17-anim-0 { transition: all 300ms ease-out; }
+/* Ellipse 17_anim::I227:223;215:2048 - INSTANT */
+.ellipse-17-anim-1 { transition: all 300ms linear; }
+/* Propiedad 1=tori_anim::184:494 - INSTANT */
+.propiedad-1-tori-anim-0 { transition: all 0ms linear; }
+/* Rectangle 4_anim::114:956 - INSTANT */
+.rectangle-4-anim-0 { transition: all 900ms linear; }
+/* Rectangle 4_anim::114:956 - INSTANT */
+.rectangle-4-anim-1 { transition: all 900ms linear; }
+/* Rectangle 4_anim::114:956 - INSTANT */
+.rectangle-4-anim-2 { transition: all 900ms linear; }
+/* Rectangle 9_anim::114:960 - INSTANT */
+.rectangle-9-anim-0 { transition: all 900ms linear; }
+/* Rectangle 9_anim::114:960 - INSTANT */
+.rectangle-9-anim-1 { transition: all 900ms linear; }
+/* Rectangle 9_anim::114:960 - INSTANT */
+.rectangle-9-anim-2 { transition: all 900ms linear; }
+/* Rectangle 11_anim::114:964 - INSTANT */
+.rectangle-11-anim-0 { transition: all 900ms linear; }
+/* Rectangle 11_anim::114:964 - INSTANT */
+.rectangle-11-anim-1 { transition: all 900ms linear; }
+/* Rectangle 11_anim::114:964 - INSTANT */
+.rectangle-11-anim-2 { transition: all 900ms linear; }
+/* Rectangle 10_anim::114:962 - INSTANT */
+.rectangle-10-anim-0 { transition: all 900ms linear; }
+/* Rectangle 10_anim::114:962 - INSTANT */
+.rectangle-10-anim-1 { transition: all 900ms linear; }
+/* Rectangle 10_anim::114:962 - INSTANT */
+.rectangle-10-anim-2 { transition: all 900ms linear; }
+/* Propiedad 1=roji 8_anim::198:543 - INSTANT */
+.propiedad-1-roji-8-anim-0 { transition: all 1500ms linear; }
+/* Propiedad 1=roji 8_anim::198:543 - INSTANT */
+.propiedad-1-roji-8-anim-1 { transition: all 1500ms linear; }
+/* Propiedad 1=roji 9_anim::198:545 - INSTANT */
+.propiedad-1-roji-9-anim-0 { transition: all 300ms ease; }
+/* Propiedad 1=roji 9_anim::198:545 - INSTANT */
+.propiedad-1-roji-9-anim-1 { transition: all 300ms linear; }
+/* Frame 2_anim::114:769 - INSTANT */
+.frame-2-anim-0 { transition: all 800ms linear; }
+/* Frame 2_anim::114:769 - INSTANT */
+.frame-2-anim-1 { transition: all 800ms linear; }
+/* Propiedad 1=roji 10_anim::198:542 - INSTANT */
+.propiedad-1-roji-10-anim-0 { transition: all 1500ms linear; }
+/* Propiedad 1=roji 10_anim::198:542 - INSTANT */
+.propiedad-1-roji-10-anim-1 { transition: all 1500ms linear; }
+/* Propiedad 1=roji  4_anim::198:544 - INSTANT */
+.propiedad-1-roji-4-anim-0 { transition: all 1500ms linear; }
+/* Propiedad 1=roji  4_anim::198:544 - INSTANT */
+.propiedad-1-roji-4-anim-1 { transition: all 1500ms linear; }
+/* roji 11_anim::114:841 - INSTANT */
+.roji-11-anim-0 { transition: all 800ms linear; }
+/* roji 11_anim::114:841 - INSTANT */
+.roji-11-anim-1 { transition: all 800ms linear; }
+/* Rectangle 15_anim::194:715 - INSTANT */
+.rectangle-15-anim-0 { transition: all 300ms ease-out; }
+/* Rectangle 15_anim::194:715 - INSTANT */
+.rectangle-15-anim-1 { transition: all 300ms linear; }
+/* Rectangle 17_anim::195:744 - INSTANT */
+.rectangle-17-anim-0 { transition: all 300ms ease-out; }
+/* Rectangle 17_anim::195:744 - INSTANT */
+.rectangle-17-anim-1 { transition: all 300ms linear; }
+/* Rectangle 14_anim::193:683 - INSTANT */
+.rectangle-14-anim-0 { transition: all 300ms ease-out; }
+/* Rectangle 14_anim::193:683 - INSTANT */
+.rectangle-14-anim-1 { transition: all 300ms linear; }
+/* Vector_anim::196:801 - INSTANT */
+.vector-anim-0 { transition: all 300ms ease-out; }
+/* Vector_anim::196:801 - INSTANT */
+.vector-anim-1 { transition: all 300ms linear; }
+/* Propiedad 1=MacBook Pro 16" - 2_anim::198:552 - INSTANT */
+.propiedad-1-macbook-pro-16-2-anim-0 { transition: all 300ms ease-out; }
+/* Propiedad 1=MacBook Pro 16" - 2_anim::198:552 - INSTANT */
+.propiedad-1-macbook-pro-16-2-anim-1 { transition: all 300ms linear; }
+/* Propiedad 1=MacBook Pro 16" - 4_anim::198:551 - INSTANT */
+.propiedad-1-macbook-pro-16-4-anim-0 { transition: all 300ms ease-out; }
+/* Propiedad 1=MacBook Pro 16" - 4_anim::198:551 - INSTANT */
+.propiedad-1-macbook-pro-16-4-anim-1 { transition: all 300ms linear; }
+/* Propiedad 1=MacBook Pro 16" - 5_anim::198:553 - INSTANT */
+.propiedad-1-macbook-pro-16-5-anim-0 { transition: all 300ms ease-out; }
+/* Propiedad 1=MacBook Pro 16" - 5_anim::198:553 - INSTANT */
+.propiedad-1-macbook-pro-16-5-anim-1 { transition: all 300ms linear; }
+/* Propiedad 1=MacBook Pro 16" - 3_anim::198:550 - INSTANT */
+.propiedad-1-macbook-pro-16-3-anim-0 { transition: all 300ms ease-out; }
+/* Propiedad 1=MacBook Pro 16" - 3_anim::198:550 - INSTANT */
+.propiedad-1-macbook-pro-16-3-anim-1 { transition: all 300ms linear; }
+/* tori 2_anim::I227:375;227:237 - INSTANT */
+.tori-2-anim-0 { transition: all 300ms ease-out; }
+/* tori 2_anim::I227:375;227:237 - INSTANT */
+.tori-2-anim-1 { transition: all 300ms linear; }
+/* tori 3_anim::I227:375;227:238 - INSTANT */
+.tori-3-anim-0 { transition: all 300ms ease-out; }
+/* tori 3_anim::I227:375;227:238 - INSTANT */
+.tori-3-anim-1 { transition: all 300ms linear; }
+/* Ellipse 14_anim::I227:375;227:223;215:2045 - INSTANT */
+.ellipse-14-anim-0 { transition: all 300ms ease-out; }
+/* Ellipse 14_anim::I227:375;227:223;215:2045 - INSTANT */
+.ellipse-14-anim-1 { transition: all 300ms linear; }
+/* Ellipse 15_anim::I227:375;227:223;215:2046 - INSTANT */
+.ellipse-15-anim-0 { transition: all 300ms ease-out; }
+/* Ellipse 15_anim::I227:375;227:223;215:2046 - INSTANT */
+.ellipse-15-anim-1 { transition: all 300ms linear; }
+/* Ellipse 16_anim::I227:375;227:223;215:2047 - INSTANT */
+.ellipse-16-anim-0 { transition: all 300ms ease-out; }
+/* Ellipse 16_anim::I227:375;227:223;215:2047 - INSTANT */
+.ellipse-16-anim-1 { transition: all 300ms linear; }
+/* Ellipse 17_anim::I227:375;227:223;215:2048 - INSTANT */
+.ellipse-17-anim-0 { transition: all 300ms ease-out; }
+/* Ellipse 17_anim::I227:375;227:223;215:2048 - INSTANT */
+.ellipse-17-anim-1 { transition: all 300ms linear; }
+/* Ellipse 14_anim::215:2045 - INSTANT */
+.ellipse-14-anim-0 { transition: all 300ms ease-out; }
+/* Ellipse 14_anim::215:2045 - INSTANT */
+.ellipse-14-anim-1 { transition: all 300ms linear; }
+/* Ellipse 15_anim::215:2046 - INSTANT */
+.ellipse-15-anim-0 { transition: all 300ms ease-out; }
+/* Ellipse 15_anim::215:2046 - INSTANT */
+.ellipse-15-anim-1 { transition: all 300ms linear; }
+/* Ellipse 16_anim::215:2047 - INSTANT */
+.ellipse-16-anim-0 { transition: all 300ms ease-out; }
+/* Ellipse 16_anim::215:2047 - INSTANT */
+.ellipse-16-anim-1 { transition: all 300ms linear; }
+/* Ellipse 17_anim::215:2048 - INSTANT */
+.ellipse-17-anim-0 { transition: all 300ms ease-out; }
+/* Ellipse 17_anim::215:2048 - INSTANT */
+.ellipse-17-anim-1 { transition: all 300ms linear; }
+/* Propiedad 1=MacBook Pro 16" - 4_anim::215:2090 - INSTANT */
+.propiedad-1-macbook-pro-16-4-anim-0 { transition: all 300ms ease-out; }
+/* Propiedad 1=MacBook Pro 16" - 4_anim::215:2090 - INSTANT */
+.propiedad-1-macbook-pro-16-4-anim-1 { transition: all 300ms linear; }
+/* Propiedad 1=MacBook Pro 16" - 5_anim::215:2092 - INSTANT */
+.propiedad-1-macbook-pro-16-5-anim-0 { transition: all 300ms ease-out; }
+/* Propiedad 1=MacBook Pro 16" - 5_anim::215:2092 - INSTANT */
+.propiedad-1-macbook-pro-16-5-anim-1 { transition: all 300ms linear; }
+/* Ellipse 16_anim::215:2067 - INSTANT */
+.ellipse-16-anim-0 { transition: all 300ms ease-out; }
+/* Ellipse 16_anim::215:2067 - INSTANT */
+.ellipse-16-anim-1 { transition: all 300ms linear; }
+/* Propiedad 1=MacBook Pro 16" - 6_anim::215:2091 - INSTANT */
+.propiedad-1-macbook-pro-16-6-anim-0 { transition: all 300ms ease-out; }
+/* Propiedad 1=MacBook Pro 16" - 6_anim::215:2091 - INSTANT */
+.propiedad-1-macbook-pro-16-6-anim-1 { transition: all 300ms linear; }
+/* Propiedad 1=MacBook Pro 16" - 7_anim::215:2093 - INSTANT */
+.propiedad-1-macbook-pro-16-7-anim-0 { transition: all 300ms ease-out; }
+/* Propiedad 1=MacBook Pro 16" - 7_anim::215:2093 - INSTANT */
+.propiedad-1-macbook-pro-16-7-anim-1 { transition: all 300ms linear; }
+/* Vector 7_anim::198:1189 - INSTANT */
+.vector-7-anim-0 { transition: all 300ms ease-out; }
+/* Vector 7_anim::198:1189 - INSTANT */
+.vector-7-anim-1 { transition: all 300ms linear; }
+/* Vector 8_anim::198:1190 - INSTANT */
+.vector-8-anim-0 { transition: all 300ms ease-out; }
+/* Vector 8_anim::198:1190 - INSTANT */
+.vector-8-anim-1 { transition: all 300ms linear; }
+/* Vector 9_anim::198:1191 - INSTANT */
+.vector-9-anim-0 { transition: all 300ms ease-out; }
+/* Vector 9_anim::198:1191 - INSTANT */
+.vector-9-anim-1 { transition: all 300ms linear; }
+/* Rectangle 11_anim::155:331 - INSTANT */
+.rectangle-11-anim-0 { transition: all 300ms ease-out; }
+/* Rectangle 11_anim::155:331 - INSTANT */
+.rectangle-11-anim-1 { transition: all 300ms linear; }
+/* Rectangle 12_anim::171:269 - INSTANT */
+.rectangle-12-anim-0 { transition: all 300ms ease-out; }
+/* Rectangle 12_anim::171:269 - INSTANT */
+.rectangle-12-anim-1 { transition: all 300ms linear; }
+/* Rectangle 13_anim::172:286 - INSTANT */
+.rectangle-13-anim-0 { transition: all 300ms ease-out; }
+/* Rectangle 13_anim::172:286 - INSTANT */
+.rectangle-13-anim-1 { transition: all 300ms linear; }
+/* Rectangle 14_anim::244:1370 - INSTANT */
+.rectangle-14-anim-0 { transition: all 300ms ease-out; }
+/* Rectangle 14_anim::244:1370 - INSTANT */
+.rectangle-14-anim-1 { transition: all 300ms linear; }
+/* Vector 6_anim::227:1232 - INSTANT */
+.vector-6-anim-0 { transition: all 300ms ease-out; }
+/* Vector 6_anim::227:1232 - INSTANT */
+.vector-6-anim-1 { transition: all 300ms linear; }
+/* Vector 7_anim::227:1233 - INSTANT */
+.vector-7-anim-0 { transition: all 300ms ease-out; }
+/* Vector 7_anim::227:1233 - INSTANT */
+.vector-7-anim-1 { transition: all 300ms linear; }
+/* alert-octagon_anim::227:1243 - INSTANT */
+.alert-octagon-anim-0 { transition: all 0ms linear; }
+/* Rectangle 15_anim::233:1251 - INSTANT */
+.rectangle-15-anim-0 { transition: all 0ms linear; }
+/* Vector 11_anim::233:1257 - INSTANT */
+.vector-11-anim-0 { transition: all 0ms linear; }
+/* Vector 12_anim::233:1258 - INSTANT */
+.vector-12-anim-0 { transition: all 0ms linear; }
+/* Vector 6_anim::252:4156 - INSTANT */
+.vector-6-anim-0 { transition: all 300ms ease-out; }
+/* Vector 6_anim::252:4156 - INSTANT */
+.vector-6-anim-1 { transition: all 300ms linear; }
+/* Vector 7_anim::252:4157 - INSTANT */
+.vector-7-anim-0 { transition: all 300ms ease-out; }
+/* Vector 7_anim::252:4157 - INSTANT */
+.vector-7-anim-1 { transition: all 300ms linear; }
+/* Toggle - Switch_anim::I252:4698;252:2413 - INSTANT */
+.toggle-switch-anim-0 { transition: all 800ms ease-out; }
+/* Toggle - Switch_anim::I252:4698;252:2413 - INSTANT */
+.toggle-switch-anim-1 { transition: all 800ms linear; }
+/* tp bg_anim::I252:4698;337:440;252:2457 - INSTANT */
+.tp-bg-anim-0 { transition: all 300ms ease-out; }
+/* tp bg_anim::I252:4698;337:440;252:2457 - INSTANT */
+.tp-bg-anim-1 { transition: all 300ms linear; }
+/* nike bg_anim::I252:4698;337:474;252:2497 - INSTANT */
+.nike-bg-anim-0 { transition: all 300ms ease-out; }
+/* nike bg_anim::I252:4698;337:474;252:2497 - INSTANT */
+.nike-bg-anim-1 { transition: all 300ms linear; }
+/* Vector_anim::I252:4698;341:511;341:500 - INSTANT */
+.vector-anim-0 { transition: all 300ms ease-out; }
+/* Vector_anim::I252:4698;341:511;341:500 - INSTANT */
+.vector-anim-1 { transition: all 300ms linear; }
+/* logo OVZ  1_anim::I252:4698;341:563;252:2470 - INSTANT */
+.logo-ovz-1-anim-0 { transition: all 300ms ease-out; }
+/* logo OVZ  1_anim::I252:4698;341:563;252:2470 - INSTANT */
+.logo-ovz-1-anim-1 { transition: all 300ms linear; }
+/* Certificate_anim::I252:4698;341:1408;252:2512 - INSTANT */
+.certificate-anim-0 { transition: all 300ms ease-out; }
+/* Certificate_anim::I252:4698;341:1408;252:2512 - INSTANT */
+.certificate-anim-1 { transition: all 300ms linear; }
+/* Flame +_anim::I252:4698;341:1408;252:2515 - INSTANT */
+.flame-anim-0 { transition: all 300ms ease-out; }
+/* Flame +_anim::I252:4698;341:1408;252:2515 - INSTANT */
+.flame-anim-1 { transition: all 300ms linear; }
+/* Flame +_anim::I252:4698;341:1408;252:2515 - INSTANT */
+.flame-anim-2 { transition: all 300ms linear; }
+/* Flame +_anim::I252:4698;341:1408;252:2515 - INSTANT */
+.flame-anim-3 { transition: all 300ms linear; }
+/* Flame +_anim::I252:4698;341:1408;252:2516 - INSTANT */
+.flame-anim-0 { transition: all 300ms ease-out; }
+/* Flame +_anim::I252:4698;341:1408;252:2516 - INSTANT */
+.flame-anim-1 { transition: all 300ms linear; }
+/* Flame +_anim::I252:4698;341:1408;252:2516 - INSTANT */
+.flame-anim-2 { transition: all 300ms linear; }
+/* Flame +_anim::I252:4698;341:1408;252:2516 - INSTANT */
+.flame-anim-3 { transition: all 300ms linear; }
+/* STAGES_anim::I227:948;198:525 - INSTANT */
+.stages-anim-0 { transition: all 300ms ease-out; }
+/* STAGES_anim::I227:948;198:525 - INSTANT */
+.stages-anim-1 { transition: all 300ms linear; }
+/* TORI_anim::I227:948;198:526 - INSTANT */
+.tori-anim-0 { transition: all 300ms ease-out; }
+/* TORI_anim::I227:948;198:526 - INSTANT */
+.tori-anim-1 { transition: all 300ms linear; }
+/* TORI_anim::I227:948;198:526 - INSTANT */
+.tori-anim-2 { transition: all 300ms linear; }
+/* W_anim::I227:948;173:316;4:3007 - INSTANT */
+.w-anim-0 { transition: all 0ms linear; }
+/* M_anim::I227:948;173:316;4:3008 - INSTANT */
+.m-anim-0 { transition: all 0ms linear; }
+/* Wi_anim::I227:948;173:316;4:3009 - INSTANT */
+.wi-anim-0 { transition: all 0ms linear; }
+/* Rectangle 15_anim::I227:948;173:316;51:240 - INSTANT */
+.rectangle-15-anim-0 { transition: all 300ms ease-out; }
+/* Rectangle 15_anim::I227:948;173:316;51:240 - INSTANT */
+.rectangle-15-anim-1 { transition: all 300ms linear; }
+/* Vector 10_anim::I227:948;198:1195 - INSTANT */
+.vector-10-anim-0 { transition: all 300ms ease-out; }
+/* Vector 10_anim::I227:948;198:1195 - INSTANT */
+.vector-10-anim-1 { transition: all 300ms linear; }
+/* Vector 11_anim::I227:948;198:1196 - INSTANT */
+.vector-11-anim-0 { transition: all 300ms ease-out; }
+/* Vector 11_anim::I227:948;198:1196 - INSTANT */
+.vector-11-anim-1 { transition: all 300ms linear; }
+/* Vector 12_anim::I227:948;198:1197 - INSTANT */
+.vector-12-anim-0 { transition: all 300ms ease-out; }
+/* Vector 12_anim::I227:948;198:1197 - INSTANT */
+.vector-12-anim-1 { transition: all 300ms linear; }
+/* W_anim::I227:1165;4:3007 - INSTANT */
+.w-anim-0 { transition: all 0ms linear; }
+/* M_anim::I227:1165;4:3008 - INSTANT */
+.m-anim-0 { transition: all 0ms linear; }
+/* Wi_anim::I227:1165;4:3009 - INSTANT */
+.wi-anim-0 { transition: all 0ms linear; }
+/* Rectangle 15_anim::I227:1165;51:240 - INSTANT */
+.rectangle-15-anim-0 { transition: all 300ms ease-out; }
+/* Rectangle 15_anim::I227:1165;51:240 - INSTANT */
+.rectangle-15-anim-1 { transition: all 300ms linear; }
+/* STAGES_anim::I227:1054;198:525 - INSTANT */
+.stages-anim-0 { transition: all 300ms ease-out; }
+/* STAGES_anim::I227:1054;198:525 - INSTANT */
+.stages-anim-1 { transition: all 300ms linear; }
+/* TORI_anim::I227:1054;198:526 - INSTANT */
+.tori-anim-0 { transition: all 300ms ease-out; }
+/* TORI_anim::I227:1054;198:526 - INSTANT */
+.tori-anim-1 { transition: all 300ms linear; }
+/* W_anim::I227:1054;173:316;4:3007 - INSTANT */
+.w-anim-0 { transition: all 0ms linear; }
+/* M_anim::I227:1054;173:316;4:3008 - INSTANT */
+.m-anim-0 { transition: all 0ms linear; }
+/* Wi_anim::I227:1054;173:316;4:3009 - INSTANT */
+.wi-anim-0 { transition: all 0ms linear; }
+/* Rectangle 15_anim::I227:1054;173:316;51:240 - INSTANT */
+.rectangle-15-anim-0 { transition: all 300ms ease-out; }
+/* Rectangle 15_anim::I227:1054;173:316;51:240 - INSTANT */
+.rectangle-15-anim-1 { transition: all 300ms linear; }
+/* Vector 10_anim::I227:1054;198:1195 - INSTANT */
+.vector-10-anim-0 { transition: all 300ms ease-out; }
+/* Vector 10_anim::I227:1054;198:1195 - INSTANT */
+.vector-10-anim-1 { transition: all 300ms linear; }
+/* Vector 11_anim::I227:1054;198:1196 - INSTANT */
+.vector-11-anim-0 { transition: all 300ms ease-out; }
+/* Vector 11_anim::I227:1054;198:1196 - INSTANT */
+.vector-11-anim-1 { transition: all 300ms linear; }
+/* Vector 12_anim::I227:1054;198:1197 - INSTANT */
+.vector-12-anim-0 { transition: all 300ms ease-out; }
+/* Vector 12_anim::I227:1054;198:1197 - INSTANT */
+.vector-12-anim-1 { transition: all 300ms linear; }
+/* Z_anim::I227:1055;198:524 - INSTANT */
+.z-anim-0 { transition: all 300ms ease-out; }
+/* Z_anim::I227:1055;198:524 - INSTANT */
+.z-anim-1 { transition: all 300ms linear; }
+/* STAGES_anim::I227:1055;198:525 - INSTANT */
+.stages-anim-0 { transition: all 300ms ease-out; }
+/* STAGES_anim::I227:1055;198:525 - INSTANT */
+.stages-anim-1 { transition: all 300ms linear; }
+/* TORI_anim::I227:1055;198:526 - INSTANT */
+.tori-anim-0 { transition: all 300ms ease-out; }
+/* TORI_anim::I227:1055;198:526 - INSTANT */
+.tori-anim-1 { transition: all 300ms linear; }
+/* TORI_anim::I227:1055;198:526 - INSTANT */
+.tori-anim-2 { transition: all 300ms linear; }
+/* W_anim::I227:1055;173:316;4:3007 - INSTANT */
+.w-anim-0 { transition: all 0ms linear; }
+/* M_anim::I227:1055;173:316;4:3008 - INSTANT */
+.m-anim-0 { transition: all 0ms linear; }
+/* Wi_anim::I227:1055;173:316;4:3009 - INSTANT */
+.wi-anim-0 { transition: all 0ms linear; }
+/* Rectangle 15_anim::I227:1055;173:316;51:240 - INSTANT */
+.rectangle-15-anim-0 { transition: all 300ms ease-out; }
+/* Rectangle 15_anim::I227:1055;173:316;51:240 - INSTANT */
+.rectangle-15-anim-1 { transition: all 300ms linear; }
+/* Vector 10_anim::I227:1055;198:1195 - INSTANT */
+.vector-10-anim-0 { transition: all 300ms ease-out; }
+/* Vector 10_anim::I227:1055;198:1195 - INSTANT */
+.vector-10-anim-1 { transition: all 300ms linear; }
+/* Vector 11_anim::I227:1055;198:1196 - INSTANT */
+.vector-11-anim-0 { transition: all 300ms ease-out; }
+/* Vector 11_anim::I227:1055;198:1196 - INSTANT */
+.vector-11-anim-1 { transition: all 300ms linear; }
+/* Vector 12_anim::I227:1055;198:1197 - INSTANT */
+.vector-12-anim-0 { transition: all 300ms ease-out; }
+/* Vector 12_anim::I227:1055;198:1197 - INSTANT */
+.vector-12-anim-1 { transition: all 300ms linear; }
+/* MacBook Pro 16" - 7_anim::I227:1186;72:880 - INSTANT */
+.macbook-pro-16-7-anim-0 { transition: all 0ms linear; }
+/* ArrowFatLinesRight_anim::I227:1186;72:880;51:72 - INSTANT */
+.arrowfatlinesright-anim-0 { transition: all 0ms linear; }
+/* ArrowFatLinesRight_anim::I227:1186;72:880;53:287 - INSTANT */
+.arrowfatlinesright-anim-0 { transition: all 0ms linear; }
+/* T2_anim::I227:1186;72:1104 - INSTANT */
+.t2-anim-0 { transition: all 300ms ease-out; }
+/* T2_anim::I227:1186;72:1104 - INSTANT */
+.t2-anim-1 { transition: all 300ms linear; }
+/* T3_anim::I227:1186;72:1105 - INSTANT */
+.t3-anim-0 { transition: all 300ms ease-out; }
+/* T3_anim::I227:1186;72:1105 - INSTANT */
+.t3-anim-1 { transition: all 300ms linear; }
+/* STAGES_anim::I227:1073;198:525 - INSTANT */
+.stages-anim-0 { transition: all 300ms ease-out; }
+/* STAGES_anim::I227:1073;198:525 - INSTANT */
+.stages-anim-1 { transition: all 300ms linear; }
+/* TORI_anim::I227:1073;198:526 - INSTANT */
+.tori-anim-0 { transition: all 300ms ease-out; }
+/* TORI_anim::I227:1073;198:526 - INSTANT */
+.tori-anim-1 { transition: all 300ms linear; }
+/* W_anim::I227:1073;173:316;4:3007 - INSTANT */
+.w-anim-0 { transition: all 0ms linear; }
+/* M_anim::I227:1073;173:316;4:3008 - INSTANT */
+.m-anim-0 { transition: all 0ms linear; }
+/* Wi_anim::I227:1073;173:316;4:3009 - INSTANT */
+.wi-anim-0 { transition: all 0ms linear; }
+/* Rectangle 15_anim::I227:1073;173:316;51:240 - INSTANT */
+.rectangle-15-anim-0 { transition: all 300ms ease-out; }
+/* Rectangle 15_anim::I227:1073;173:316;51:240 - INSTANT */
+.rectangle-15-anim-1 { transition: all 300ms linear; }
+/* Vector 10_anim::I227:1073;198:1195 - INSTANT */
+.vector-10-anim-0 { transition: all 300ms ease-out; }
+/* Vector 10_anim::I227:1073;198:1195 - INSTANT */
+.vector-10-anim-1 { transition: all 300ms linear; }
+/* Vector 11_anim::I227:1073;198:1196 - INSTANT */
+.vector-11-anim-0 { transition: all 300ms ease-out; }
+/* Vector 11_anim::I227:1073;198:1196 - INSTANT */
+.vector-11-anim-1 { transition: all 300ms linear; }
+/* Vector 12_anim::I227:1073;198:1197 - INSTANT */
+.vector-12-anim-0 { transition: all 300ms ease-out; }
+/* Vector 12_anim::I227:1073;198:1197 - INSTANT */
+.vector-12-anim-1 { transition: all 300ms linear; }
+/* Z_anim::I227:1074;198:524 - INSTANT */
+.z-anim-0 { transition: all 300ms ease-out; }
+/* Z_anim::I227:1074;198:524 - INSTANT */
+.z-anim-1 { transition: all 300ms linear; }
+/* STAGES_anim::I227:1074;198:525 - INSTANT */
+.stages-anim-0 { transition: all 300ms ease-out; }
+/* STAGES_anim::I227:1074;198:525 - INSTANT */
+.stages-anim-1 { transition: all 300ms linear; }
+/* STAGES_anim::I227:1074;198:525 - INSTANT */
+.stages-anim-2 { transition: all 300ms linear; }
+/* TORI_anim::I227:1074;198:526 - INSTANT */
+.tori-anim-0 { transition: all 300ms ease-out; }
+/* TORI_anim::I227:1074;198:526 - INSTANT */
+.tori-anim-1 { transition: all 300ms linear; }
+/* W_anim::I227:1074;173:316;4:3007 - INSTANT */
+.w-anim-0 { transition: all 0ms linear; }
+/* M_anim::I227:1074;173:316;4:3008 - INSTANT */
+.m-anim-0 { transition: all 0ms linear; }
+/* Wi_anim::I227:1074;173:316;4:3009 - INSTANT */
+.wi-anim-0 { transition: all 0ms linear; }
+/* Rectangle 15_anim::I227:1074;173:316;51:240 - INSTANT */
+.rectangle-15-anim-0 { transition: all 300ms ease-out; }
+/* Rectangle 15_anim::I227:1074;173:316;51:240 - INSTANT */
+.rectangle-15-anim-1 { transition: all 300ms linear; }
+/* Vector 10_anim::I227:1074;198:1195 - INSTANT */
+.vector-10-anim-0 { transition: all 300ms ease-out; }
+/* Vector 10_anim::I227:1074;198:1195 - INSTANT */
+.vector-10-anim-1 { transition: all 300ms linear; }
+/* Vector 11_anim::I227:1074;198:1196 - INSTANT */
+.vector-11-anim-0 { transition: all 300ms ease-out; }
+/* Vector 11_anim::I227:1074;198:1196 - INSTANT */
+.vector-11-anim-1 { transition: all 300ms linear; }
+/* Vector 12_anim::I227:1074;198:1197 - INSTANT */
+.vector-12-anim-0 { transition: all 300ms ease-out; }
+/* Vector 12_anim::I227:1074;198:1197 - INSTANT */
+.vector-12-anim-1 { transition: all 300ms linear; }
+/* tori 2_anim::I227:1209;227:237 - INSTANT */
+.tori-2-anim-0 { transition: all 300ms ease-out; }
+/* tori 2_anim::I227:1209;227:237 - INSTANT */
+.tori-2-anim-1 { transition: all 300ms linear; }
+/* tori 3_anim::I227:1209;227:238 - INSTANT */
+.tori-3-anim-0 { transition: all 300ms ease-out; }
+/* tori 3_anim::I227:1209;227:238 - INSTANT */
+.tori-3-anim-1 { transition: all 300ms linear; }
+/* Ellipse 14_anim::I227:1209;227:223;215:2045 - INSTANT */
+.ellipse-14-anim-0 { transition: all 300ms ease-out; }
+/* Ellipse 14_anim::I227:1209;227:223;215:2045 - INSTANT */
+.ellipse-14-anim-1 { transition: all 300ms linear; }
+/* Ellipse 15_anim::I227:1209;227:223;215:2046 - INSTANT */
+.ellipse-15-anim-0 { transition: all 300ms ease-out; }
+/* Ellipse 15_anim::I227:1209;227:223;215:2046 - INSTANT */
+.ellipse-15-anim-1 { transition: all 300ms linear; }
+/* Ellipse 16_anim::I227:1209;227:223;215:2047 - INSTANT */
+.ellipse-16-anim-0 { transition: all 300ms ease-out; }
+/* Ellipse 16_anim::I227:1209;227:223;215:2047 - INSTANT */
+.ellipse-16-anim-1 { transition: all 300ms linear; }
+/* Ellipse 17_anim::I227:1209;227:223;215:2048 - INSTANT */
+.ellipse-17-anim-0 { transition: all 300ms ease-out; }
+/* Ellipse 17_anim::I227:1209;227:223;215:2048 - INSTANT */
+.ellipse-17-anim-1 { transition: all 300ms linear; }
+/* Toggle - Switch_anim::252:2413 - INSTANT */
+.toggle-switch-anim-0 { transition: all 800ms ease-out; }
+/* Toggle - Switch_anim::252:2413 - INSTANT */
+.toggle-switch-anim-1 { transition: all 800ms linear; }
+/* tp bg_anim::I337:440;252:2457 - INSTANT */
+.tp-bg-anim-0 { transition: all 300ms ease-out; }
+/* tp bg_anim::I337:440;252:2457 - INSTANT */
+.tp-bg-anim-1 { transition: all 300ms linear; }
+/* nike bg_anim::I337:474;252:2497 - INSTANT */
+.nike-bg-anim-0 { transition: all 300ms ease-out; }
+/* nike bg_anim::I337:474;252:2497 - INSTANT */
+.nike-bg-anim-1 { transition: all 300ms linear; }
+/* Vector_anim::I341:511;341:500 - INSTANT */
+.vector-anim-0 { transition: all 300ms ease-out; }
+/* Vector_anim::I341:511;341:500 - INSTANT */
+.vector-anim-1 { transition: all 300ms linear; }
+/* logo OVZ  1_anim::I341:563;252:2470 - INSTANT */
+.logo-ovz-1-anim-0 { transition: all 300ms ease-out; }
+/* logo OVZ  1_anim::I341:563;252:2470 - INSTANT */
+.logo-ovz-1-anim-1 { transition: all 300ms linear; }
+/* Certificate_anim::I341:1408;252:2512 - INSTANT */
+.certificate-anim-0 { transition: all 300ms ease-out; }
+/* Certificate_anim::I341:1408;252:2512 - INSTANT */
+.certificate-anim-1 { transition: all 300ms linear; }
+/* Flame +_anim::I341:1408;252:2515 - INSTANT */
+.flame-anim-0 { transition: all 300ms ease-out; }
+/* Flame +_anim::I341:1408;252:2515 - INSTANT */
+.flame-anim-1 { transition: all 300ms linear; }
+/* Flame +_anim::I341:1408;252:2515 - INSTANT */
+.flame-anim-2 { transition: all 300ms linear; }
+/* Flame +_anim::I341:1408;252:2515 - INSTANT */
+.flame-anim-3 { transition: all 300ms linear; }
+/* Flame +_anim::I341:1408;252:2516 - INSTANT */
+.flame-anim-0 { transition: all 300ms ease-out; }
+/* Flame +_anim::I341:1408;252:2516 - INSTANT */
+.flame-anim-1 { transition: all 300ms linear; }
+/* Flame +_anim::I341:1408;252:2516 - INSTANT */
+.flame-anim-2 { transition: all 300ms linear; }
+/* Flame +_anim::I341:1408;252:2516 - INSTANT */
+.flame-anim-3 { transition: all 300ms linear; }
+/* Toggle - Switch_anim::252:2424 - INSTANT */
+.toggle-switch-anim-0 { transition: all 800ms ease-out; }
+/* Toggle - Switch_anim::252:2424 - INSTANT */
+.toggle-switch-anim-1 { transition: all 800ms linear; }
+/* nike  l_anim::I252:2425;252:2495 - INSTANT */
+.nike-l-anim-0 { transition: all 300ms ease-out; }
+/* nike  l_anim::I252:2425;252:2495 - INSTANT */
+.nike-l-anim-1 { transition: all 300ms linear; }
+/* Toggle - Switch_anim::252:2431 - INSTANT */
+.toggle-switch-anim-0 { transition: all 800ms ease-out; }
+/* Toggle - Switch_anim::252:2431 - INSTANT */
+.toggle-switch-anim-1 { transition: all 800ms linear; }
+/* ALORICA D_anim::252:2432 - INSTANT */
+.alorica-d-anim-0 { transition: all 0ms linear; }
+/* Vector_anim::I252:2432;341:498 - INSTANT */
+.vector-anim-0 { transition: all 300ms ease-out; }
+/* Vector_anim::I252:2432;341:498 - INSTANT */
+.vector-anim-1 { transition: all 300ms linear; }
+/* Toggle - Switch_anim::252:2438 - INSTANT */
+.toggle-switch-anim-0 { transition: all 800ms ease-out; }
+/* Toggle - Switch_anim::252:2438 - INSTANT */
+.toggle-switch-anim-1 { transition: all 800ms linear; }
+/* tp l_anim::I252:2439;252:2463 - INSTANT */
+.tp-l-anim-0 { transition: all 300ms ease-out; }
+/* tp l_anim::I252:2439;252:2463 - INSTANT */
+.tp-l-anim-1 { transition: all 300ms linear; }
+/* Toggle - Switch_anim::252:2445 - INSTANT */
+.toggle-switch-anim-0 { transition: all 800ms ease-out; }
+/* Toggle - Switch_anim::252:2445 - INSTANT */
+.toggle-switch-anim-1 { transition: all 800ms linear; }
+/* PROJECTS_anim::252:2446 - INSTANT */
+.projects-anim-0 { transition: all 0ms linear; }
+/* image 4_anim::I252:2446;252:2483 - INSTANT */
+.image-4-anim-0 { transition: all 300ms ease-out; }
+/* image 4_anim::I252:2446;252:2483 - INSTANT */
+.image-4-anim-1 { transition: all 300ms linear; }
+/* Frame 11_anim::I252:2446;252:4118 - INSTANT */
+.frame-11-anim-0 { transition: all 300ms ease-out; }
+/* Frame 11_anim::I252:2446;252:4118 - INSTANT */
+.frame-11-anim-1 { transition: all 300ms linear; }
+/* logo OVZ  2_anim::I252:2446;341:1699 - INSTANT */
+.logo-ovz-2-anim-0 { transition: all 300ms ease-out; }
+/* logo OVZ  2_anim::I252:2446;341:1699 - INSTANT */
+.logo-ovz-2-anim-1 { transition: all 300ms linear; }
+/* Toggle - Switch_anim::252:2453 - INSTANT */
+.toggle-switch-anim-0 { transition: all 800ms ease-out; }
+/* Toggle - Switch_anim::252:2453 - INSTANT */
+.toggle-switch-anim-1 { transition: all 800ms linear; }
+/* forma_anim::252:2454 - INSTANT */
+.forma-anim-0 { transition: all 0ms linear; }
+/* Certificate_anim::I252:2454;252:2548 - INSTANT */
+.certificate-anim-0 { transition: all 300ms ease-out; }
+/* Certificate_anim::I252:2454;252:2548 - INSTANT */
+.certificate-anim-1 { transition: all 300ms linear; }
+/* Flame -_anim::I252:2454;252:2552 - INSTANT */
+.flame-anim-0 { transition: all 300ms ease-out; }
+/* Flame -_anim::I252:2454;252:2552 - INSTANT */
+.flame-anim-1 { transition: all 300ms linear; }
+/* Flame +_anim::I252:2454;252:2559 - INSTANT */
+.flame-anim-0 { transition: all 300ms ease-out; }
+/* Flame +_anim::I252:2454;252:2559 - INSTANT */
+.flame-anim-1 { transition: all 300ms linear; }
+/* Flame +_anim::I252:2454;252:2559 - INSTANT */
+.flame-anim-2 { transition: all 300ms linear; }
+/* Flame +_anim::I252:2454;252:2559 - INSTANT */
+.flame-anim-3 { transition: all 300ms linear; }
+/* tp bg_anim::252:2457 - INSTANT */
+.tp-bg-anim-0 { transition: all 300ms ease-out; }
+/* tp bg_anim::252:2457 - INSTANT */
+.tp-bg-anim-1 { transition: all 300ms linear; }
+/* tp l_anim::252:2463 - INSTANT */
+.tp-l-anim-0 { transition: all 300ms ease-out; }
+/* tp l_anim::252:2463 - INSTANT */
+.tp-l-anim-1 { transition: all 300ms linear; }
+/* logo OVZ  1_anim::252:2470 - INSTANT */
+.logo-ovz-1-anim-0 { transition: all 300ms ease-out; }
+/* logo OVZ  1_anim::252:2470 - INSTANT */
+.logo-ovz-1-anim-1 { transition: all 300ms linear; }
+/* image 4_anim::252:2483 - INSTANT */
+.image-4-anim-0 { transition: all 300ms ease-out; }
+/* image 4_anim::252:2483 - INSTANT */
+.image-4-anim-1 { transition: all 300ms linear; }
+/* Frame 11_anim::252:4118 - INSTANT */
+.frame-11-anim-0 { transition: all 300ms ease-out; }
+/* Frame 11_anim::252:4118 - INSTANT */
+.frame-11-anim-1 { transition: all 300ms linear; }
+/* logo OVZ  2_anim::341:1699 - INSTANT */
+.logo-ovz-2-anim-0 { transition: all 300ms ease-out; }
+/* logo OVZ  2_anim::341:1699 - INSTANT */
+.logo-ovz-2-anim-1 { transition: all 300ms linear; }
+/* nike  l_anim::252:2495 - INSTANT */
+.nike-l-anim-0 { transition: all 300ms ease-out; }
+/* nike  l_anim::252:2495 - INSTANT */
+.nike-l-anim-1 { transition: all 300ms linear; }
+/* nike bg_anim::252:2497 - INSTANT */
+.nike-bg-anim-0 { transition: all 300ms ease-out; }
+/* nike bg_anim::252:2497 - INSTANT */
+.nike-bg-anim-1 { transition: all 300ms linear; }
+/* num=EXPAND_anim::252:2501 - INSTANT */
+.num-expand-anim-0 { transition: all 0ms linear; }
+/* Vector_anim::341:498 - INSTANT */
+.vector-anim-0 { transition: all 300ms ease-out; }
+/* Vector_anim::341:498 - INSTANT */
+.vector-anim-1 { transition: all 300ms linear; }
+/* Vector_anim::341:500 - INSTANT */
+.vector-anim-0 { transition: all 300ms ease-out; }
+/* Vector_anim::341:500 - INSTANT */
+.vector-anim-1 { transition: all 300ms linear; }
+/* Certificate_anim::252:2512 - INSTANT */
+.certificate-anim-0 { transition: all 300ms ease-out; }
+/* Certificate_anim::252:2512 - INSTANT */
+.certificate-anim-1 { transition: all 300ms linear; }
+/* Flame +_anim::252:2515 - INSTANT */
+.flame-anim-0 { transition: all 300ms ease-out; }
+/* Flame +_anim::252:2515 - INSTANT */
+.flame-anim-1 { transition: all 300ms linear; }
+/* Flame +_anim::252:2515 - INSTANT */
+.flame-anim-2 { transition: all 300ms linear; }
+/* Flame +_anim::252:2515 - INSTANT */
+.flame-anim-3 { transition: all 300ms linear; }
+/* Flame +_anim::252:2516 - INSTANT */
+.flame-anim-0 { transition: all 300ms ease-out; }
+/* Flame +_anim::252:2516 - INSTANT */
+.flame-anim-1 { transition: all 300ms linear; }
+/* Flame +_anim::252:2516 - INSTANT */
+.flame-anim-2 { transition: all 300ms linear; }
+/* Flame +_anim::252:2516 - INSTANT */
+.flame-anim-3 { transition: all 300ms linear; }
+/* Certificate_anim::252:2548 - INSTANT */
+.certificate-anim-0 { transition: all 300ms ease-out; }
+/* Certificate_anim::252:2548 - INSTANT */
+.certificate-anim-1 { transition: all 300ms linear; }
+/* Flame -_anim::252:2552 - INSTANT */
+.flame-anim-0 { transition: all 300ms ease-out; }
+/* Flame -_anim::252:2552 - INSTANT */
+.flame-anim-1 { transition: all 300ms linear; }
+/* Flame +_anim::252:2559 - INSTANT */
+.flame-anim-0 { transition: all 300ms ease-out; }
+/* Flame +_anim::252:2559 - INSTANT */
+.flame-anim-1 { transition: all 300ms linear; }
+/* Flame +_anim::252:2559 - INSTANT */
+.flame-anim-2 { transition: all 300ms linear; }
+/* Flame +_anim::252:2559 - INSTANT */
+.flame-anim-3 { transition: all 300ms linear; }
+/* prev_anim::356:2541 - INSTANT */
+.prev-anim-0 { transition: all 300ms ease-out; }
+/* prev_anim::356:2541 - INSTANT */
+.prev-anim-1 { transition: all 300ms linear; }
+/* next_anim::356:2566 - INSTANT */
+.next-anim-0 { transition: all 300ms ease-out; }
+/* next_anim::356:2566 - INSTANT */
+.next-anim-1 { transition: all 300ms linear; }
+/* nike  l_anim::I368:2606;252:2985 - INSTANT */
+.nike-l-anim-0 { transition: all 300ms ease-out; }
+/* nike  l_anim::I368:2606;252:2985 - INSTANT */
+.nike-l-anim-1 { transition: all 300ms linear; }
+/* Vector_anim::I368:2613;368:2611 - INSTANT */
+.vector-anim-0 { transition: all 300ms ease-out; }
+/* Vector_anim::I368:2613;368:2611 - INSTANT */
+.vector-anim-1 { transition: all 300ms linear; }
+/* tp l_anim::I375:2652;252:2999 - INSTANT */
+.tp-l-anim-0 { transition: all 300ms ease-out; }
+/* tp l_anim::I375:2652;252:2999 - INSTANT */
+.tp-l-anim-1 { transition: all 300ms linear; }
+/* Toggle - Switch_anim::252:2976 - INSTANT */
+.toggle-switch-anim-0 { transition: all 300ms ease-out; }
+/* Toggle - Switch_anim::252:2976 - INSTANT */
+.toggle-switch-anim-1 { transition: all 300ms linear; }
+/* nike  l_anim::252:2985 - INSTANT */
+.nike-l-anim-0 { transition: all 300ms ease-out; }
+/* nike  l_anim::252:2985 - INSTANT */
+.nike-l-anim-1 { transition: all 300ms linear; }
+/* nike  l_anim::366:2579 - INSTANT */
+.nike-l-anim-0 { transition: all 300ms ease-out; }
+/* nike  l_anim::366:2579 - INSTANT */
+.nike-l-anim-1 { transition: all 300ms linear; }
+/* Vector_anim::368:2611 - INSTANT */
+.vector-anim-0 { transition: all 300ms ease-out; }
+/* Vector_anim::368:2611 - INSTANT */
+.vector-anim-1 { transition: all 300ms linear; }
+/* Vector_anim::370:2630 - INSTANT */
+.vector-anim-0 { transition: all 300ms ease-out; }
+/* Vector_anim::370:2630 - INSTANT */
+.vector-anim-1 { transition: all 300ms linear; }
+/* tp l_anim::252:2999 - INSTANT */
+.tp-l-anim-0 { transition: all 300ms ease-out; }
+/* tp l_anim::252:2999 - INSTANT */
+.tp-l-anim-1 { transition: all 300ms linear; }
+/* tp l_anim::377:2674 - INSTANT */
+.tp-l-anim-0 { transition: all 300ms ease-out; }
+/* tp l_anim::377:2674 - INSTANT */
+.tp-l-anim-1 { transition: all 300ms linear; }
+/* Propiedad 1=hover_anim::252:3005 - INSTANT */
+.propiedad-1-hover-anim-0 { transition: all 300ms ease-out; }
+/* Propiedad 1=hover_anim::252:3005 - INSTANT */
+.propiedad-1-hover-anim-1 { transition: all 300ms linear; }
+/* Propiedad 1=red_anim::252:3009 - INSTANT */
+.propiedad-1-red-anim-0 { transition: all 300ms ease-out; }
+/* Propiedad 1=red_anim::252:3009 - INSTANT */
+.propiedad-1-red-anim-1 { transition: all 300ms linear; }
+/* Propiedad 1=hover_anim::252:3012 - INSTANT */
+.propiedad-1-hover-anim-0 { transition: all 300ms ease-out; }
+/* Propiedad 1=hover_anim::252:3012 - INSTANT */
+.propiedad-1-hover-anim-1 { transition: all 300ms linear; }
+/* Propiedad 1=red_anim::252:3016 - INSTANT */
+.propiedad-1-red-anim-0 { transition: all 300ms ease-out; }
+/* Propiedad 1=red_anim::252:3016 - INSTANT */
+.propiedad-1-red-anim-1 { transition: all 300ms linear; }
+/* Toggle - Switch_anim::I334:1993;252:2413 - INSTANT */
+.toggle-switch-anim-0 { transition: all 800ms ease-out; }
+/* Toggle - Switch_anim::I334:1993;252:2413 - INSTANT */
+.toggle-switch-anim-1 { transition: all 800ms linear; }
+/* tp bg_anim::I334:1993;337:440;252:2457 - INSTANT */
+.tp-bg-anim-0 { transition: all 300ms ease-out; }
+/* tp bg_anim::I334:1993;337:440;252:2457 - INSTANT */
+.tp-bg-anim-1 { transition: all 300ms linear; }
+/* nike bg_anim::I334:1993;337:474;252:2497 - INSTANT */
+.nike-bg-anim-0 { transition: all 300ms ease-out; }
+/* nike bg_anim::I334:1993;337:474;252:2497 - INSTANT */
+.nike-bg-anim-1 { transition: all 300ms linear; }
+/* Vector_anim::I334:1993;341:511;341:500 - INSTANT */
+.vector-anim-0 { transition: all 300ms ease-out; }
+/* Vector_anim::I334:1993;341:511;341:500 - INSTANT */
+.vector-anim-1 { transition: all 300ms linear; }
+/* logo OVZ  1_anim::I334:1993;341:563;252:2470 - INSTANT */
+.logo-ovz-1-anim-0 { transition: all 300ms ease-out; }
+/* logo OVZ  1_anim::I334:1993;341:563;252:2470 - INSTANT */
+.logo-ovz-1-anim-1 { transition: all 300ms linear; }
+/* Certificate_anim::I334:1993;341:1408;252:2512 - INSTANT */
+.certificate-anim-0 { transition: all 300ms ease-out; }
+/* Certificate_anim::I334:1993;341:1408;252:2512 - INSTANT */
+.certificate-anim-1 { transition: all 300ms linear; }
+/* Flame +_anim::I334:1993;341:1408;252:2515 - INSTANT */
+.flame-anim-0 { transition: all 300ms ease-out; }
+/* Flame +_anim::I334:1993;341:1408;252:2515 - INSTANT */
+.flame-anim-1 { transition: all 300ms linear; }
+/* Flame +_anim::I334:1993;341:1408;252:2515 - INSTANT */
+.flame-anim-2 { transition: all 300ms linear; }
+/* Flame +_anim::I334:1993;341:1408;252:2515 - INSTANT */
+.flame-anim-3 { transition: all 300ms linear; }
+/* Flame +_anim::I334:1993;341:1408;252:2516 - INSTANT */
+.flame-anim-0 { transition: all 300ms ease-out; }
+/* Flame +_anim::I334:1993;341:1408;252:2516 - INSTANT */
+.flame-anim-1 { transition: all 300ms linear; }
+/* Flame +_anim::I334:1993;341:1408;252:2516 - INSTANT */
+.flame-anim-2 { transition: all 300ms linear; }
+/* Flame +_anim::I334:1993;341:1408;252:2516 - INSTANT */
+.flame-anim-3 { transition: all 300ms linear; }
+/* Propiedad 1=Predeterminado_anim::252:2967 - INSTANT */
+.propiedad-1-predeterminado-anim-0 { transition: all 300ms ease-out; }
+/* Propiedad 1=Predeterminado_anim::252:2967 - INSTANT */
+.propiedad-1-predeterminado-anim-1 { transition: all 300ms linear; }
+/* Propiedad 1=Variante 2_anim::356:2529 - INSTANT */
+.propiedad-1-variante-2-anim-0 { transition: all 300ms ease-out; }
+/* Propiedad 1=Variante 2_anim::356:2529 - INSTANT */
+.propiedad-1-variante-2-anim-1 { transition: all 300ms linear; }
+/* Propiedad 1=Predeterminado_anim::252:2969 - INSTANT */
+.propiedad-1-predeterminado-anim-0 { transition: all 300ms ease-out; }
+/* Propiedad 1=Predeterminado_anim::252:2969 - INSTANT */
+.propiedad-1-predeterminado-anim-1 { transition: all 300ms linear; }
+/* Propiedad 1=Variante 2_anim::356:2546 - INSTANT */
+.propiedad-1-variante-2-anim-0 { transition: all 300ms ease-out; }
+/* Propiedad 1=Variante 2_anim::356:2546 - INSTANT */
+.propiedad-1-variante-2-anim-1 { transition: all 300ms linear; }
+/* next_anim::356:2547 - INSTANT */
+.next-anim-0 { transition: all 0ms linear; }
+/* Frame 10_anim::265:4938 - INSTANT */
+.frame-10-anim-0 { transition: all 300ms ease-out; }
+/* Frame 10_anim::265:4938 - INSTANT */
+.frame-10-anim-1 { transition: all 300ms linear; }
+/* Frame 11_anim::265:4951 - INSTANT */
+.frame-11-anim-0 { transition: all 300ms ease-out; }
+/* Frame 11_anim::265:4951 - INSTANT */
+.frame-11-anim-1 { transition: all 300ms linear; }
+/* Rectangle 17_anim::265:4948 - INSTANT */
+.rectangle-17-anim-0 { transition: all 300ms ease-out; }
+/* Rectangle 17_anim::265:4948 - INSTANT */
+.rectangle-17-anim-1 { transition: all 300ms linear; }
+/* Rectangle 18_anim::265:4958 - INSTANT */
+.rectangle-18-anim-0 { transition: all 300ms ease-out; }
+/* Rectangle 18_anim::265:4958 - INSTANT */
+.rectangle-18-anim-1 { transition: all 300ms linear; }
+/* logo OVZ  1_anim::331:1006 - INSTANT */
+.logo-ovz-1-anim-0 { transition: all 300ms ease-out; }
+/* logo OVZ  1_anim::331:1006 - INSTANT */
+.logo-ovz-1-anim-1 { transition: all 300ms linear; }
+/* Social icon_anim::392:1763 - INSTANT */
+.social-icon-anim-0 { transition: all 0ms linear; }
+/* Rectangle 20_anim::392:1761 - INSTANT */
+.rectangle-20-anim-0 { transition: all 0ms linear; }
+/* logo OVZ  1_anim::297:5960 - INSTANT */
+.logo-ovz-1-anim-0 { transition: all 300ms ease-out; }
+/* logo OVZ  1_anim::297:5960 - INSTANT */
+.logo-ovz-1-anim-1 { transition: all 300ms linear; }
+/* Frame 11_anim::297:5975 - INSTANT */
+.frame-11-anim-0 { transition: all 0ms linear; }
+/* android_anim::315:6005 - INSTANT */
+.android-anim-0 { transition: all 0ms linear; }
+/* ie_anim::315:6013 - INSTANT */
+.ie-anim-0 { transition: all 0ms linear; }
+/* terminal_anim::315:6011 - INSTANT */
+.terminal-anim-0 { transition: all 0ms linear; }
+/* logo OVZ  1_anim::297:5464 - INSTANT */
+.logo-ovz-1-anim-0 { transition: all 300ms ease-out; }
+/* logo OVZ  1_anim::297:5464 - INSTANT */
+.logo-ovz-1-anim-1 { transition: all 300ms linear; }
+/* stages_anim::297:5505 - INSTANT */
+.stages-anim-0 { transition: all 300ms ease-out; }
+/* stages_anim::297:5505 - INSTANT */
+.stages-anim-1 { transition: all 300ms linear; }
+/* tori_anim::297:5506 - INSTANT */
+.tori-anim-0 { transition: all 300ms ease-out; }
+/* tori_anim::297:5506 - INSTANT */
+.tori-anim-1 { transition: all 300ms linear; }
+/* W_anim::I297:5527;4:3007 - INSTANT */
+.w-anim-0 { transition: all 0ms linear; }
+/* M_anim::I297:5527;4:3008 - INSTANT */
+.m-anim-0 { transition: all 0ms linear; }
+/* Wi_anim::I297:5527;4:3009 - INSTANT */
+.wi-anim-0 { transition: all 0ms linear; }
+/* Rectangle 15_anim::I297:5527;51:240 - INSTANT */
+.rectangle-15-anim-0 { transition: all 300ms ease-out; }
+/* Rectangle 15_anim::I297:5527;51:240 - INSTANT */
+.rectangle-15-anim-1 { transition: all 300ms linear; }
+/* logo OVZ  1_anim::297:5547 - INSTANT */
+.logo-ovz-1-anim-0 { transition: all 300ms ease-out; }
+/* logo OVZ  1_anim::297:5547 - INSTANT */
+.logo-ovz-1-anim-1 { transition: all 300ms linear; }
+/* z_anim::297:5552 - INSTANT */
+.z-anim-0 { transition: all 300ms ease-out; }
+/* z_anim::297:5552 - INSTANT */
+.z-anim-1 { transition: all 300ms linear; }
+/* tori_anim::297:5554 - INSTANT */
+.tori-anim-0 { transition: all 300ms ease-out; }
+/* tori_anim::297:5554 - INSTANT */
+.tori-anim-1 { transition: all 300ms linear; }
+/* MacBook Pro 16" - 7_anim::I297:5740;72:880 - INSTANT */
+.macbook-pro-16-7-anim-0 { transition: all 0ms linear; }
+/* ArrowFatLinesRight_anim::I297:5740;72:880;51:72 - INSTANT */
+.arrowfatlinesright-anim-0 { transition: all 0ms linear; }
+/* ArrowFatLinesRight_anim::I297:5740;72:880;53:287 - INSTANT */
+.arrowfatlinesright-anim-0 { transition: all 0ms linear; }
+/* T2_anim::I297:5740;72:1104 - INSTANT */
+.t2-anim-0 { transition: all 300ms ease-out; }
+/* T2_anim::I297:5740;72:1104 - INSTANT */
+.t2-anim-1 { transition: all 300ms linear; }
+/* T3_anim::I297:5740;72:1105 - INSTANT */
+.t3-anim-0 { transition: all 300ms ease-out; }
+/* T3_anim::I297:5740;72:1105 - INSTANT */
+.t3-anim-1 { transition: all 300ms linear; }
+/* logo OVZ  1_anim::297:5764 - INSTANT */
+.logo-ovz-1-anim-0 { transition: all 300ms ease-out; }
+/* logo OVZ  1_anim::297:5764 - INSTANT */
+.logo-ovz-1-anim-1 { transition: all 300ms linear; }
+/* z_anim::297:5769 - INSTANT */
+.z-anim-0 { transition: all 300ms ease-out; }
+/* z_anim::297:5769 - INSTANT */
+.z-anim-1 { transition: all 300ms linear; }
+/* stages_anim::297:5770 - INSTANT */
+.stages-anim-0 { transition: all 300ms ease-out; }
+/* stages_anim::297:5770 - INSTANT */
+.stages-anim-1 { transition: all 300ms linear; }
+/* tori 2_anim::I297:5942;227:237 - INSTANT */
+.tori-2-anim-0 { transition: all 300ms ease-out; }
+/* tori 2_anim::I297:5942;227:237 - INSTANT */
+.tori-2-anim-1 { transition: all 300ms linear; }
+/* tori 3_anim::I297:5942;227:238 - INSTANT */
+.tori-3-anim-0 { transition: all 300ms ease-out; }
+/* tori 3_anim::I297:5942;227:238 - INSTANT */
+.tori-3-anim-1 { transition: all 300ms linear; }
+/* Ellipse 14_anim::I297:5942;227:223;215:2045 - INSTANT */
+.ellipse-14-anim-0 { transition: all 300ms ease-out; }
+/* Ellipse 14_anim::I297:5942;227:223;215:2045 - INSTANT */
+.ellipse-14-anim-1 { transition: all 300ms linear; }
+/* Ellipse 15_anim::I297:5942;227:223;215:2046 - INSTANT */
+.ellipse-15-anim-0 { transition: all 300ms ease-out; }
+/* Ellipse 15_anim::I297:5942;227:223;215:2046 - INSTANT */
+.ellipse-15-anim-1 { transition: all 300ms linear; }
+/* Ellipse 16_anim::I297:5942;227:223;215:2047 - INSTANT */
+.ellipse-16-anim-0 { transition: all 300ms ease-out; }
+/* Ellipse 16_anim::I297:5942;227:223;215:2047 - INSTANT */
+.ellipse-16-anim-1 { transition: all 300ms linear; }
+/* Ellipse 17_anim::I297:5942;227:223;215:2048 - INSTANT */
+.ellipse-17-anim-0 { transition: all 300ms ease-out; }
+/* Ellipse 17_anim::I297:5942;227:223;215:2048 - INSTANT */
+.ellipse-17-anim-1 { transition: all 300ms linear; }
+/* logo OVZ  1_anim::265:4975 - INSTANT */
+.logo-ovz-1-anim-0 { transition: all 300ms ease-out; }
+/* logo OVZ  1_anim::265:4975 - INSTANT */
+.logo-ovz-1-anim-1 { transition: all 300ms linear; }
+/* Rectangle 23_anim::279:5083 - INSTANT */
+.rectangle-23-anim-0 { transition: all 0ms linear; }
+/* Rectangle 24_anim::279:5084 - INSTANT */
+.rectangle-24-anim-0 { transition: all 0ms linear; }
+/* Rectangle 25_anim::279:5085 - INSTANT */
+.rectangle-25-anim-0 { transition: all 0ms linear; }
+/* Vector_anim::297:5444 - INSTANT */
+.vector-anim-0 { transition: all 0ms linear; }
+/* database_anim::331:942 - INSTANT */
+.database-anim-0 { transition: all 300ms ease-out; }
+/* database_anim::331:942 - INSTANT */
+.database-anim-1 { transition: all 300ms linear; }
+/* Component 8_anim::331:953 - INSTANT */
+.component-8-anim-0 { transition: all 300ms ease-out; }
+/* Component 8_anim::331:953 - INSTANT */
+.component-8-anim-1 { transition: all 300ms linear; }
+/* Component 11_anim::331:986 - INSTANT */
+.component-11-anim-0 { transition: all 300ms ease-out; }
+/* Component 11_anim::331:986 - INSTANT */
+.component-11-anim-1 { transition: all 300ms linear; }
+/* Component 10_anim::331:975 - INSTANT */
+.component-10-anim-0 { transition: all 300ms ease-out; }
+/* Component 10_anim::331:975 - INSTANT */
+.component-10-anim-1 { transition: all 300ms linear; }
+/* Component 9_anim::331:964 - INSTANT */
+.component-9-anim-0 { transition: all 300ms ease-out; }
+/* Component 9_anim::331:964 - INSTANT */
+.component-9-anim-1 { transition: all 300ms linear; }
+/* database_anim::331:990 - INSTANT */
+.database-anim-0 { transition: all 300ms ease-out; }
+/* database_anim::331:990 - INSTANT */
+.database-anim-1 { transition: all 300ms linear; }
+/* Propiedad 1=Predeterminado_anim::331:863 - INSTANT */
+.propiedad-1-predeterminado-anim-0 { transition: all 300ms ease-out; }
+/* Propiedad 1=Predeterminado_anim::331:863 - INSTANT */
+.propiedad-1-predeterminado-anim-1 { transition: all 300ms linear; }
+/* Propiedad 1=Variante 2_anim::331:865 - INSTANT */
+.propiedad-1-variante-2-anim-0 { transition: all 300ms ease-out; }
+/* Propiedad 1=Variante 2_anim::331:865 - INSTANT */
+.propiedad-1-variante-2-anim-1 { transition: all 300ms linear; }
+/* Propiedad 1=Predeterminado_anim::331:872 - INSTANT */
+.propiedad-1-predeterminado-anim-0 { transition: all 300ms ease-out; }
+/* Propiedad 1=Predeterminado_anim::331:872 - INSTANT */
+.propiedad-1-predeterminado-anim-1 { transition: all 300ms linear; }
+/* Propiedad 1=Variante 2_anim::331:877 - INSTANT */
+.propiedad-1-variante-2-anim-0 { transition: all 300ms ease-out; }
+/* Propiedad 1=Variante 2_anim::331:877 - INSTANT */
+.propiedad-1-variante-2-anim-1 { transition: all 300ms linear; }
+/* Propiedad 1=Predeterminado_anim::331:900 - INSTANT */
+.propiedad-1-predeterminado-anim-0 { transition: all 300ms ease-out; }
+/* Propiedad 1=Predeterminado_anim::331:900 - INSTANT */
+.propiedad-1-predeterminado-anim-1 { transition: all 300ms linear; }
+/* Propiedad 1=Variante 2_anim::331:902 - INSTANT */
+.propiedad-1-variante-2-anim-0 { transition: all 300ms ease-out; }
+/* Propiedad 1=Variante 2_anim::331:902 - INSTANT */
+.propiedad-1-variante-2-anim-1 { transition: all 300ms linear; }
+/* Propiedad 1=Predeterminado_anim::331:905 - INSTANT */
+.propiedad-1-predeterminado-anim-0 { transition: all 300ms ease-out; }
+/* Propiedad 1=Predeterminado_anim::331:905 - INSTANT */
+.propiedad-1-predeterminado-anim-1 { transition: all 300ms linear; }
+/* Propiedad 1=Variante 2_anim::331:907 - INSTANT */
+.propiedad-1-variante-2-anim-0 { transition: all 300ms ease-out; }
+/* Propiedad 1=Variante 2_anim::331:907 - INSTANT */
+.propiedad-1-variante-2-anim-1 { transition: all 300ms linear; }
+/* Propiedad 1=Predeterminado_anim::331:914 - INSTANT */
+.propiedad-1-predeterminado-anim-0 { transition: all 300ms ease-out; }
+/* Propiedad 1=Predeterminado_anim::331:914 - INSTANT */
+.propiedad-1-predeterminado-anim-1 { transition: all 300ms linear; }
+/* Propiedad 1=Variante 2_anim::331:916 - INSTANT */
+.propiedad-1-variante-2-anim-0 { transition: all 300ms ease-out; }
+/* Propiedad 1=Variante 2_anim::331:916 - INSTANT */
+.propiedad-1-variante-2-anim-1 { transition: all 300ms linear; }

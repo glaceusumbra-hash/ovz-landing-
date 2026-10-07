@@ -1,0 +1,11 @@
+/* AUTO-GENERATED FIGMA TOKENS */
+:root {
+}
+
+/* SMART ANIMATE KEYFRAMES + TRANSITIONS */
+/* G1_anim::522:694 - INSTANT */
+.g1-anim-0 { transition: all 0ms linear; }
+/* G2_anim::522:695 - INSTANT */
+.g2-anim-0 { transition: all 0ms linear; }
+/* G3_anim::522:696 - INSTANT */
+.g3-anim-0 { transition: all 0ms linear; }

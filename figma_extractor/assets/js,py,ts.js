@@ -1,0 +1,217 @@
+export const designTokens = {
+  "colors": {},
+  "typography": {
+    "export const designTokens = { \"colors\": {}, \"typography\": { \"cereate a mmm_typo\": { \"fontFamily\": \"Chivo Mono\", \"fontWeight\": 400, \"fontSize\": 6.428072929382324, \"letterSpacing\": 0.0, \"lineHeightPx\": 7.649407386779785 }, \"extract_typo\": { \"fontFamily\": \"Chivo Mono\", \"fontWeight\": 400, \"fontSize\": 12.730106353759766, \"letterSpacing\": 0.0, \"lineHeightPx\": 15.14882755279541 }, \"pro_typo\": { \"fontFamily\": \"Chivo Mono\", \"fontWeight\": 400, \"fontSize\": 10.952478408813477, \"letterSpacing\": 0.0, \"lineHeightPx\": 13.03345012664795 }, \"figma Xtractor_typo\": { \"fontFamily\": \"Cinzel Decorative\", \"fontWeight\": 400, \"fontSize\": 28.972612380981445, \"letterSpacing\": 0.0, \"lineHeightPx\": 39.055084228515625 }, \"PAT_typo\": { \"fontFamily\": \"Chivo Mono\", \"fontWeight\": 400, \"fontSize\": 12.578312873840332, \"letterSpacing\": 0.0, \"lineHeightPx\": 14.968193054199219 }, \"FIGMA FILE KEY_typo\": { \"fontFamily\": \"Chivo Mono\", \"fontWeight\": 400, \"fontSize\": 12.578312873840332, \"letterSpacing\": 0.0, \"lineHeightPx\": 14.968193054199219 }, \"NODE ID_typo\": { \"fontFamily\": \"Chivo Mono\", \"fontWeight\": 400, \"fontSize\": 12.578312873840332, \"letterSpacing\": 0.0, \"lineHeightPx\": 14.968193054199219 }, \"LAYERS_typo\": { \"fontFamily\": \"Chivo Mono\", \"fontWeight\": 400, \"fontSize\": 12.578312873840332, \"letterSpacing\": 0.0, \"lineHeightPx\": 14.968193054199219 }, \"COMPONENTS_typo\": { \"fontFamily\": \"Chivo Mono\", \"fontWeight\": 400, \"fontSize\": 10.960000038146973, \"letterSpacing\": 0.0, \"lineHeightPx\": 13.042400360107422 }, \"historic logs of extraction_typo\": { \"fontFamily\": \"Chivo Mono\", \"fontWeight\": 400, \"fontSize\": 12.578312873840332, \"letterSpacing\": -1.7609638023376466, \"lineHeightPx\": 14.968193054199219 }, \"session re connected_typo\": { \"fontFamily\": \"Chivo Mono\", \"fontWeight\": 400, \"fontSize\": 12.578312873840332, \"letterSpacing\": -1.7609638023376466, \"lineHeightPx\": 14.968193054199219 }, \"tokens extracted sucessfully_typo\": { \"fontFamily\": \"Chivo Mono\", \"fontWeight\": 400, \"fontSize\": 12.578312873840332, \"letterSpacing\": -1.7609638023376466, \"lineHeightPx\": 14.968193054199219 }, \"progression bar: 10%_typo\": { \"fontFamily\": \"Chivo Mono\", \"fontWeight\": 400, \"fontSize\": 12.578312873840332, \"letterSpacing\": 0.0, \"lineHeightPx\": 14.968193054199219 }, \"CODE LANGUAGE_typo\": { \"fontFamily\": \"Chivo Mono\", \"fontWeight\": 400, \"fontSize\": 8.463157653808594, \"letterSpacing\": -0.33852630615234375, \"lineHeightPx\": 10.071158409118652 }, \"ChromeMinimize_typo\": { \"fontFamily\": \"Segoe Fluent Icons\", \"fontWeight\": 400, \"fontSize\": 11.333333015441895, \"letterSpacing\": 0.0, \"lineHeightPx\": 15.11111068725586 }, \"ChromeMaximize_typo\": { \"fontFamily\": \"Segoe Fluent Icons\", \"fontWeight\": 400, \"fontSize\": 11.333333015441895, \"letterSpacing\": 0.0, \"lineHeightPx\": 15.11111068725586 }, \"ChromeClose_typo\": { \"fontFamily\": \"Segoe Fluent Icons\", \"fontWeight\": 400, \"fontSize\": 11.333333015441895, \"letterSpacing\": 0.0, \"lineHeightPx\": 15.11111068725586 }, \"cancel_typo\": { \"fontFamily\": \"Chivo Mono\", \"fontWeight\": 400, \"fontSize\": 12.578312873840332, \"letterSpacing\": -1.7609638023376466, \"lineHeightPx\": 14.968193054199219 }, \"warning:Api call interrupted autorecall in progress_typo\": { \"fontFamily\": \"Chivo Mono\", \"fontWeight\": 400, \"fontSize\": 12.578312873840332, \"letterSpacing\": -1.7609638023376466, \"lineHeightPx\": 14.968193054199219 }, \"prosses local server outtime sistem stop propcessing_typo\": { \"fontFamily\": \"Chivo Mono\", \"fontWeight\": 400, \"fontSize\": 12.578312873840332, \"letterSpacing\": -1.7609638023376466, \"lineHeightPx\": 14.968193054199219 }, \"create a local ticket_typo\": { \"fontFamily\": \"Chivo Mono\", \"fontWeight\": 400, \"fontSize\": 12.578312873840332, \"letterSpacing\": -1.7609638023376466, \"lineHeightPx\": 14.968193054199219 }, \"clear_typo\": { \"fontFamily\": \"Chivo Mono\", \"fontWeight\": 400, \"fontSize\": 12.730106353759766, \"letterSpacing\": 0.0, \"lineHeightPx\": 15.14882755279541 } }, \"spacing\": {}, \"effects\": {}, \"structural_metadata\": { \"Frame 2::37:3\": { \"type\": \"FRAME\", \"width\": 462.2530212402344, \"height\": 348.0, \"x\": 749.0, \"y\": -671.0 }, \"Frame 2::37:5\": { \"type\": \"FRAME\", \"width\": 145.0, \"height\": 15.0, \"x\": 1033.0, \"y\": -425.0 }, \"placeholder::52:5\": { \"type\": \"FRAME\", \"width\": 183.42169189453125, \"height\": 43.57830810546875, \"x\": 761.5783081054688, \"y\": -422.57830810546875 }, \"Server Manager::37:31\": { \"type\": \"GROUP\", \"width\": 126.5555648803711, \"height\": 34.0, \"x\": 1077.0, \"y\": -672.0 }, \"Title Bar / Parts / Title Bar Caption Control Group::37:32\": { \"type\": \"FRAME\", \"width\": 126.5555648803711, \"height\": 34.0, \"x\": 1077.0, \"y\": -672.0 }, \"Title Bar / Parts / Title Bar Caption Control Button::37:33\": { \"type\": \"FRAME\", \"width\": 43.4444465637207, \"height\": 33.0555534362793, \"x\": 1077.0, \"y\": -671.0555419921875 }, \"Title Bar / Parts / Title Bar Caption Control Button::37:36\": { \"type\": \"FRAME\", \"width\": 43.4444465637207, \"height\": 34.0, \"x\": 1120.4444580078125, \"y\": -672.0 }, \"Title Bar / Parts / Title Bar Caption Control Button::37:39\": { \"type\": \"FRAME\", \"width\": 43.4444465637207, \"height\": 31.166667938232422, \"x\": 1163.888916015625, \"y\": -672.0 }, \"placeholder::52:4\": { \"type\": \"FRAME\", \"width\": 187.0, \"height\": 93.0, \"x\": 1021.0, \"y\": -426.0 }, \"ClipboardText::37:10\": { \"type\": \"INSTANCE\", \"width\": 19.0, \"height\": 16.0, \"x\": 1060.0, \"y\": -426.0 }, \"Frame 3::60:329\": { \"type\": \"FRAME\", \"width\": 60.0, \"height\": 62.278480529785156, \"x\": 1077.0, \"y\": -628.0 }, \"terminal::60:333\": { \"type\": \"INSTANCE\", \"width\": 26.925844192504883, \"height\": 18.28925323486328, \"x\": 1099.9462890625, \"y\": -594.89306640625 } }, \"tree\": { \"id\": \"root\", \"name\": \"root\", \"type\": \"ROOT\", \"children\": [ { \"id\": \"37:3\", \"name\": \"Frame 2\", \"type\": \"FRAME\", \"children\": [ { \"id\": \"37:4\", \"name\": \"Rectangle 9\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"37:5\", \"name\": \"Frame 2\", \"type\": \"FRAME\", \"children\": [] }, { \"id\": \"37:6\", \"name\": \"Rectangle 2\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"37:7\", \"name\": \"Rectangle 4\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"37:8\", \"name\": \"Rectangle 7\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"37:9\", \"name\": \"Rectangle 8\", \"type\": \"VECTOR\", \"children\": [] }, { \"id\": \"48:4\", \"name\": \"Rectangle 23\", \"type\": \"VECTOR\", \"children\": [] }, { \"id\": \"37:11\", \"name\": \"Rectangle 5\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"38:93\", \"name\": \"Rectangle 20\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"38:94\", \"name\": \"Rectangle 21\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"37:12\", \"name\": \"Rectangle 12\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"37:13\", \"name\": \"Rectangle 11\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"62:12\", \"name\": \"cereate a mmm\", \"type\": \"TEXT\", \"children\": [] }, { \"id\": \"62:11\", \"name\": \"Rectangle 24\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"40:97\", \"name\": \"Rectangle 22\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"37:51\", \"name\": \"extract\", \"type\": \"TEXT\", \"children\": [] }, { \"id\": \"51:4\", \"name\": \"pro\", \"type\": \"TEXT\", \"children\": [] }, { \"id\": \"37:14\", \"name\": \"Rectangle 10\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"37:15\", \"name\": \"Rectangle 6\", \"type\": \"VECTOR\", \"children\": [] }, { \"id\": \"37:16\", \"name\": \"figma Xtractor\", \"type\": \"TEXT\", \"children\": [] }, { \"id\": \"37:18\", \"name\": \"PAT\", \"type\": \"TEXT\", \"children\": [] }, { \"id\": \"37:19\", \"name\": \"FIGMA FILE KEY\", \"type\": \"TEXT\", \"children\": [] }, { \"id\": \"37:20\", \"name\": \"NODE ID\", \"type\": \"TEXT\", \"children\": [] }, { \"id\": \"38:95\", \"name\": \"LAYERS\", \"type\": \"TEXT\", \"children\": [] }, { \"id\": \"38:96\", \"name\": \"COMPONENTS\", \"type\": \"TEXT\", \"children\": [] }, { \"id\": \"52:5\", \"name\": \"placeholder\", \"type\": \"FRAME\", \"children\": [ { \"id\": \"37:21\", \"name\": \"historic logs of extraction\", \"type\": \"TEXT\", \"children\": [] }, { \"id\": \"37:22\", \"name\": \"session re connected\", \"type\": \"TEXT\", \"children\": [] }, { \"id\": \"37:23\", \"name\": \"tokens extracted sucessfully\", \"type\": \"TEXT\", \"children\": [] } ] }, { \"id\": \"37:27\", \"name\": \"progression bar: 10%\", \"type\": \"TEXT\", \"children\": [] }, { \"id\": \"37:28\", \"name\": \"CODE LANGUAGE\", \"type\": \"TEXT\", \"children\": [] }, { \"id\": \"37:30\", \"name\": \"Vector 1\", \"type\": \"VECTOR\", \"children\": [] }, { \"id\": \"37:31\", \"name\": \"Server Manager\", \"type\": \"GROUP\", \"children\": [ { \"id\": \"37:32\", \"name\": \"Title Bar / Parts / Title Bar Caption Control Group\", \"type\": \"FRAME\", \"children\": [ { \"id\": \"37:33\", \"name\": \"Title Bar / Parts / Title Bar Caption Control Button\", \"type\": \"FRAME\", \"children\": [ { \"id\": \"37:34\", \"name\": \"Base\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"37:35\", \"name\": \"ChromeMinimize\", \"type\": \"TEXT\", \"children\": [] } ] }, { \"id\": \"37:36\", \"name\": \"Title Bar / Parts / Title Bar Caption Control Button\", \"type\": \"FRAME\", \"children\": [ { \"id\": \"37:37\", \"name\": \"Base\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"37:38\", \"name\": \"ChromeMaximize\", \"type\": \"TEXT\", \"children\": [] } ] }, { \"id\": \"37:39\", \"name\": \"Title Bar / Parts / Title Bar Caption Control Button\", \"type\": \"FRAME\", \"children\": [ { \"id\": \"37:40\", \"name\": \"Base\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"37:41\", \"name\": \"ChromeClose\", \"type\": \"TEXT\", \"children\": [] } ] } ] } ] }, { \"id\": \"37:42\", \"name\": \"cancel\", \"type\": \"TEXT\", \"children\": [] }, { \"id\": \"52:4\", \"name\": \"placeholder\", \"type\": \"FRAME\", \"children\": [ { \"id\": \"37:10\", \"name\": \"ClipboardText\", \"type\": \"INSTANCE\", \"children\": [ { \"id\": \"I37:10;8899:55136\", \"name\": \"Vector\", \"type\": \"VECTOR\", \"children\": [] } ] }, { \"id\": \"37:24\", \"name\": \"warning:Api call interrupted autorecall in progress\", \"type\": \"TEXT\", \"children\": [] }, { \"id\": \"37:25\", \"name\": \"prosses local server outtime sistem stop propcessing\", \"type\": \"TEXT\", \"children\": [] }, { \"id\": \"37:26\", \"name\": \"create a local ticket\", \"type\": \"TEXT\", \"children\": [] }, { \"id\": \"37:43\", \"name\": \"Rectangle 13\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"37:44\", \"name\": \"Rectangle 14\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"37:45\", \"name\": \"Rectangle 15\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"37:46\", \"name\": \"Rectangle 16\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"37:47\", \"name\": \"Rectangle 17\", \"type\": \"RECTANGLE\", \"children\": [] } ] }, { \"id\": \"37:17\", \"name\": \"clear\", \"type\": \"TEXT\", \"children\": [] }, { \"id\": \"60:329\", \"name\": \"Frame 3\", \"type\": \"FRAME\", \"children\": [ { \"id\": \"60:330\", \"name\": \"Rectangle 9\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"60:332\", \"name\": \"Rectangle 10\", \"type\": \"VECTOR\", \"children\": [] }, { \"id\": \"60:333\", \"name\": \"terminal\", \"type\": \"INSTANCE\", \"children\": [ { \"id\": \"I60:333;1037:34008\", \"name\": \"Icon\", \"type\": \"VECTOR\", \"children\": [] } ] }, { \"id\": \"60:334\", \"name\": \"Vector 1\", \"type\": \"VECTOR\", \"children\": [] }, { \"id\": \"60:335\", \"name\": \"Rectangle 12\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"60:336\", \"name\": \"Rectangle 13\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"60:337\", \"name\": \"Rectangle 14\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"60:338\", \"name\": \"Rectangle 15\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"60:339\", \"name\": \"Rectangle 16\", \"type\": \"RECTANGLE\", \"children\": [] } ] } ] } ] }, \"interactions\": {}, \"tree_animations\": [] };_typo": {
+      "fontFamily": "IM FELL Double Pica",
+      "fontWeight": 400,
+      "fontSize": 30.666040420532227,
+      "letterSpacing": 0.0,
+      "lineHeightPx": 48.12751388549805
+    },
+    "js_typo": {
+      "fontFamily": "IM FELL Double Pica",
+      "fontWeight": 400,
+      "fontSize": 90.55973815917969,
+      "letterSpacing": 0.0,
+      "lineHeightPx": 142.12513732910156
+    },
+    "py_typo": {
+      "fontFamily": "IM FELL Double Pica",
+      "fontWeight": 400,
+      "fontSize": 90.55973815917969,
+      "letterSpacing": 0.0,
+      "lineHeightPx": 142.12513732910156
+    },
+    "tw_typo": {
+      "fontFamily": "IM FELL Double Pica",
+      "fontWeight": 400,
+      "fontSize": 90.55973815917969,
+      "letterSpacing": 0.0,
+      "lineHeightPx": 142.12513732910156
+    }
+  },
+  "spacing": {},
+  "effects": {},
+  "structural_metadata": {
+    "Frame 17::416:279": {
+      "type": "FRAME",
+      "width": 606.0,
+      "height": 955.590576171875,
+      "x": 1538.0,
+      "y": 4201.0
+    },
+    "Component 2::279:5071": {
+      "type": "INSTANCE",
+      "width": 606.0,
+      "height": 823.590576171875,
+      "x": 1538.0,
+      "y": 4333.0
+    }
+  },
+  "tree": {
+    "id": "root",
+    "name": "root",
+    "type": "ROOT",
+    "children": [
+      {
+        "id": "416:279",
+        "name": "Frame 17",
+        "type": "FRAME",
+        "children": [
+          {
+            "id": "279:5071",
+            "name": "Component 2",
+            "type": "INSTANCE",
+            "children": [
+              {
+                "id": "I279:5071;277:5045",
+                "name": "Rectangle 20",
+                "type": "RECTANGLE",
+                "children": []
+              },
+              {
+                "id": "I279:5071;277:5044",
+                "name": "export const designTokens = { \"colors\": {}, \"typography\": { \"cereate a mmm_typo\": { \"fontFamily\": \"Chivo Mono\", \"fontWeight\": 400, \"fontSize\": 6.428072929382324, \"letterSpacing\": 0.0, \"lineHeightPx\": 7.649407386779785 }, \"extract_typo\": { \"fontFamily\": \"Chivo Mono\", \"fontWeight\": 400, \"fontSize\": 12.730106353759766, \"letterSpacing\": 0.0, \"lineHeightPx\": 15.14882755279541 }, \"pro_typo\": { \"fontFamily\": \"Chivo Mono\", \"fontWeight\": 400, \"fontSize\": 10.952478408813477, \"letterSpacing\": 0.0, \"lineHeightPx\": 13.03345012664795 }, \"figma Xtractor_typo\": { \"fontFamily\": \"Cinzel Decorative\", \"fontWeight\": 400, \"fontSize\": 28.972612380981445, \"letterSpacing\": 0.0, \"lineHeightPx\": 39.055084228515625 }, \"PAT_typo\": { \"fontFamily\": \"Chivo Mono\", \"fontWeight\": 400, \"fontSize\": 12.578312873840332, \"letterSpacing\": 0.0, \"lineHeightPx\": 14.968193054199219 }, \"FIGMA FILE KEY_typo\": { \"fontFamily\": \"Chivo Mono\", \"fontWeight\": 400, \"fontSize\": 12.578312873840332, \"letterSpacing\": 0.0, \"lineHeightPx\": 14.968193054199219 }, \"NODE ID_typo\": { \"fontFamily\": \"Chivo Mono\", \"fontWeight\": 400, \"fontSize\": 12.578312873840332, \"letterSpacing\": 0.0, \"lineHeightPx\": 14.968193054199219 }, \"LAYERS_typo\": { \"fontFamily\": \"Chivo Mono\", \"fontWeight\": 400, \"fontSize\": 12.578312873840332, \"letterSpacing\": 0.0, \"lineHeightPx\": 14.968193054199219 }, \"COMPONENTS_typo\": { \"fontFamily\": \"Chivo Mono\", \"fontWeight\": 400, \"fontSize\": 10.960000038146973, \"letterSpacing\": 0.0, \"lineHeightPx\": 13.042400360107422 }, \"historic logs of extraction_typo\": { \"fontFamily\": \"Chivo Mono\", \"fontWeight\": 400, \"fontSize\": 12.578312873840332, \"letterSpacing\": -1.7609638023376466, \"lineHeightPx\": 14.968193054199219 }, \"session re connected_typo\": { \"fontFamily\": \"Chivo Mono\", \"fontWeight\": 400, \"fontSize\": 12.578312873840332, \"letterSpacing\": -1.7609638023376466, \"lineHeightPx\": 14.968193054199219 }, \"tokens extracted sucessfully_typo\": { \"fontFamily\": \"Chivo Mono\", \"fontWeight\": 400, \"fontSize\": 12.578312873840332, \"letterSpacing\": -1.7609638023376466, \"lineHeightPx\": 14.968193054199219 }, \"progression bar: 10%_typo\": { \"fontFamily\": \"Chivo Mono\", \"fontWeight\": 400, \"fontSize\": 12.578312873840332, \"letterSpacing\": 0.0, \"lineHeightPx\": 14.968193054199219 }, \"CODE LANGUAGE_typo\": { \"fontFamily\": \"Chivo Mono\", \"fontWeight\": 400, \"fontSize\": 8.463157653808594, \"letterSpacing\": -0.33852630615234375, \"lineHeightPx\": 10.071158409118652 }, \"ChromeMinimize_typo\": { \"fontFamily\": \"Segoe Fluent Icons\", \"fontWeight\": 400, \"fontSize\": 11.333333015441895, \"letterSpacing\": 0.0, \"lineHeightPx\": 15.11111068725586 }, \"ChromeMaximize_typo\": { \"fontFamily\": \"Segoe Fluent Icons\", \"fontWeight\": 400, \"fontSize\": 11.333333015441895, \"letterSpacing\": 0.0, \"lineHeightPx\": 15.11111068725586 }, \"ChromeClose_typo\": { \"fontFamily\": \"Segoe Fluent Icons\", \"fontWeight\": 400, \"fontSize\": 11.333333015441895, \"letterSpacing\": 0.0, \"lineHeightPx\": 15.11111068725586 }, \"cancel_typo\": { \"fontFamily\": \"Chivo Mono\", \"fontWeight\": 400, \"fontSize\": 12.578312873840332, \"letterSpacing\": -1.7609638023376466, \"lineHeightPx\": 14.968193054199219 }, \"warning:Api call interrupted autorecall in progress_typo\": { \"fontFamily\": \"Chivo Mono\", \"fontWeight\": 400, \"fontSize\": 12.578312873840332, \"letterSpacing\": -1.7609638023376466, \"lineHeightPx\": 14.968193054199219 }, \"prosses local server outtime sistem stop propcessing_typo\": { \"fontFamily\": \"Chivo Mono\", \"fontWeight\": 400, \"fontSize\": 12.578312873840332, \"letterSpacing\": -1.7609638023376466, \"lineHeightPx\": 14.968193054199219 }, \"create a local ticket_typo\": { \"fontFamily\": \"Chivo Mono\", \"fontWeight\": 400, \"fontSize\": 12.578312873840332, \"letterSpacing\": -1.7609638023376466, \"lineHeightPx\": 14.968193054199219 }, \"clear_typo\": { \"fontFamily\": \"Chivo Mono\", \"fontWeight\": 400, \"fontSize\": 12.730106353759766, \"letterSpacing\": 0.0, \"lineHeightPx\": 15.14882755279541 } }, \"spacing\": {}, \"effects\": {}, \"structural_metadata\": { \"Frame 2::37:3\": { \"type\": \"FRAME\", \"width\": 462.2530212402344, \"height\": 348.0, \"x\": 749.0, \"y\": -671.0 }, \"Frame 2::37:5\": { \"type\": \"FRAME\", \"width\": 145.0, \"height\": 15.0, \"x\": 1033.0, \"y\": -425.0 }, \"placeholder::52:5\": { \"type\": \"FRAME\", \"width\": 183.42169189453125, \"height\": 43.57830810546875, \"x\": 761.5783081054688, \"y\": -422.57830810546875 }, \"Server Manager::37:31\": { \"type\": \"GROUP\", \"width\": 126.5555648803711, \"height\": 34.0, \"x\": 1077.0, \"y\": -672.0 }, \"Title Bar / Parts / Title Bar Caption Control Group::37:32\": { \"type\": \"FRAME\", \"width\": 126.5555648803711, \"height\": 34.0, \"x\": 1077.0, \"y\": -672.0 }, \"Title Bar / Parts / Title Bar Caption Control Button::37:33\": { \"type\": \"FRAME\", \"width\": 43.4444465637207, \"height\": 33.0555534362793, \"x\": 1077.0, \"y\": -671.0555419921875 }, \"Title Bar / Parts / Title Bar Caption Control Button::37:36\": { \"type\": \"FRAME\", \"width\": 43.4444465637207, \"height\": 34.0, \"x\": 1120.4444580078125, \"y\": -672.0 }, \"Title Bar / Parts / Title Bar Caption Control Button::37:39\": { \"type\": \"FRAME\", \"width\": 43.4444465637207, \"height\": 31.166667938232422, \"x\": 1163.888916015625, \"y\": -672.0 }, \"placeholder::52:4\": { \"type\": \"FRAME\", \"width\": 187.0, \"height\": 93.0, \"x\": 1021.0, \"y\": -426.0 }, \"ClipboardText::37:10\": { \"type\": \"INSTANCE\", \"width\": 19.0, \"height\": 16.0, \"x\": 1060.0, \"y\": -426.0 }, \"Frame 3::60:329\": { \"type\": \"FRAME\", \"width\": 60.0, \"height\": 62.278480529785156, \"x\": 1077.0, \"y\": -628.0 }, \"terminal::60:333\": { \"type\": \"INSTANCE\", \"width\": 26.925844192504883, \"height\": 18.28925323486328, \"x\": 1099.9462890625, \"y\": -594.89306640625 } }, \"tree\": { \"id\": \"root\", \"name\": \"root\", \"type\": \"ROOT\", \"children\": [ { \"id\": \"37:3\", \"name\": \"Frame 2\", \"type\": \"FRAME\", \"children\": [ { \"id\": \"37:4\", \"name\": \"Rectangle 9\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"37:5\", \"name\": \"Frame 2\", \"type\": \"FRAME\", \"children\": [] }, { \"id\": \"37:6\", \"name\": \"Rectangle 2\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"37:7\", \"name\": \"Rectangle 4\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"37:8\", \"name\": \"Rectangle 7\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"37:9\", \"name\": \"Rectangle 8\", \"type\": \"VECTOR\", \"children\": [] }, { \"id\": \"48:4\", \"name\": \"Rectangle 23\", \"type\": \"VECTOR\", \"children\": [] }, { \"id\": \"37:11\", \"name\": \"Rectangle 5\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"38:93\", \"name\": \"Rectangle 20\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"38:94\", \"name\": \"Rectangle 21\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"37:12\", \"name\": \"Rectangle 12\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"37:13\", \"name\": \"Rectangle 11\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"62:12\", \"name\": \"cereate a mmm\", \"type\": \"TEXT\", \"children\": [] }, { \"id\": \"62:11\", \"name\": \"Rectangle 24\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"40:97\", \"name\": \"Rectangle 22\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"37:51\", \"name\": \"extract\", \"type\": \"TEXT\", \"children\": [] }, { \"id\": \"51:4\", \"name\": \"pro\", \"type\": \"TEXT\", \"children\": [] }, { \"id\": \"37:14\", \"name\": \"Rectangle 10\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"37:15\", \"name\": \"Rectangle 6\", \"type\": \"VECTOR\", \"children\": [] }, { \"id\": \"37:16\", \"name\": \"figma Xtractor\", \"type\": \"TEXT\", \"children\": [] }, { \"id\": \"37:18\", \"name\": \"PAT\", \"type\": \"TEXT\", \"children\": [] }, { \"id\": \"37:19\", \"name\": \"FIGMA FILE KEY\", \"type\": \"TEXT\", \"children\": [] }, { \"id\": \"37:20\", \"name\": \"NODE ID\", \"type\": \"TEXT\", \"children\": [] }, { \"id\": \"38:95\", \"name\": \"LAYERS\", \"type\": \"TEXT\", \"children\": [] }, { \"id\": \"38:96\", \"name\": \"COMPONENTS\", \"type\": \"TEXT\", \"children\": [] }, { \"id\": \"52:5\", \"name\": \"placeholder\", \"type\": \"FRAME\", \"children\": [ { \"id\": \"37:21\", \"name\": \"historic logs of extraction\", \"type\": \"TEXT\", \"children\": [] }, { \"id\": \"37:22\", \"name\": \"session re connected\", \"type\": \"TEXT\", \"children\": [] }, { \"id\": \"37:23\", \"name\": \"tokens extracted sucessfully\", \"type\": \"TEXT\", \"children\": [] } ] }, { \"id\": \"37:27\", \"name\": \"progression bar: 10%\", \"type\": \"TEXT\", \"children\": [] }, { \"id\": \"37:28\", \"name\": \"CODE LANGUAGE\", \"type\": \"TEXT\", \"children\": [] }, { \"id\": \"37:30\", \"name\": \"Vector 1\", \"type\": \"VECTOR\", \"children\": [] }, { \"id\": \"37:31\", \"name\": \"Server Manager\", \"type\": \"GROUP\", \"children\": [ { \"id\": \"37:32\", \"name\": \"Title Bar / Parts / Title Bar Caption Control Group\", \"type\": \"FRAME\", \"children\": [ { \"id\": \"37:33\", \"name\": \"Title Bar / Parts / Title Bar Caption Control Button\", \"type\": \"FRAME\", \"children\": [ { \"id\": \"37:34\", \"name\": \"Base\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"37:35\", \"name\": \"ChromeMinimize\", \"type\": \"TEXT\", \"children\": [] } ] }, { \"id\": \"37:36\", \"name\": \"Title Bar / Parts / Title Bar Caption Control Button\", \"type\": \"FRAME\", \"children\": [ { \"id\": \"37:37\", \"name\": \"Base\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"37:38\", \"name\": \"ChromeMaximize\", \"type\": \"TEXT\", \"children\": [] } ] }, { \"id\": \"37:39\", \"name\": \"Title Bar / Parts / Title Bar Caption Control Button\", \"type\": \"FRAME\", \"children\": [ { \"id\": \"37:40\", \"name\": \"Base\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"37:41\", \"name\": \"ChromeClose\", \"type\": \"TEXT\", \"children\": [] } ] } ] } ] }, { \"id\": \"37:42\", \"name\": \"cancel\", \"type\": \"TEXT\", \"children\": [] }, { \"id\": \"52:4\", \"name\": \"placeholder\", \"type\": \"FRAME\", \"children\": [ { \"id\": \"37:10\", \"name\": \"ClipboardText\", \"type\": \"INSTANCE\", \"children\": [ { \"id\": \"I37:10;8899:55136\", \"name\": \"Vector\", \"type\": \"VECTOR\", \"children\": [] } ] }, { \"id\": \"37:24\", \"name\": \"warning:Api call interrupted autorecall in progress\", \"type\": \"TEXT\", \"children\": [] }, { \"id\": \"37:25\", \"name\": \"prosses local server outtime sistem stop propcessing\", \"type\": \"TEXT\", \"children\": [] }, { \"id\": \"37:26\", \"name\": \"create a local ticket\", \"type\": \"TEXT\", \"children\": [] }, { \"id\": \"37:43\", \"name\": \"Rectangle 13\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"37:44\", \"name\": \"Rectangle 14\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"37:45\", \"name\": \"Rectangle 15\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"37:46\", \"name\": \"Rectangle 16\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"37:47\", \"name\": \"Rectangle 17\", \"type\": \"RECTANGLE\", \"children\": [] } ] }, { \"id\": \"37:17\", \"name\": \"clear\", \"type\": \"TEXT\", \"children\": [] }, { \"id\": \"60:329\", \"name\": \"Frame 3\", \"type\": \"FRAME\", \"children\": [ { \"id\": \"60:330\", \"name\": \"Rectangle 9\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"60:332\", \"name\": \"Rectangle 10\", \"type\": \"VECTOR\", \"children\": [] }, { \"id\": \"60:333\", \"name\": \"terminal\", \"type\": \"INSTANCE\", \"children\": [ { \"id\": \"I60:333;1037:34008\", \"name\": \"Icon\", \"type\": \"VECTOR\", \"children\": [] } ] }, { \"id\": \"60:334\", \"name\": \"Vector 1\", \"type\": \"VECTOR\", \"children\": [] }, { \"id\": \"60:335\", \"name\": \"Rectangle 12\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"60:336\", \"name\": \"Rectangle 13\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"60:337\", \"name\": \"Rectangle 14\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"60:338\", \"name\": \"Rectangle 15\", \"type\": \"RECTANGLE\", \"children\": [] }, { \"id\": \"60:339\", \"name\": \"Rectangle 16\", \"type\": \"RECTANGLE\", \"children\": [] } ] } ] } ] }, \"interactions\": {}, \"tree_animations\": [] };",
+                "type": "TEXT",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "279:5083",
+            "name": "Rectangle 23",
+            "type": "RECTANGLE",
+            "children": []
+          },
+          {
+            "id": "279:5084",
+            "name": "Rectangle 24",
+            "type": "RECTANGLE",
+            "children": []
+          },
+          {
+            "id": "279:5085",
+            "name": "Rectangle 25",
+            "type": "RECTANGLE",
+            "children": []
+          },
+          {
+            "id": "279:5086",
+            "name": "js",
+            "type": "TEXT",
+            "children": []
+          },
+          {
+            "id": "279:5088",
+            "name": "py",
+            "type": "TEXT",
+            "children": []
+          },
+          {
+            "id": "279:5090",
+            "name": "tw",
+            "type": "TEXT",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "interactions": {
+    "Rectangle 23_anim::279:5083": [
+      {
+        "trigger": "ON_CLICK",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 0,
+        "easing": "LINEAR",
+        "easingCurve": {},
+        "destinationId": null,
+        "sourceId": "279:5083",
+        "sourcePath": "Frame 17/Rectangle 23"
+      }
+    ],
+    "Rectangle 24_anim::279:5084": [
+      {
+        "trigger": "ON_CLICK",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 0,
+        "easing": "LINEAR",
+        "easingCurve": {},
+        "destinationId": null,
+        "sourceId": "279:5084",
+        "sourcePath": "Frame 17/Rectangle 24"
+      }
+    ],
+    "Rectangle 25_anim::279:5085": [
+      {
+        "trigger": "ON_CLICK",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 0,
+        "easing": "LINEAR",
+        "easingCurve": {},
+        "destinationId": null,
+        "sourceId": "279:5085",
+        "sourcePath": "Frame 17/Rectangle 25"
+      }
+    ]
+  },
+  "tree_animations": [
+    {
+      "nodeId": "279:5083",
+      "nodeName": "Rectangle 23",
+      "path": "Frame 17/Rectangle 23",
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 0,
+          "easing": "LINEAR",
+          "easingCurve": {},
+          "destinationId": null,
+          "sourceId": "279:5083",
+          "sourcePath": "Frame 17/Rectangle 23"
+        }
+      ]
+    },
+    {
+      "nodeId": "279:5084",
+      "nodeName": "Rectangle 24",
+      "path": "Frame 17/Rectangle 24",
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 0,
+          "easing": "LINEAR",
+          "easingCurve": {},
+          "destinationId": null,
+          "sourceId": "279:5084",
+          "sourcePath": "Frame 17/Rectangle 24"
+        }
+      ]
+    },
+    {
+      "nodeId": "279:5085",
+      "nodeName": "Rectangle 25",
+      "path": "Frame 17/Rectangle 25",
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 0,
+          "easing": "LINEAR",
+          "easingCurve": {},
+          "destinationId": null,
+          "sourceId": "279:5085",
+          "sourcePath": "Frame 17/Rectangle 25"
+        }
+      ]
+    }
+  ]
+};

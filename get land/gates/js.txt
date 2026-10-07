@@ -1,0 +1,843 @@
+export const designTokens = {
+  "colors": {},
+  "typography": {},
+  "spacing": {},
+  "effects": {},
+  "structural_metadata": {
+    "Propiedad 1=MacBook Pro 16\" - 3::215:2089": {
+      "type": "COMPONENT",
+      "width": 1728.0,
+      "height": 1117.0,
+      "x": 4883.0,
+      "y": -49.0
+    },
+    "Propiedad 1=MacBook Pro 16\" - 4::215:2090": {
+      "type": "COMPONENT",
+      "width": 1728.0,
+      "height": 1117.0,
+      "x": 4883.0,
+      "y": -1653.0
+    },
+    "Propiedad 1=MacBook Pro 16\" - 5::215:2092": {
+      "type": "COMPONENT",
+      "width": 1728.0,
+      "height": 1117.0,
+      "x": 4883.0,
+      "y": 1555.0
+    },
+    "Propiedad 1=MacBook Pro 16\" - 6::215:2091": {
+      "type": "COMPONENT",
+      "width": 1728.0,
+      "height": 1117.0,
+      "x": 7057.0,
+      "y": -49.0
+    },
+    "Propiedad 1=MacBook Pro 16\" - 7::215:2093": {
+      "type": "COMPONENT",
+      "width": 1728.0,
+      "height": 1117.0,
+      "x": 2709.0,
+      "y": -49.0
+    }
+  },
+  "tree": {
+    "id": "root",
+    "name": "root",
+    "type": "ROOT",
+    "children": [
+      {
+        "id": "215:2094",
+        "name": "Component 6",
+        "type": "COMPONENT_SET",
+        "children": [
+          {
+            "id": "215:2089",
+            "name": "Propiedad 1=MacBook Pro 16\" - 3",
+            "type": "COMPONENT",
+            "children": [
+              {
+                "id": "215:2039",
+                "name": "Ellipse 13",
+                "type": "ELLIPSE",
+                "children": []
+              },
+              {
+                "id": "215:2040",
+                "name": "Line 1",
+                "type": "LINE",
+                "children": []
+              },
+              {
+                "id": "215:2041",
+                "name": "Line 2",
+                "type": "LINE",
+                "children": []
+              },
+              {
+                "id": "215:2042",
+                "name": "Line 3",
+                "type": "VECTOR",
+                "children": []
+              },
+              {
+                "id": "215:2044",
+                "name": "Line 4",
+                "type": "VECTOR",
+                "children": []
+              },
+              {
+                "id": "215:2045",
+                "name": "Ellipse 14",
+                "type": "ELLIPSE",
+                "children": []
+              },
+              {
+                "id": "215:2046",
+                "name": "Ellipse 15",
+                "type": "ELLIPSE",
+                "children": []
+              },
+              {
+                "id": "215:2047",
+                "name": "Ellipse 16",
+                "type": "ELLIPSE",
+                "children": []
+              },
+              {
+                "id": "215:2048",
+                "name": "Ellipse 17",
+                "type": "ELLIPSE",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "215:2090",
+            "name": "Propiedad 1=MacBook Pro 16\" - 4",
+            "type": "COMPONENT",
+            "children": [
+              {
+                "id": "215:2050",
+                "name": "Ellipse 13",
+                "type": "ELLIPSE",
+                "children": []
+              },
+              {
+                "id": "215:2051",
+                "name": "Line 1",
+                "type": "LINE",
+                "children": []
+              },
+              {
+                "id": "215:2052",
+                "name": "Line 2",
+                "type": "LINE",
+                "children": []
+              },
+              {
+                "id": "215:2053",
+                "name": "Line 3",
+                "type": "VECTOR",
+                "children": []
+              },
+              {
+                "id": "215:2054",
+                "name": "Line 4",
+                "type": "VECTOR",
+                "children": []
+              },
+              {
+                "id": "215:2055",
+                "name": "Ellipse 14",
+                "type": "ELLIPSE",
+                "children": []
+              },
+              {
+                "id": "215:2056",
+                "name": "Ellipse 15",
+                "type": "ELLIPSE",
+                "children": []
+              },
+              {
+                "id": "215:2057",
+                "name": "Ellipse 16",
+                "type": "ELLIPSE",
+                "children": []
+              },
+              {
+                "id": "215:2058",
+                "name": "Ellipse 17",
+                "type": "ELLIPSE",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "215:2092",
+            "name": "Propiedad 1=MacBook Pro 16\" - 5",
+            "type": "COMPONENT",
+            "children": [
+              {
+                "id": "215:2060",
+                "name": "Ellipse 13",
+                "type": "ELLIPSE",
+                "children": []
+              },
+              {
+                "id": "215:2061",
+                "name": "Line 1",
+                "type": "LINE",
+                "children": []
+              },
+              {
+                "id": "215:2062",
+                "name": "Line 2",
+                "type": "LINE",
+                "children": []
+              },
+              {
+                "id": "215:2063",
+                "name": "Line 3",
+                "type": "VECTOR",
+                "children": []
+              },
+              {
+                "id": "215:2064",
+                "name": "Line 4",
+                "type": "VECTOR",
+                "children": []
+              },
+              {
+                "id": "215:2065",
+                "name": "Ellipse 14",
+                "type": "ELLIPSE",
+                "children": []
+              },
+              {
+                "id": "215:2066",
+                "name": "Ellipse 15",
+                "type": "ELLIPSE",
+                "children": []
+              },
+              {
+                "id": "215:2067",
+                "name": "Ellipse 16",
+                "type": "ELLIPSE",
+                "children": []
+              },
+              {
+                "id": "215:2068",
+                "name": "Ellipse 17",
+                "type": "ELLIPSE",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "215:2091",
+            "name": "Propiedad 1=MacBook Pro 16\" - 6",
+            "type": "COMPONENT",
+            "children": [
+              {
+                "id": "215:2070",
+                "name": "Ellipse 13",
+                "type": "ELLIPSE",
+                "children": []
+              },
+              {
+                "id": "215:2071",
+                "name": "Line 1",
+                "type": "LINE",
+                "children": []
+              },
+              {
+                "id": "215:2072",
+                "name": "Line 2",
+                "type": "LINE",
+                "children": []
+              },
+              {
+                "id": "215:2073",
+                "name": "Line 3",
+                "type": "VECTOR",
+                "children": []
+              },
+              {
+                "id": "215:2074",
+                "name": "Line 4",
+                "type": "VECTOR",
+                "children": []
+              },
+              {
+                "id": "215:2075",
+                "name": "Ellipse 14",
+                "type": "ELLIPSE",
+                "children": []
+              },
+              {
+                "id": "215:2076",
+                "name": "Ellipse 15",
+                "type": "ELLIPSE",
+                "children": []
+              },
+              {
+                "id": "215:2077",
+                "name": "Ellipse 16",
+                "type": "ELLIPSE",
+                "children": []
+              },
+              {
+                "id": "215:2078",
+                "name": "Ellipse 17",
+                "type": "ELLIPSE",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "215:2093",
+            "name": "Propiedad 1=MacBook Pro 16\" - 7",
+            "type": "COMPONENT",
+            "children": [
+              {
+                "id": "215:2080",
+                "name": "Ellipse 13",
+                "type": "ELLIPSE",
+                "children": []
+              },
+              {
+                "id": "215:2081",
+                "name": "Line 1",
+                "type": "LINE",
+                "children": []
+              },
+              {
+                "id": "215:2082",
+                "name": "Line 2",
+                "type": "LINE",
+                "children": []
+              },
+              {
+                "id": "215:2083",
+                "name": "Line 3",
+                "type": "VECTOR",
+                "children": []
+              },
+              {
+                "id": "215:2084",
+                "name": "Line 4",
+                "type": "VECTOR",
+                "children": []
+              },
+              {
+                "id": "215:2085",
+                "name": "Ellipse 14",
+                "type": "ELLIPSE",
+                "children": []
+              },
+              {
+                "id": "215:2086",
+                "name": "Ellipse 15",
+                "type": "ELLIPSE",
+                "children": []
+              },
+              {
+                "id": "215:2087",
+                "name": "Ellipse 16",
+                "type": "ELLIPSE",
+                "children": []
+              },
+              {
+                "id": "215:2088",
+                "name": "Ellipse 17",
+                "type": "ELLIPSE",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "interactions": {
+    "Ellipse 14_anim::215:2045": [
+      {
+        "trigger": "ON_CLICK",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 300,
+        "easing": "EASE_OUT",
+        "easingCurve": {},
+        "destinationId": "215:2093",
+        "sourceId": "215:2045",
+        "sourcePath": "Component 6/Propiedad 1=MacBook Pro 16\" - 3/Ellipse 14"
+      },
+      {
+        "trigger": "DRAG",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 300,
+        "easing": "LINEAR",
+        "easingCurve": {},
+        "destinationId": null,
+        "sourceId": "215:2045",
+        "sourcePath": "Component 6/Propiedad 1=MacBook Pro 16\" - 3/Ellipse 14"
+      }
+    ],
+    "Ellipse 15_anim::215:2046": [
+      {
+        "trigger": "ON_CLICK",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 300,
+        "easing": "EASE_OUT",
+        "easingCurve": {},
+        "destinationId": "215:2091",
+        "sourceId": "215:2046",
+        "sourcePath": "Component 6/Propiedad 1=MacBook Pro 16\" - 3/Ellipse 15"
+      },
+      {
+        "trigger": "DRAG",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 300,
+        "easing": "LINEAR",
+        "easingCurve": {},
+        "destinationId": null,
+        "sourceId": "215:2046",
+        "sourcePath": "Component 6/Propiedad 1=MacBook Pro 16\" - 3/Ellipse 15"
+      }
+    ],
+    "Ellipse 16_anim::215:2047": [
+      {
+        "trigger": "ON_CLICK",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 300,
+        "easing": "EASE_OUT",
+        "easingCurve": {},
+        "destinationId": "215:2090",
+        "sourceId": "215:2047",
+        "sourcePath": "Component 6/Propiedad 1=MacBook Pro 16\" - 3/Ellipse 16"
+      },
+      {
+        "trigger": "DRAG",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 300,
+        "easing": "LINEAR",
+        "easingCurve": {},
+        "destinationId": null,
+        "sourceId": "215:2047",
+        "sourcePath": "Component 6/Propiedad 1=MacBook Pro 16\" - 3/Ellipse 16"
+      }
+    ],
+    "Ellipse 17_anim::215:2048": [
+      {
+        "trigger": "ON_CLICK",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 300,
+        "easing": "EASE_OUT",
+        "easingCurve": {},
+        "destinationId": "215:2092",
+        "sourceId": "215:2048",
+        "sourcePath": "Component 6/Propiedad 1=MacBook Pro 16\" - 3/Ellipse 17"
+      },
+      {
+        "trigger": "DRAG",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 300,
+        "easing": "LINEAR",
+        "easingCurve": {},
+        "destinationId": null,
+        "sourceId": "215:2048",
+        "sourcePath": "Component 6/Propiedad 1=MacBook Pro 16\" - 3/Ellipse 17"
+      }
+    ],
+    "Propiedad 1=MacBook Pro 16\" - 4_anim::215:2090": [
+      {
+        "trigger": "ON_CLICK",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 300,
+        "easing": "EASE_OUT",
+        "easingCurve": {},
+        "destinationId": "215:2089",
+        "sourceId": "215:2090",
+        "sourcePath": "Component 6/Propiedad 1=MacBook Pro 16\" - 4"
+      },
+      {
+        "trigger": "DRAG",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 300,
+        "easing": "LINEAR",
+        "easingCurve": {},
+        "destinationId": null,
+        "sourceId": "215:2090",
+        "sourcePath": "Component 6/Propiedad 1=MacBook Pro 16\" - 4"
+      }
+    ],
+    "Propiedad 1=MacBook Pro 16\" - 5_anim::215:2092": [
+      {
+        "trigger": "ON_CLICK",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 300,
+        "easing": "EASE_OUT",
+        "easingCurve": {},
+        "destinationId": "215:2089",
+        "sourceId": "215:2092",
+        "sourcePath": "Component 6/Propiedad 1=MacBook Pro 16\" - 5"
+      },
+      {
+        "trigger": "DRAG",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 300,
+        "easing": "LINEAR",
+        "easingCurve": {},
+        "destinationId": null,
+        "sourceId": "215:2092",
+        "sourcePath": "Component 6/Propiedad 1=MacBook Pro 16\" - 5"
+      }
+    ],
+    "Ellipse 16_anim::215:2067": [
+      {
+        "trigger": "ON_CLICK",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 300,
+        "easing": "EASE_OUT",
+        "easingCurve": {},
+        "destinationId": "215:2089",
+        "sourceId": "215:2067",
+        "sourcePath": "Component 6/Propiedad 1=MacBook Pro 16\" - 5/Ellipse 16"
+      },
+      {
+        "trigger": "DRAG",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 300,
+        "easing": "LINEAR",
+        "easingCurve": {},
+        "destinationId": null,
+        "sourceId": "215:2067",
+        "sourcePath": "Component 6/Propiedad 1=MacBook Pro 16\" - 5/Ellipse 16"
+      }
+    ],
+    "Propiedad 1=MacBook Pro 16\" - 6_anim::215:2091": [
+      {
+        "trigger": "ON_CLICK",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 300,
+        "easing": "EASE_OUT",
+        "easingCurve": {},
+        "destinationId": "215:2089",
+        "sourceId": "215:2091",
+        "sourcePath": "Component 6/Propiedad 1=MacBook Pro 16\" - 6"
+      },
+      {
+        "trigger": "DRAG",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 300,
+        "easing": "LINEAR",
+        "easingCurve": {},
+        "destinationId": null,
+        "sourceId": "215:2091",
+        "sourcePath": "Component 6/Propiedad 1=MacBook Pro 16\" - 6"
+      }
+    ],
+    "Propiedad 1=MacBook Pro 16\" - 7_anim::215:2093": [
+      {
+        "trigger": "ON_CLICK",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 300,
+        "easing": "EASE_OUT",
+        "easingCurve": {},
+        "destinationId": "215:2089",
+        "sourceId": "215:2093",
+        "sourcePath": "Component 6/Propiedad 1=MacBook Pro 16\" - 7"
+      },
+      {
+        "trigger": "DRAG",
+        "actionType": "NAVIGATE",
+        "transitionType": "INSTANT",
+        "duration": 300,
+        "easing": "LINEAR",
+        "easingCurve": {},
+        "destinationId": null,
+        "sourceId": "215:2093",
+        "sourcePath": "Component 6/Propiedad 1=MacBook Pro 16\" - 7"
+      }
+    ]
+  },
+  "tree_animations": [
+    {
+      "nodeId": "215:2045",
+      "nodeName": "Ellipse 14",
+      "path": "Component 6/Propiedad 1=MacBook Pro 16\" - 3/Ellipse 14",
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 300,
+          "easing": "EASE_OUT",
+          "easingCurve": {},
+          "destinationId": "215:2093",
+          "sourceId": "215:2045",
+          "sourcePath": "Component 6/Propiedad 1=MacBook Pro 16\" - 3/Ellipse 14"
+        },
+        {
+          "trigger": "DRAG",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 300,
+          "easing": "LINEAR",
+          "easingCurve": {},
+          "destinationId": null,
+          "sourceId": "215:2045",
+          "sourcePath": "Component 6/Propiedad 1=MacBook Pro 16\" - 3/Ellipse 14"
+        }
+      ]
+    },
+    {
+      "nodeId": "215:2046",
+      "nodeName": "Ellipse 15",
+      "path": "Component 6/Propiedad 1=MacBook Pro 16\" - 3/Ellipse 15",
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 300,
+          "easing": "EASE_OUT",
+          "easingCurve": {},
+          "destinationId": "215:2091",
+          "sourceId": "215:2046",
+          "sourcePath": "Component 6/Propiedad 1=MacBook Pro 16\" - 3/Ellipse 15"
+        },
+        {
+          "trigger": "DRAG",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 300,
+          "easing": "LINEAR",
+          "easingCurve": {},
+          "destinationId": null,
+          "sourceId": "215:2046",
+          "sourcePath": "Component 6/Propiedad 1=MacBook Pro 16\" - 3/Ellipse 15"
+        }
+      ]
+    },
+    {
+      "nodeId": "215:2047",
+      "nodeName": "Ellipse 16",
+      "path": "Component 6/Propiedad 1=MacBook Pro 16\" - 3/Ellipse 16",
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 300,
+          "easing": "EASE_OUT",
+          "easingCurve": {},
+          "destinationId": "215:2090",
+          "sourceId": "215:2047",
+          "sourcePath": "Component 6/Propiedad 1=MacBook Pro 16\" - 3/Ellipse 16"
+        },
+        {
+          "trigger": "DRAG",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 300,
+          "easing": "LINEAR",
+          "easingCurve": {},
+          "destinationId": null,
+          "sourceId": "215:2047",
+          "sourcePath": "Component 6/Propiedad 1=MacBook Pro 16\" - 3/Ellipse 16"
+        }
+      ]
+    },
+    {
+      "nodeId": "215:2048",
+      "nodeName": "Ellipse 17",
+      "path": "Component 6/Propiedad 1=MacBook Pro 16\" - 3/Ellipse 17",
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 300,
+          "easing": "EASE_OUT",
+          "easingCurve": {},
+          "destinationId": "215:2092",
+          "sourceId": "215:2048",
+          "sourcePath": "Component 6/Propiedad 1=MacBook Pro 16\" - 3/Ellipse 17"
+        },
+        {
+          "trigger": "DRAG",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 300,
+          "easing": "LINEAR",
+          "easingCurve": {},
+          "destinationId": null,
+          "sourceId": "215:2048",
+          "sourcePath": "Component 6/Propiedad 1=MacBook Pro 16\" - 3/Ellipse 17"
+        }
+      ]
+    },
+    {
+      "nodeId": "215:2090",
+      "nodeName": "Propiedad 1=MacBook Pro 16\" - 4",
+      "path": "Component 6/Propiedad 1=MacBook Pro 16\" - 4",
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 300,
+          "easing": "EASE_OUT",
+          "easingCurve": {},
+          "destinationId": "215:2089",
+          "sourceId": "215:2090",
+          "sourcePath": "Component 6/Propiedad 1=MacBook Pro 16\" - 4"
+        },
+        {
+          "trigger": "DRAG",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 300,
+          "easing": "LINEAR",
+          "easingCurve": {},
+          "destinationId": null,
+          "sourceId": "215:2090",
+          "sourcePath": "Component 6/Propiedad 1=MacBook Pro 16\" - 4"
+        }
+      ]
+    },
+    {
+      "nodeId": "215:2092",
+      "nodeName": "Propiedad 1=MacBook Pro 16\" - 5",
+      "path": "Component 6/Propiedad 1=MacBook Pro 16\" - 5",
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 300,
+          "easing": "EASE_OUT",
+          "easingCurve": {},
+          "destinationId": "215:2089",
+          "sourceId": "215:2092",
+          "sourcePath": "Component 6/Propiedad 1=MacBook Pro 16\" - 5"
+        },
+        {
+          "trigger": "DRAG",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 300,
+          "easing": "LINEAR",
+          "easingCurve": {},
+          "destinationId": null,
+          "sourceId": "215:2092",
+          "sourcePath": "Component 6/Propiedad 1=MacBook Pro 16\" - 5"
+        }
+      ]
+    },
+    {
+      "nodeId": "215:2067",
+      "nodeName": "Ellipse 16",
+      "path": "Component 6/Propiedad 1=MacBook Pro 16\" - 5/Ellipse 16",
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 300,
+          "easing": "EASE_OUT",
+          "easingCurve": {},
+          "destinationId": "215:2089",
+          "sourceId": "215:2067",
+          "sourcePath": "Component 6/Propiedad 1=MacBook Pro 16\" - 5/Ellipse 16"
+        },
+        {
+          "trigger": "DRAG",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 300,
+          "easing": "LINEAR",
+          "easingCurve": {},
+          "destinationId": null,
+          "sourceId": "215:2067",
+          "sourcePath": "Component 6/Propiedad 1=MacBook Pro 16\" - 5/Ellipse 16"
+        }
+      ]
+    },
+    {
+      "nodeId": "215:2091",
+      "nodeName": "Propiedad 1=MacBook Pro 16\" - 6",
+      "path": "Component 6/Propiedad 1=MacBook Pro 16\" - 6",
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 300,
+          "easing": "EASE_OUT",
+          "easingCurve": {},
+          "destinationId": "215:2089",
+          "sourceId": "215:2091",
+          "sourcePath": "Component 6/Propiedad 1=MacBook Pro 16\" - 6"
+        },
+        {
+          "trigger": "DRAG",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 300,
+          "easing": "LINEAR",
+          "easingCurve": {},
+          "destinationId": null,
+          "sourceId": "215:2091",
+          "sourcePath": "Component 6/Propiedad 1=MacBook Pro 16\" - 6"
+        }
+      ]
+    },
+    {
+      "nodeId": "215:2093",
+      "nodeName": "Propiedad 1=MacBook Pro 16\" - 7",
+      "path": "Component 6/Propiedad 1=MacBook Pro 16\" - 7",
+      "interactions": [
+        {
+          "trigger": "ON_CLICK",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 300,
+          "easing": "EASE_OUT",
+          "easingCurve": {},
+          "destinationId": "215:2089",
+          "sourceId": "215:2093",
+          "sourcePath": "Component 6/Propiedad 1=MacBook Pro 16\" - 7"
+        },
+        {
+          "trigger": "DRAG",
+          "actionType": "NAVIGATE",
+          "transitionType": "INSTANT",
+          "duration": 300,
+          "easing": "LINEAR",
+          "easingCurve": {},
+          "destinationId": null,
+          "sourceId": "215:2093",
+          "sourcePath": "Component 6/Propiedad 1=MacBook Pro 16\" - 7"
+        }
+      ]
+    }
+  ]
+};

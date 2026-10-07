@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>catalog - Visualizador</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400;700&family=IM+Fell+Double+Pica&family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --font-serif: "IM Fell Double Pica", serif;
+            --font-mono: "Chivo Mono", monospace;
+            --font-sans: "Roboto", sans-serif;
+            --title-shadow: 0px -3px 0px rgba(243, 235, 235, 0.911), 0px 5px 15px rgba(243, 237, 237, 0.5);
+        }
+
+        body, html {
+            margin: 0; padding: 0;
+            min-height: 100vh;
+            font-family: var(--font-serif);
+            background: linear-gradient(180deg, #80A7FB 10%, #5870A4 40%, #041843 45%, #030E26 95%);
+            color: #FFFFFF;
+            display: flex; flex-direction: column;
+            align-items: center;
+            overflow-x: hidden;
+        }
+
+        /* --- HEADER --- */
+        .header {
+            width: 100%; 
+            padding: 20px 40px; 
+            box-sizing: border-box;
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center;
+        }
+
+        .logo-container { width: 120px; height: 120px; display: flex; justify-content: center; align-items: center; }
+        .logo-container img { width: 100%; height: 100%; object-fit: contain; }
+
+        .center-folder {
+            width: 90px; height: 90px;
+            background-color: #e6e6e6;
+            border-radius: 25px;
+            display: flex; justify-content: center; align-items: center;
+            box-shadow: 0 8px 20px rgba(245, 243, 243, 0.938);
+        }
+        .center-folder img { width: 70%; height: 70%; object-fit: contain; }
+        
+        .brand-text { font-size: 40px; letter-spacing: 2px; text-shadow: var(--title-shadow); margin: 0; }
+
+        /* ==========================================
+           SELECTORES PRINCIPALES (Z | STAGES | TORI)
+           ========================================== */
+        .main-selectors {
+            display: flex;
+            width: 90%;
+            max-width: 950px;
+            margin-top: 20px; /* Separación del header */
+            background-color: #e0e0e0;
+            border-radius: 30px;
+            overflow: hidden;
+            box-shadow: 0 30px 60px rgba(70, 73, 245, 0.5);
+            /* Borde similar al que vemos en tu diseño */
+            border: 2px solid #f8f7f7;
+        }
+
+        .selector-btn {
+            flex: 1;
+            padding: 15px 0;
+            text-align: center;
+            font-family: var(--font-mono);
+            font-size: 25px;
+            color: #f1efef;
+            text-decoration: none; /* Como serán enlaces, quitamos subrayado */
+            border-right: 2px solid #f8f3f3;
+            background-color: Solid;
+            transition: background 0.2s ease;
+        }
+
+        .nav-btn {
+            flex: 1; padding: 15px 0; text-align: center; font-family: var(--font-mono);
+            font-size: 30px; color: #f5f1f1; text-decoration: none; border-right: 2px solid #f1eded; transition: background 0.2s ease;
+        }
+        .nav-btn:last-child { border-right: none; }
+        .nav-btn:hover { background-color: #c0c0c0; }
+        .nav-btn.active { background-color: var(--tab-active); font-weight: bold; }
+
+        /* --- VISUALIZADOR INTERACTIVO (STAGES) --- */
+        .viewer-container {
+            width: 90%; max-width: 1050px; background-color: #fff4f4; border-radius: 12px;
+            display: flex; padding: 40px; box-sizing: border-box; box-shadow: 0 20px 50px rgba(0,0,0,0.6);
+            margin-top: 20px; min-height: 450px;
+        }
+
+        /* LADO IZQUIERDO  */
+        /* LADO IZQUIERDO (T1, T2, T3) */
+        .left-controls {
+            flex: 0 0 350px; display: flex; flex-direction: column; justify-content: center;
+            gap: 30px; border-right: 2px solid #333; padding-right: 40px; box-sizing: border-box;
+        }
+
+        input[type="radio"] { display: none; } /* Ocultar los controles lógicos */
+
+        .tab-buttons { display: flex; gap: 10px; width: 100%; }
+
+        .tab-label {
+            flex: 1; padding: 10px 0; background-color: #222; border: 2px solid #555; color: #fff;
+            font-family: var(--font-sans); font-size: 24px; font-weight: bold; text-align: center; cursor: pointer; transition: all 0.2s;
+        }
+        .tab-label:hover { background-color: #333; }
+
+        /* LÓGICA DE TEXTOS: Solo reacciona al grupo "text-tabs" */
+        #tab-W:checked ~ .left-controls .tab-buttons label[for="tab-W"],
+        #tab-M:checked ~ .left-controls .tab-buttons label[for="tab-M"],
+        #tab-Wi:checked ~ .left-controls .tab-buttons label[for="tab-Wi"] {
+            background-color: #ffffff; color: #000; border-color: #ff3b30; 
+        }
+
+        .dynamic-text {
+            font-family: var(--font-sans); font-size: 18px; 
+            font-weight: 400; color: #d4d4d4; line-height: 1.5; margin: 0; display: none;
+        }
+        .dynamic-text strong { color: #fff; font-size: 20px; display: block; margin-bottom: 5px; }
+
+        #tab-W:checked ~ .left-controls .text-w { display: block; animation: fadeIn 0.3s; }
+        #tab-M:checked ~ .left-controls .text-m { display: block; animation: fadeIn 0.3s; }
+        #tab-Wi:checked ~ .left-controls .text-wi { display: block; animation: fadeIn 0.3s; }
+
+        /* ==========================================
+           VISUALIZADOR INTERACTIVO (TEMA OSCURO)
+           ========================================== */
+        .right-visualizer {
+            flex: 1; display: flex; justify-content: center; align-items: center;
+            padding-left: 40px; position: relative;
+        }
+
+        
+        /* --- LADO IZQUIERDO --- */
+        .left-controls {
+            flex: 0 0 350px; 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 40px;
+            border-right: 2px solid #333; 
+            padding-right: 40px;
+            box-sizing: border-box;
+        }
+
+        .container-box {
+            width: 100%; height: 100%; min-height: 350px; background-color: #888888; 
+            border-radius: 8px; display: flex; justify-content: center; align-items: center;
+            position: relative; overflow: hidden; box-shadow: inset 0 0 20px rgba(0,0,0,0.5);
+        }
+
+
+        .tab-label {
+            flex: 1;
+            padding: 15px 0;
+            background-color: #222;
+            border: 2px solid #555;
+            color: #fff;
+            font-family: var(--font-sans);
+            font-size: 32px;
+            font-weight: bold;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .tab-label:hover { background-color: #333; }
+
+        /* Cuando el botón está activo */
+        #tab-w:checked ~ .left-controls .tab-buttons label[for="tab-w"],
+        #tab-m:checked ~ .left-controls .tab-buttons label[for="tab-m"],
+        #tab-wi:checked ~ .left-controls .tab-buttons label[for="tab-wi"] {
+            background-color: #333;
+            border-color: #888;
+            box-shadow: inset 0 0 10px rgba(0,0,0,0.8);
+            color: #fff;
+        }
+
+        /* Textos dinámicos */
+        .dynamic-text {
+            font-family: var(--font-sans);
+            font-size: 26px;
+            font-weight: 500;
+            color: #ddd;
+            line-height: 1.4;
+            margin: 0;
+            display: none;
+        }
+
+        #tab-w:checked ~ .left-controls .text-w { display: block; animation: fadeIn 0.3s; }
+        #tab-m:checked ~ .left-controls .text-m { display: block; animation: fadeIn 0.3s; }
+        #tab-wi:checked ~ .left-controls .text-wi { display: block; animation: fadeIn 0.3s; }
+
+        /* --- LADO DERECHO (VISUALIZADOR) --- */
+        .right-visualizer {
+            flex: 1; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-left: 40px;
+            min-width: 400px; 
+            position: relative;
+        }
+
+        .view-image {
+            width: 100%;
+            height: 100%;
+            max-height: 350px;
+            object-fit: contain;
+            display: none;
+        }
+
+        #tab-w:checked ~ .right-visualizer .img-w { display: block; animation: fadeIn 0.3s; }
+        #tab-m:checked ~ .right-visualizer .img-m { display: block; animation: fadeIn 0.3s; }
+        #tab-wi:checked ~ .right-visualizer .img-wi { display: block; animation: fadeIn 0.3s; }
+
+        @keyframes fadeIn { from { opacity: 0; transform: scale(0.98); } to { opacity: 1; transform: scale(1); } }
+
+    </style>
+</head>
+<body>
+
+    <!-- Cabecera Superior -->
+    <header class="header">
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="assets/OVZ.png" alt="OVZ" />
+            </a>
+        </div>
+
+        <div class="center-folder">
+            <img src="assets/Chrome.png" alt="idea" />
+        </div>
+
+        <div class="brand-text">
+            OVZ
+        </div>
+    </header>
+
+    <!-- SELECTORES PRINCIPALES -->
+    <nav class="main-selectors">
+        <a href="get_your_landing.html" class="nav-btn">Z</a>
+        <a href="stages.html" class="nav-btn">Stages</a>
+        <a href="gates.html" class="nav-btn active">gates</a>
+    </nav>
+
+    <!-- CUADRO DE VISUALIZACIÓN INTERACTIVO -->
+    <div class="viewer-container">
+        
+        <!-- Controles invisibles -->
+        <input type="radio" name="tabs" id="tab-w" checked>
+        <input type="radio" name="tabs" id="tab-m">
+        <input type="radio" name="tabs" id="tab-wi">
+
+        <!-- Panel Izquierdo -->
+        <div class="left-controls">
+            
+            <div class="tab-buttons">
+                <label for="tab-w" class="tab-label">W</label>
+                <label for="tab-m" class="tab-label">M</label>
+                <label for="tab-wi" class="tab-label">Wi</label>
+            </div>
+
+            <!-- Textos -->
+            <p class="dynamic-text text-w">estructura basica<br>sin contenido</p>
+            <p class="dynamic-text text-m">iconos y elementos con el estilo de MacOs</p>
+            <p class="dynamic-text text-wi">imagen orientada a windows-linux</p>
+            
+        </div>
+
+        <!-- Panel Derecho -->
+        <div class="right-visualizer">
+            
+            <!-- IMÁGENES -->
+            <img src="assets/wireframe.png" alt="W" class="view-image img-w">
+            <img src="assets/mcOS.png" alt="M" class="view-image img-m">
+            <img src="assets/Wind Os.png" alt="Wi" class="view-image img-wi">
+
+        </div>
+
+    </div>
+
+</body>
+</html>
