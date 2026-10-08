@@ -3,47 +3,146 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Sheet - Bloque 4 Interactivo</title>
+    <title>Data Sheet - Figma Xtractor Pro | OVZ</title>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400&family=IM+Fell+Double+Pica&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400;700&family=IM+Fell+Double+Pica&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
     <style>
-         body, html {
-            margin: 0; padding: 0;
+        :root {
+            --font-serif: "IM Fell Double Pica", serif;
+            --font-mono: "Chivo Mono", monospace;
+            --font-sans: "Roboto", sans-serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
             min-height: 100vh;
             font-family: var(--font-serif);
-            background: linear-gradient(180deg, #200151 01%, #5c036d 40%, #041843 45%, #030E26 95%);
-            color: #1a1919;
-            display: flex; flex-direction: column;
+            background: linear-gradient(180deg, #200151 1%, #5c036d 35%, #041843 65%, #030E26 100%);
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
             overflow-x: hidden;
         }
-        .container { max-width: 1300px; margin: 0 auto; padding: 30px 40px 100px 40px; box-shadow: 0 10px 10px #fff(254, 255, 255,0.6);}
 
-        /* --- BLOQUES 1, 2 y 3 --- */
-        .top-corners { display: flex; justify-content: space-between; align-items: flex-start; width: 100%;}
-        .logo-corner { width: 110px; height: auto; object-fit: contain;}
-        .text-corner { font-size: 70px; font-weight: 400; margin: 0; line-height: 1; color: azure;}
-        
-        .center-title { display: flex; justify-content: center; align-items: center; gap: 30px; margin-top: 60px; }
-        .center-title h1 { font-size: 49px; font-weight: 400; margin: 0; color: #d1d1d1; letter-spacing: 1px; }
-        .center-title img { width: 100px; height: 100px; background-color: #111; border-radius: 15px; box-shadow: 0 10px 10px rgba(254, 255, 255, 0.6); }
+        .container { 
+            max-width: 1250px; 
+            width: 100%;
+            margin: 0 auto; 
+            padding: 30px 40px 100px 40px; 
+        }
 
+        /* --- HEADER & TITULOS --- */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
 
-        .data-sheet-section { margin-top: 100px; padding: 0 50px; }
-        .sheet-title { text-align: center; font-size: 49px; font-weight: 400; margin-bottom: 60px; color: #ffffff;}
-        .info-list { font-size: 38px; line-height: 1.5; list-style-type: disc; padding-left: 40px; color: #fbf3f3;}
-        .info-list > li { margin-bottom: 50px; }
-        .sub-list { list-style-type: none; margin-top: 40px; padding-left: 80px; }
-        .sub-list li { margin-bottom: 30px; }
+        .logo-container {
+            width: 100px;
+            height: 100px;
+        }
 
-        .gif-section { margin-top: 100px; display: flex; justify-content: center; width: 100%; }
-        .demo-gif { width: 100%; max-width: 1100px; border-radius: 10px; box-shadow: 0 20px 50px rgba(0,0,0,0.8); object-fit: cover; }
+        .logo-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
 
-        /* --- BLOQUE 4: CÓDIGO INTERACTIVO Y DEV MODE --- */
+        .center-title { 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            gap: 25px; 
+            margin-top: 40px; 
+        }
+
+        .center-title h1 { 
+            font-size: 44px; 
+            font-weight: 400; 
+            color: #ffffff; 
+            letter-spacing: 1.5px; 
+            text-align: center;
+        }
+
+        .center-title img { 
+            width: 85px; 
+            height: 85px; 
+            background-color: #111111; 
+            border-radius: 18px; 
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6); 
+            display: block;
+        }
+
+        /* --- DATA SHEET --- */
+        .data-sheet-section { 
+            margin-top: 70px; 
+            padding: 0 20px; 
+        }
+
+        .sheet-title { 
+            text-align: center; 
+            font-size: 38px; 
+            font-weight: 400; 
+            margin-bottom: 40px; 
+            color: #ffffff;
+            letter-spacing: 1px;
+        }
+
+        .info-list { 
+            font-size: 19px; 
+            line-height: 1.7; 
+            list-style-type: disc; 
+            padding-left: 30px; 
+            color: #f1f1f1;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .info-list > li { 
+            margin-bottom: 25px; 
+        }
+
+        .sub-list { 
+            list-style-type: circle; 
+            margin-top: 15px; 
+            padding-left: 35px; 
+        }
+
+        .sub-list li { 
+            margin-bottom: 12px; 
+            color: #dddddd;
+        }
+
+        /* --- DEMO GIF --- */
+        .gif-section { 
+            margin-top: 80px; 
+            display: flex; 
+            justify-content: center; 
+            width: 100%; 
+        }
+
+        .demo-gif { 
+            width: 100%; 
+            max-width: 1050px; 
+            border-radius: 12px; 
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8); 
+            object-fit: cover; 
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        /* --- CÓDIGO Y DEV MODE --- */
         .split-section {
-            margin-top: 120px;
+            margin-top: 90px;
             display: flex;
             justify-content: space-between;
             align-items: stretch;
@@ -55,102 +154,294 @@
             flex: 1;
             display: flex;
             flex-direction: column;
-            max-width: 550px;
+            min-width: 0;
         }
 
         .tabs {
             display: flex;
-            gap: 15px;
+            gap: 10px;
             margin-bottom: -2px;
         }
 
         .tab {
-            font-family: "IM Fell Double Pica", serif;
-            font-size: 45px;
-            border: 2px solid #fff;
-            padding: 5px 25px;
-            background: #000;
-            color: #555; 
+            font-family: var(--font-serif);
+            font-size: 24px;
+            border: 2px solid #ffffff;
+            border-bottom: none;
+            padding: 8px 24px;
+            background: #000000;
+            color: #777777; 
             cursor: pointer;
             z-index: 10;
-            transition: all 0.3s ease;
+            transition: all 0.2s ease;
+            user-select: none;
         }
 
         .tab.active {
-            color: #fff;
-            border-bottom: 2px solid #000; 
+            color: #ffffff;
+            background: #0d0d0d;
         }
 
-        .tab:hover { color: #fff; }
+        .tab:hover { 
+            color: #ffffff; 
+        }
 
         .code-box {
-            background: #000;
-            border: 2px solid #fff;
-            padding: 30px;
-            font-family: "Chivo Mono", monospace;
-            font-size: 16px;
+            background: #0d0d0d;
+            border: 2px solid #ffffff;
+            padding: 25px;
+            font-family: var(--font-mono);
+            font-size: 14px;
             color: #e2e2e2;
             line-height: 1.6;
-            height: 450px; /* Altura fija para poder scrollear tu código enorme */
-            overflow-y: auto; /* Habilita el scroll interno */
+            height: 480px;
+            overflow-y: auto;
             white-space: pre-wrap;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
+            border-radius: 0 8px 8px 8px;
         }
 
         .code-content { display: none; }
-        .code-content.active { display: block; animation: fadeIn 0.3s ease; }
-
-        
+        .code-content.active { display: block; animation: fadeIn 0.25s ease; }
 
         .code-box .keyword { color: #569cd6; } 
         .code-box .string { color: #ce9178; }  
         .code-box .number { color: #b5cea8; }  
         .code-box .comment { color: #6a9955; font-style: italic; } 
 
-        .dev-image-container { flex: 1; display: flex; justify-content: flex-end; align-items: flex-start; }
-        .dev-image { width: 100%; max-width: 600px; object-fit: contain; border-radius: 10px; box-shadow: 0 20px 40px rgba(0,0,0,0.6); }
+        .dev-image-container { 
+            flex: 1; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            min-width: 0;
+        }
 
-        /* Barra de scroll bonita para el bloque de código */
+        .dev-image { 
+            width: 100%; 
+            max-width: 550px; 
+            object-fit: contain; 
+            border-radius: 10px; 
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7); 
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        /* --- MONETIZACIÓN Y ENLACES --- */
+        .links-section { 
+            margin-top: 100px; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            gap: 50px; 
+            width: 100%;
+        }
+
+        .github-btn {
+            display: inline-flex; 
+            align-items: center; 
+            background: #f0f0f0; 
+            border-radius: 50px; 
+            padding: 12px 30px; 
+            gap: 15px; 
+            text-decoration: none; 
+            color: #000000; 
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+            max-width: 100%;
+        }
+
+        .github-btn:hover { 
+            transform: scale(1.03); 
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
+        }
+
+        .github-btn img { 
+            width: 38px; 
+            height: 38px; 
+            border-radius: 50%; 
+        }
+
+        .github-btn span { 
+            font-family: var(--font-sans); 
+            font-weight: 500; 
+            font-size: 18px; 
+            word-break: break-all;
+        }
+
+        .store-grid { 
+            display: flex; 
+            gap: 40px; 
+            justify-content: center; 
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .store-link {
+            transition: transform 0.2s ease;
+            display: inline-block;
+        }
+
+        .store-link:hover { 
+            transform: translateY(-8px); 
+        }
+
+        .store-link img { 
+            width: 120px; 
+            height: 120px; 
+            border-radius: 20px; 
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.5); 
+            display: block;
+        }
+
+        /* --- FOOTER --- */
+        .footer-section { 
+            margin-top: 90px; 
+            text-align: center; 
+            padding-bottom: 20px;
+        }
+
+        .footer-title { 
+            font-family: var(--font-sans); 
+            font-weight: 500; 
+            font-size: 36px; 
+            letter-spacing: 1.5px; 
+            color: #ffffff; 
+            line-height: 1.4; 
+        }
+
+        /* Scrollbar interna */
         .code-box::-webkit-scrollbar { width: 8px; }
-        .code-box::-webkit-scrollbar-track { background: #111; }
-        .code-box::-webkit-scrollbar-thumb { background: #444; border-radius: 4px; }
-        .code-box::-webkit-scrollbar-thumb:hover { background: #666; }
+        .code-box::-webkit-scrollbar-track { background: #111111; }
+        .code-box::-webkit-scrollbar-thumb { background: #444444; border-radius: 4px; }
+        .code-box::-webkit-scrollbar-thumb:hover { background: #666666; }
         
         @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+        /* ====================================================
+           RESPONSIVE - DISPOSITIVOS MÓVILES (< 800px)
+        ==================================================== */
         @media (max-width: 800px) {
-        .viewer-container { flex-direction: column; min-height: auto; }
-        }
-        /* Asegura que las imágenes y elementos no se salgan del contenedor */
-        img, svg, video {
-        max-width: 100%;
-        height: auto;
+            .container {
+                padding: 20px 20px 60px 20px;
+            }
+
+            .logo-container { width: 70px; height: 70px; }
+
+            .center-title {
+                flex-direction: column;
+                gap: 15px;
+                margin-top: 25px;
+            }
+
+            .center-title h1 {
+                font-size: 28px;
+            }
+
+            .center-title img {
+                width: 70px;
+                height: 70px;
+            }
+
+            .data-sheet-section {
+                margin-top: 45px;
+                padding: 0 5px;
+            }
+
+            .sheet-title {
+                font-size: 24px;
+                margin-bottom: 25px;
+            }
+
+            .info-list {
+                font-size: 15px;
+                padding-left: 20px;
+            }
+
+            .info-list > li {
+                margin-bottom: 18px;
+            }
+
+            .sub-list {
+                padding-left: 20px;
+            }
+
+            .gif-section {
+                margin-top: 45px;
+            }
+
+            /* Apilado de la sección de código y dev mode */
+            .split-section {
+                flex-direction: column;
+                margin-top: 50px;
+                gap: 30px;
+            }
+
+            .code-box {
+                height: 360px;
+                font-size: 13px;
+                padding: 15px;
+            }
+
+            .tab {
+                font-size: 18px;
+                padding: 6px 16px;
+            }
+
+            .links-section {
+                margin-top: 60px;
+                gap: 35px;
+            }
+
+            .github-btn {
+                padding: 10px 20px;
+            }
+
+            .github-btn span {
+                font-size: 14px;
+            }
+
+            .github-btn img {
+                width: 28px;
+                height: 28px;
+            }
+
+            .store-grid {
+                gap: 25px;
+            }
+
+            .store-link img {
+                width: 90px;
+                height: 90px;
+                border-radius: 16px;
+            }
+
+            .footer-section {
+                margin-top: 60px;
+            }
+
+            .footer-title {
+                font-size: 24px;
+            }
         }
 
-        /* Evita que el body desborde hacia los lados */
-        body {
-        overflow-x: hidden;
-        box-sizing: border-box;
+        @media (max-width: 400px) {
+            .center-title h1 { font-size: 24px; }
+            .sheet-title { font-size: 21px; }
+            .store-link img { width: 75px; height: 75px; }
         }
-
-        *, *::before, *::after {
-        box-sizing: inherit;
-        }
-
-
     </style>
 </head>
-<body>S
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body>
+
     <div class="container">
         
         <!-- BLOQUE 1: HEADER -->
         <header class="header">
             <div class="logo-container">
                 <a href="index.html">
-                    <img src="assets/OVZ.png" alt="OVZ" />
+                    <img src="assets/OVZ.png" alt="OVZ Logo">
                 </a>
             </div>
-
 
             <div class="center-title">
                 <h1>FIGMA X TRACTOR PRO</h1>
@@ -176,7 +467,7 @@
             </ul>
         </section>
 
-        <!-- BLOQUE 3: GIF -->
+        <!-- BLOQUE 3: DEMO GIF -->
         <section class="gif-section">
             <img src="figma_extractor/assets/figma-x-func.gif" alt="Demostración de Figma Extractor Pro" class="demo-gif">
         </section>
@@ -185,15 +476,15 @@
         <section class="split-section">
             <div class="code-panel">
                 
-                <div class="tabs">
-                    <div class="tab active" onclick="switchTab('js')">js</div>
-                    <div class="tab" onclick="switchTab('py')">py</div>
-                    <div class="tab" onclick="switchTab('tw')">tw</div>
+                <div class="tabs" id="codeTabs">
+                    <div class="tab active" data-lang="js">js</div>
+                    <div class="tab" data-lang="py">py</div>
+                    <div class="tab" data-lang="tw">tw</div>
                 </div>
 
                 <div class="code-box">
                     
-                    <!-- CÓDIGO REAL JAVASCRIPT INYECTADO AQUÍ -->
+                    <!-- CÓDIGO: JavaScript (JS) -->
                     <div id="code-js" class="code-content active">
 <span class="keyword">export const</span> designTokens = {
   <span class="string">"colors"</span>: {},
@@ -211,51 +502,15 @@
       <span class="string">"fontSize"</span>: <span class="number">90.559</span>,
       <span class="string">"letterSpacing"</span>: <span class="number">0.0</span>,
       <span class="string">"lineHeightPx"</span>: <span class="number">142.125</span>
-    },
-    <span class="string">"py_typo"</span>: {
-      <span class="string">"fontFamily"</span>: <span class="string">"IM FELL Double Pica"</span>,
-      <span class="string">"fontWeight"</span>: <span class="number">400</span>,
-      <span class="string">"fontSize"</span>: <span class="number">90.559</span>,
-      <span class="string">"letterSpacing"</span>: <span class="number">0.0</span>,
-      <span class="string">"lineHeightPx"</span>: <span class="number">142.125</span>
-    },
-    <span class="string">"tw_typo"</span>: {
-      <span class="string">"fontFamily"</span>: <span class="string">"IM FELL Double Pica"</span>,
-      <span class="string">"fontWeight"</span>: <span class="number">400</span>,
-      <span class="string">"fontSize"</span>: <span class="number">90.559</span>,
-      <span class="string">"letterSpacing"</span>: <span class="number">0.0</span>,
-      <span class="string">"lineHeightPx"</span>: <span class="number">142.125</span>
     }
   },
   <span class="string">"spacing"</span>: {},
-  <span class="string">"effects"</span>: {},
   <span class="string">"structural_metadata"</span>: {
     <span class="string">"Frame 17::416:279"</span>: {
       <span class="string">"type"</span>: <span class="string">"FRAME"</span>,
       <span class="string">"width"</span>: <span class="number">606.0</span>,
-      <span class="string">"height"</span>: <span class="number">955.59</span>,
-      <span class="string">"x"</span>: <span class="number">1538.0</span>,
-      <span class="string">"y"</span>: <span class="number">4201.0</span>
-    },
-    <span class="string">"Component 2::279:5071"</span>: {
-      <span class="string">"type"</span>: <span class="string">"INSTANCE"</span>,
-      <span class="string">"width"</span>: <span class="number">606.0</span>,
-      <span class="string">"height"</span>: <span class="number">823.59</span>,
-      <span class="string">"x"</span>: <span class="number">1538.0</span>,
-      <span class="string">"y"</span>: <span class="number">4333.0</span>
+      <span class="string">"height"</span>: <span class="number">955.59</span>
     }
-  },
-  <span class="string">"interactions"</span>: {
-    <span class="string">"Rectangle 23_anim::279:5083"</span>: [
-      {
-        <span class="string">"trigger"</span>: <span class="string">"ON_CLICK"</span>,
-        <span class="string">"actionType"</span>: <span class="string">"NAVIGATE"</span>,
-        <span class="string">"transitionType"</span>: <span class="string">"INSTANT"</span>,
-        <span class="string">"duration"</span>: <span class="number">0</span>,
-        <span class="string">"easing"</span>: <span class="string">"LINEAR"</span>,
-        <span class="string">"destinationId"</span>: <span class="keyword">null</span>
-      }
-    ]
   }
 };
                     </div>
@@ -311,68 +566,65 @@ module.<span class="keyword">exports</span> = {
             </div>
         </section>
 
-    </div>
-
-    <!-- SCRIPT DE INTERACTIVIDAD PARA LAS PESTAÑAS -->
-    <script>
-        function switchTab(tabId) {
-            document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active'));
-            document.querySelectorAll('.code-content').forEach(content => content.classList.remove('active'));
-            event.target.classList.add('active');
-            document.getElementById('code-' + tabId).classList.add('active');
-        }
-    </script>
-    <!-- ... [AQUÍ TERMINABA EL BLOQUE 4 DEL CÓDIGO Y DEV MODE] ... -->
-
         <!-- BLOQUE 5: LINKS Y MONETIZACIÓN -->
-        <section class="links-section" style="margin-top: 120px; display: flex; flex-direction: column; align-items: center; gap: 80px;">
+        <section class="links-section">
             
-            <!-- Botón de GitHub -->
-            <a href="https://github.com/glaceusumbra-hash" target="_blank" style="display: flex; align-items: center; background: #e0e0e0; border-radius: 50px; padding: 15px 40px; gap: 20px; text-decoration: none; color: #000; transition: transform 0.2s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-                <img src="figma_extractor/assets/git.png" alt="GitHub" style="width: 50px; height: 50px; border-radius: 50%;">
-                <span style="font-family: 'Roboto', sans-serif; font-weight: 500; font-size: 32px;">https://github.com/glaceusumbra-hash</span>
+            <!-- Botón GitHub -->
+            <a href="https://github.com/glaceusumbra-hash" target="_blank" rel="noopener noreferrer" class="github-btn">
+                <img src="figma_extractor/assets/git.png" alt="GitHub">
+                <span>https://github.com/glaceusumbra-hash</span>
             </a>
 
-            <!-- Iconos de Tiendas -->
-            <div style="display: flex; gap: 60px; justify-content: center;">
+            <!-- Tiendas -->
+            <div class="store-grid">
                 
-                <!-- Lemon Squeezy -->
-                <!-- REEMPLAZA EL '#' CON TU ENLACE REAL A LA TIENDA -->
-                <a href="#" target="_blank" style="transition: transform 0.2s ease;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
-                    <img src="figma_extractor/assets/lemon.png" alt="Lemon Squeezy" style="width: 160px; height: 160px; border-radius: 20px; box-shadow: 0 10px 20px rgba(0,0,0,0.4);">
+                <a href="https://ovz-creative-solutions.lemonsqueezy.com/checkout/buy/9ebd2776-32e9-4a8d-b2ba-ca2737cf4a13" target="_blank" rel="noopener noreferrer" class="store-link">
+                    <img src="figma_extractor/assets/lemon.png" alt="Lemon Squeezy">
                 </a>
 
-                <!-- Gumroad -->
-                <!-- REEMPLAZA EL '#' CON TU ENLACE REAL A LA TIENDA -->
-                <a href="https://creativespark16.gumroad.com/l/osmiwa" target="_blank" style="transition: transform 0.2s ease;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
-                    <img src="figma_extractor/assets/gumroad.png" alt="Gumroad" style="width: 160px; height: 160px; border-radius: 20px; box-shadow: 0 10px 20px rgba(0,0,0,0.4);">
+                <a href="https://creativespark16.gumroad.com/l/osmiwa" target="_blank" rel="noopener noreferrer" class="store-link">
+                    <img src="figma_extractor/assets/gumroad.png" alt="Gumroad">
                 </a>
-                <!-- Buy Me a Coffee -->
-                <!-- REEMPLAZA EL '#' CON TU ENLACE REAL A LA TIENDA -->
-                <a href="#" target="_blank" style="transition: transform 0.2s ease;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
-                    <img src="figma_extractor/assets/bmc.png" alt="Buy Me A Coffee" style="width: 160px; height: 160px; border-radius: 20px; box-shadow: 0 10px 20px rgba(0,0,0,0.4);">
+
+                <a href="https://buymeacoffee.com/glaceusumby/e/584620" target="_blank" rel="noopener noreferrer" class="store-link">
+                    <img src="figma_extractor/assets/bmc.png" alt="Buy Me A Coffee">
                 </a>
 
             </div>
         </section>
 
         <!-- BLOQUE 6: FOOTER -->
-        <footer style="margin-top: 120px; text-align: center;">
-            <h2 style="font-family: 'Roboto', sans-serif; font-weight: 500; font-size: 52px; letter-spacing: 2px; color: #ffffff; margin: 0; line-height: 1.4;">
+        <footer class="footer-section">
+            <h2 class="footer-title">
                 Gracias por tu compra y<br>disfruta tu software
             </h2>
         </footer>
 
     </div>
 
-    <!-- SCRIPT DE INTERACTIVIDAD PARA LAS PESTAÑAS (Asegúrate de que este siga al final del body) -->
+    <!-- SCRIPT DE PESTAÑAS BLINDADO -->
     <script>
-        function switchTab(tabId) {
-            document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active'));
-            document.querySelectorAll('.code-content').forEach(content => content.classList.remove('active'));
-            event.target.classList.add('active');
-            document.getElementById('code-' + tabId).classList.add('active');
-        }
+        document.addEventListener('DOMContentLoaded', () => {
+            const tabsContainer = document.getElementById('codeTabs');
+            if (!tabsContainer) return;
+
+            tabsContainer.addEventListener('click', (e) => {
+                const tab = e.target.closest('.tab');
+                if (!tab || tab.classList.contains('active')) return;
+
+                const lang = tab.dataset.lang;
+                const targetContent = document.getElementById('code-' + lang);
+                if (!targetContent) return;
+
+                // Desactivar activos previos
+                document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+                document.querySelectorAll('.code-content').forEach(c => c.classList.remove('active'));
+
+                // Activar nuevo panel
+                tab.classList.add('active');
+                targetContent.classList.add('active');
+            });
+        });
     </script>
 
 </body>
