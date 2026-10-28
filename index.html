@@ -83,14 +83,13 @@
 
         /* GRID DE APLICACIONES */
         .app-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 80px 180px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 60px 40px;
             margin: auto; 
             padding: 30px 20px 50px 20px;
-            align-items: start; 
-            justify-items: center;
-            max-width: 850px;
+            max-width: 950px;
             width: 100%;
             box-sizing: border-box;
         }
@@ -251,7 +250,16 @@
             <div class="label-serif">FIGMA X TRACTOR PRO</div>
         </a>
 
-        <!-- App 2: Portfolio -->
+        <!-- App 2: ELA -->
+        <a href="https://drive.google.com/drive/folders/1yyp61GcuO5P0sw5C399wKSZz2fK4NLXR?usp=sharing" class="app-item">
+            <div class="app-icon">
+                <img src="assets/ELA.png" alt="ELA">
+            </div>
+            <div class="label-mono">ELA</div>
+        
+        </a>
+        
+        <!-- App 3: Portfolio -->
         <a href="portfolio.html" class="app-item">
             <div class="app-icon">
                 <img src="assets/Folder.png" alt="Portfolio">
@@ -259,7 +267,7 @@
             <div class="label-mono">portfolio</div>
         </a>
 
-        <!-- App 3: Landing Page -->
+        <!-- App 4: Landing Page -->
         <a href="get_your_landing.html" class="app-item">
             <div class="app-icon">
                 <img src="assets/Chrome.png" alt="Get your landing page">
@@ -267,20 +275,12 @@
             <div class="label-mono">get your<br>landing page</div>
         </a>
 
-        <!-- App 4: Special Idea -->
+        <!-- App 5: Special Idea -->
         <a href="modo_dev.html" class="app-item">
             <div class="app-icon">
                 <img src="assets/Idea.png" alt="Any special idea?">
             </div>
             <div class="label-mono">any special<br>idea?</div>
-        </a>
-
-        <!-- App 5: ELA -->
-        <a href="https://drive.google.com/drive/folders/1yyp61GcuO5P0sw5C399wKSZz2fK4NLXR?usp=sharing" class="app-item">
-            <div class="app-icon">
-                <img src="assets/Idea.png" alt="ELA">
-            </div>
-            <div class="label-mono">ELA</div>
         </a>
 
     </main>
