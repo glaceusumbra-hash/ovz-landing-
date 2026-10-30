@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Sheet - ELA | OVZ</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400;700&family=IM+Fell+Double+Pica&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --font-serif: "IM Fell Double Pica", serif;
+            --font-mono: "Chivo Mono", monospace;
+            --font-sans: "Roboto", sans-serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Marca de agua fija/absoluta en el fondo */
+        body::before {
+            content: "";
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 700px;
+            height: 700px;
+            background-image: url('assets/ELA.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            filter: blur(10px);
+            opacity: 0.08;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        body, html {
+            min-height: 100vh;
+            font-family: var(--font-serif);
+            background: linear-gradient(180deg, #0a0a0a 70%, #4e4d4d 80%, #b6b5b5 90% , #ffffff 100%);
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        .container { 
+            max-width: 1250px; 
+            width: 100%;
+            margin: 0 auto; 
+            padding: 30px 40px 100px 40px; 
+            position: relative;
+            z-index: 1;
+        }
+
+        /* --- HEADER & TITULOS --- */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+
+        .logo-container {
+            width: 100px;
+            height: 100px;
+        }
+
+        .logo-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .center-title { 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            gap: 25px; 
+            margin-top: 40px; 
+        }
+
+        .center-title h1 { 
+            font-size: 44px; 
+            font-weight: 400; 
+            color: #ffffff; 
+            letter-spacing: 1.5px; 
+            text-align: center;
+        }
+
+        .center-title img { 
+            width: 85px; 
+            height: 85px; 
+            background-color: #111111; 
+            border-radius: 18px; 
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6); 
+            display: block;
+        }
+
+        /* --- DATA SHEET --- */
+        .data-sheet-section { 
+            margin-top: 70px; 
+            padding: 0 20px; 
+        }
+
+        .sheet-title { 
+            text-align: center; 
+            font-size: 38px; 
+            font-weight: 400; 
+            margin-bottom: 40px; 
+            color: #ffffff;
+            letter-spacing: 1px;
+        }
+
+        .info-list { 
+            font-size: 19px; 
+            line-height: 1.7; 
+            list-style-type: disc; 
+            padding-left: 30px; 
+            color: #f1f1f1;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .info-list > li { 
+            margin-bottom: 25px; 
+        }
+
+        /* --- IMAGENES --- */
+        .image-section { 
+            margin-top: 60px; 
+            display: flex; 
+            justify-content: center; 
+            width: 100%; 
+        }
+
+        .demo-image { 
+            width: 100%; 
+            max-width: 1050px; 
+            border-radius: 12px; 
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8); 
+            object-fit: cover; 
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .split-section {
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            width: 100%;
+        }
+
+        .image-grid {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            max-width: 1050px;
+            margin: 0 auto;
+        }
+        
+        .image-item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            gap: 30px;
+        }
+
+        .image-item img {
+            width: 50%;
+            max-width: 500px;
+            height: auto;
+            object-fit: contain;
+        }
+
+        /* --- DICTAMEN PERICIAL --- */
+        .dictamen-container {
+            width: 1050px;
+            max-width: 100%;
+            height: 650px;
+            overflow-y: auto;
+            overflow-x: hidden;
+            display: center;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-width: 0; 
+            text-align: center;
+            font-family: var(--font-mono);
+            font-size: 13px;
+            line-height: 1.6;
+            color: #0c0c0c;
+            background-color: #ffffff;
+            box-sizing: border-box;
+            padding: 40px;
+            margin: 0 auto;
+            border-radius: 8px;
+            border: 1px solid #d1d5db;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            list-style: none;
+        }
+
+        .dictamen-container li {
+            margin-bottom: 20px;
+            align-items: center;
+        }
+
+        .dictamen-container::-webkit-scrollbar { width: 8px; }
+        .dictamen-container::-webkit-scrollbar-track { background: #eee; }
+        .dictamen-container::-webkit-scrollbar-thumb { background: #888; border-radius: 4px; }
+        .dictamen-container::-webkit-scrollbar-thumb:hover { background: #555; }
+
+        /* --- ENLACES Y TIENDAS --- */
+        .links-section { 
+            margin-top: 60px; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            gap: 50px; 
+            width: 100%;
+        }
+
+        .github-btn {
+            display: inline-flex; 
+            align-items: center; 
+            background: #f0f0f0; 
+            border-radius: 50px; 
+            padding: 12px 30px; 
+            gap: 15px; 
+            text-decoration: none; 
+            color: #000000; 
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+            max-width: 100%;
+        }
+
+        .github-btn:hover { 
+            transform: scale(1.03); 
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
+        }
+
+        .github-btn img { 
+            width: 38px; 
+            height: 38px; 
+            border-radius: 50%; 
+        }
+
+        .github-btn span { 
+            font-family: var(--font-sans); 
+            font-weight: 500; 
+            font-size: 18px; 
+            word-break: break-all;
+        }
+
+        .store-grid { 
+            display: flex; 
+            gap: 40px; 
+            justify-content: center; 
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .store-link {
+            transition: transform 0.2s ease;
+            display: inline-block;
+        }
+
+        .store-link:hover { 
+            transform: translateY(-8px); 
+        }
+
+        .store-link img { 
+            width: 120px; 
+            height: 120px; 
+            border-radius: 20px; 
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.5); 
+            display: block;
+        }
+
+        /* --- FOOTER --- */
+        .footer-section { 
+            margin-top: 90px; 
+            text-align: center; 
+            padding-bottom: 20px;
+        }
+
+        .footer-title { 
+            font-family: var(--font-sans); 
+            font-weight: 500; 
+            font-size: 36px; 
+            letter-spacing: 1.5px; 
+            color: #000000; 
+            line-height: 1.4; 
+        }
+
+        /* ====================================================
+           RESPONSIVE - DISPOSITIVOS MÓVILES (< 800px)
+        ==================================================== */
+        @media (max-width: 800px) {
+            .container {
+                padding: 20px 20px 60px 20px;
+            }
+
+            .logo-container { width: 70px; height: 70px; }
+
+            .center-title {
+                flex-direction: column;
+                gap: 15px;
+                margin-top: 25px;
+            }
+
+            .center-title h1 {
+                font-size: 28px;
+            }
+
+            .center-title img {
+                width: 70px;
+                height: 70px;
+            }
+
+            .data-sheet-section {
+                margin-top: 45px;
+                padding: 0 5px;
+            }
+
+            .sheet-title {
+                font-size: 24px;
+                margin-bottom: 25px;
+            }
+
+            .info-list {
+                font-size: 15px;
+                padding-left: 20px;
+            }
+
+            .image-item {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .image-item img {
+                width: 100%;
+            }
+
+            .dictamen-container {
+                padding: 20px;
+                height: 500px;
+                font-size: 11px;
+            }
+
+            .github-btn span {
+                font-size: 14px;
+            }
+
+            .store-link img {
+                width: 80px;
+                height: 80px;
+            }
+
+            .footer-title {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <a href="index.html" class="logo-link">
+                <div class="logo-container">
+                    <img src="assets/OVZ.png" alt="OVZ Logo">
+                </div>
+            </a>
+            <section class="center-title">
+                <h1>ELA</h1> 
+                <img src="assets/ELA.png" alt="ELA Icon">
+            </section>
+        </header>
+
+        <section class="data-sheet-section">
+            <h2 class="sheet-title">Error level Analysis</h2>
+            <ul class="info-list">
+                <li>¿Cómo funciona ErrorDetector?</li>
+                <li>Imagina que auditar una imagen es como revisar una fotocopia: cuando una imagen es 100% original, su estructura es uniforme. Pero cuando alguien la edita, le recorta o le pega algo, deja rastros invisibles.</li>
+                <li>ErrorDetector hace un trabajo de escaneo inteligente en capas utilizando una técnica de sobreescalado: procesa diferentes copias de la imagen con distintas saturaciones para obligar a los píxeles modificados a dejar un rastro en los límites.</li>
+                <li>Esos rastros se cruzan y se comparan directamente con la matriz de colores de control integrada en el programa, revelando con precisión quirúrgica qué tipo de alteración se hizo:</li>
+                <div style="display: flex; justify-content: center; margin: 15px 0;">
+                    <ul style="list-style-type: none; padding-left: 0;"> 
+                        <li>- 🟢 Verde: Revela puntos y modificaciones ocultas en superficies más oscuras o sombras.</li>
+                        <li>- 🟣 Morado: Expone los cortes limpios y bordes recortados de elementos extraídos.</li>
+                        <li>- 🟠 Naranja: Delata las adiciones, parches o modificaciones colocadas sobre puntos de luz.</li>
+                        <li>- 🟡 Amarillo: Aisla y señala únicamente cuerpos extraños o elementos ajenos que fueron "pegados" a la foto original.</li>
+                    </ul> 
+                </div>  
+                <li>De esta manera, con solo cargar la imagen, el sistema separa las capas de edición y te muestra exactamente el mapa de dónde fue alterada.</li>
+            </ul>
+        </section>
+
+        <section class="links-section">
+            <a href="https://github.com/glaceusumbra-hash" target="_blank" rel="noopener noreferrer" class="github-btn">
+                <img src="figma_extractor/assets/git.png" alt="GitHub">
+                <span>https://github.com/glaceusumbra-hash</span>
+            </a>
+        </section>
+
+        <section class="image-section">
+            <img src="ELA/ELA DB.png" alt="ELA Demo GIF" class="demo-image">
+        </section>
+        <section class="split-section">
+            <div class="image-item">
+                <img src="ELA/1st  edit.png" alt="1st Edit Image" class="demo-image">
+            </div>
+        </section>
+
+        <section class="split-section">
+            <div class="image-grid">
+                <div class="image-item">
+                    <img src="ELA/GREEN.png" alt="GREEN Image" class="demo-image">
+                    <img src="ELA/VIOLET.png" alt="VIOLET Image" class="demo-image">
+                </div>
+            </div>
+        </section>
+
+        <section class="split-section">
+            <div class="image-grid">
+                <div class="image-item">
+                    <img src="ELA/ORANGE.png" alt="ORANGE Image" class="demo-image">
+                    <img src="ELA/YELLOW.png" alt="YELLOW Image" class="demo-image">
+                </div>
+            </div>
+        </section>
+
+        <section class="split-section">
+            <ul class="dictamen-container">
+                <li>DICTAMEN PERICIAL FORENSE DE AUDITORÍA DE IMÁGENES<br>
+                    Software: ELA Forensic Dashboard v2.6r.4<br>
+                    Compilación: BUILD-2026.10-EXPERT [Figma Extractor Pro / Forensic Diagnostic Edition]<br>
+                    ====================================================<br>
+                    Fecha de emisión: 2026-10-14 14:55:41<br><br>
+                    I. RESULTADO Y EXPLICACIÓN DE MARCADORES (LENGUAJE NATURAL)<br>
+                    **********************************************************************<br>
+                    🟡 SOSPECHA MODERADA DE EDICIÓN O RECOMPRESIÓN</li>
+
+                <li>1. MARCADORES DETECTADOS:<br>
+                    - SOFTWARE: No se identificaron firmas de programas de diseño conocidos (Photoshop, Canva, Figma).<br>
+                    - DISCORDANCIA DE COMPRESIÓN (ELA): El 0.4971% del área analizada (3,393 píxeles) presenta una tasa de error de compresión divergente.</li>
+
+                <li>2. EXPLICACIÓN DE LOS MARCADORES:<br>
+                  -&gt; ¿Por qué indica manipulación?: Cuando un archivo JPEG se guarda, se comprime uniformemente. Si una persona pega un elemento externo, clona detalles o añade textos, esa región modificada no tiene el mismo historial de compresión que el fondo original. Las zonas de brillo anómalo en el visor térmico revelan la ubicación exacta de las inserciones o alteraciones.</li>
+
+                <li>3. DICTAMEN PERICIAL:<br>
+                    Conclusión pericial: Existen indicios parciales (software detectado o ligeras disparidades locales). El archivo pudo haber pasado por un recorte, redimensionado o ajuste cosmético.</li>
+
+                <li>----------------------------------------------------------------------<br>
+                            II. INFORMACIÓN DE ORIGEN Y METADATOS TÉCNICOS<br>
+                    ----------------------------------------------------------------------<br>
+                        - analizador_version: v2.6.4 (BUILD-2026.10-EXPERT)<br>
+                        - device_security_token: 547056dda090<br>
+                        - hardware_timestamp_utc: 2026-10-14T20:55:17.893521+00:00<br>
+                        - device_monotonic_clock: 155460843933600<br>
+                        - detected_software_footprints: None<br>
+                        - source_dimensions: 948x720 px</li>
+
+                <li>----------------------------------------------------------------------<br>
+                        III. PARÁMETROS CUANTITATIVOS DEL MARCO ELA<br>
+                        ----------------------------------------------------------------------<br>
+                        - Modo activo: HOT<br>
+                        - Calidad JPEG base: 90%<br>
+                        - Amplificación: 15.0x<br>
+                        - Threshold de corte: 45<br>
+                        - Píxeles en discordancia: 3,393<br>
+                        - Ratio de manipulación: 0.4971%<br>
+                        - Huella SHA-256: 760f6efafa5753190cccbba537b423f02f9bcbae57dca47172f96fae57b9b97f<br>
+                        - Diagnóstico: 🟡 SOSPECHA MODERADA DE EDICIÓN O RECOMPRESIÓN</li>
+
+                <li>----------------------------------------------------------------------<br>
+                        IV. REGISTRO CRIPTOGRÁFICO JSON COMPLETO<br>
+                ----------------------------------------------------------------------<br>
+                <br>
+                    &quot;auditoria&quot;: <br>
+                        &quot;software&quot;: &quot;ELA Forensic Dashboard&quot;,<br>
+                        &quot;version&quot;: &quot;v2.6.4&quot;,<br>
+                        &quot;compilacion&quot;: &quot;BUILD-2026.10-EXPERT&quot;,<br>
+                        &quot;edicion&quot;: &quot;Figma Extractor Pro / Forensic Diagnostic Edition&quot;<br>
+                    *******************************************************************,<br>
+                    &quot;origen&quot;: <br>
+                        &quot;analizador_version&quot;: &quot;v2.6.4 (BUILD-2026.10-EXPERT)&quot;,<br>
+                        &quot;device_security_token&quot;: &quot;547056dda090&quot;,<br>
+                        &quot;hardware_timestamp_utc&quot;: &quot;2026-10-14T20:55:17.893521+00:00&quot;,<br>
+                        &quot;device_monotonic_clock&quot;: 155460843933600,<br>
+                        &quot;detected_software_footprints&quot;: &quot;None&quot;,<br>
+                        &quot;source_dimensions&quot;: &quot;948x720 px&quot;<br>
+                    *******************************************************************,<br>
+                    &quot;ela&quot;: <br>
+                        &quot;Modo activo&quot;: &quot;HOT&quot;,<br>
+                        &quot;Calidad JPEG base&quot;: &quot;90%&quot;,<br>
+                        &quot;Amplificación&quot;: &quot;15.0x&quot;,<br>
+                        &quot;Threshold de corte&quot;: 45,<br>
+                        &quot;Píxeles en discordancia&quot;: &quot;3,393&quot;,<br>
+                        &quot;Ratio de manipulación&quot;: &quot;0.4971%&quot;,<br>
+                        &quot;Huella SHA-256&quot;: &quot;760f6efafa5753190cccbba537b423f02f9bcbae57dca47172f96fae57b9b97f&quot;,<br>
+                        &quot;Diagnóstico&quot;: &quot;🟡 SOSPECHA MODERADA DE EDICIÓN O RECOMPRESIÓN&quot;<br>
+                    *******************************************************************<br>
+                ======================================================================<br>
+                Fin del reporte de auditoría forense.<br>
+                ======================================================================</li>
+            </ul>
+        </section>
+
+        <section class="links-section">
+            <div class="store-grid">
+                <a href="null" target="_blank" rel="noopener noreferrer" class="store-link">
+                    <img src="ELA/gumroad.png" alt="Gumroad Icon">
+                </a>
+                <a href="null" target="_blank" rel="noopener noreferrer" class="store-link">
+                    <img src="ELA/ko fi.png" alt="Ko-Fi Icon">
+                </a>
+                <a href="null" target="_blank" rel="noopener noreferrer" class="store-link">
+                    <img src="ELA/bmc.png" alt="Buy Me a Coffee Icon">
+                </a>
+            </div>
+        </section>
+
+        <footer class="footer-section">
+            <h2 class="footer-title">
+                Gracias por tu compra y<br>disfruta tu software
+            </h2>
+        </footer>
+    </div>
+</body>
+</html>
